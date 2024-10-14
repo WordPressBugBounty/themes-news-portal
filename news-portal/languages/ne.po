@@ -1,0 +1,1744 @@
+# Translation of Themes - News Portal in Nepali
+# This file is distributed under the same license as the Themes - News Portal package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-04-29 07:38:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ne_NP\n"
+"Project-Id-Version: Themes - News Portal\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "News Portal is the free ultimate magazine theme with creative design and powerful features that allow you to quickly and easily create a newspaper & blog style website to suit your needs. It is completely built on Customizer which allows you to customize most of the theme settings easily with live previews. It is the fully widgetized theme so as to let users manage the website using the easy to use widgets. You can import the whole beautiful demo in just one click. News Portal Theme is the best choice to create a Beautiful & Powerful News/magazine/blog websites with ease.Check the demo at https://demo.mysterythemes.com/news-portal-demos/"
+msgstr "न्युज पोर्टल एक उत्कृष्ट रचनात्मक डिजाइन र शक्तिशाली सुविधाहरु भएको पत्रिका वर्डप्रेस थिम्स हो जसले तपाइँले चाहनु भएको जस्तो शैली सजीलै संग सिर्जना गर्न अनुमति दिन्छ। यो पुण रुपमा कस्टमाइजरमा बनाइएकाले धेरैजसो थिम्स सेटिंग्स सजीलै संग प्रत्यक्ष पूर्वावलोकन गर्न कस्टमाइज गर्न सकिन्छ। यो पूरै विजेटीकृत थिम्स हो जसका कारण प्रयोगकर्ताहरुले विजेटको उपयोग गरि सजीलो वेबसाइटको प्रबंधन गर्न सक्छन्। सम्पूर्ण सुन्दर डेमो मात्र एक क्लिकमा आयात गर्न सकिन्छ। न्युज पोर्टल एक सुन्दर र शक्तिशाली समाचार, पत्रपत्रिका तथा ब्लग वेबसाइट बनाउनको लागी सबै भन्दा राम्रो विकल्प हो। https://demo.mysterythemes.com/news-portal-demos/ मा डेमो हेर्नुहोस्।"
+
+#. Theme Name of the theme
+#: style.css functions.php:89 inc/theme-settings/mt-theme-settings.php:499
+#, gp-priority: high
+msgid "News Portal"
+msgstr "न्यूज पोर्टल"
+
+#: inc/customizer/sections/general/site-style.php:96
+msgid "Enable Dark Mode Skin"
+msgstr "डार्क मोड स्किन सक्षम गर्नुहोस्"
+
+#: inc/customizer/sections/general/site-style.php:47
+msgid "Site Style"
+msgstr "साइट शैली"
+
+#: inc/customizer/sections/general/colors.php:90
+msgid "Primary Theme Color"
+msgstr "प्राथमिक थिमको रङ"
+
+#: inc/customizer/sections/general/colors.php:66
+msgid "Base Colors"
+msgstr "आधार रंगहरू"
+
+#: inc/customizer/sections/general/colors.php:47
+msgid "Colors"
+msgstr "रंगहरु"
+
+#: inc/customizer/np-customizer-helper.php:33
+msgid "Boxed"
+msgstr "बक्स गरिएको"
+
+#: inc/customizer/np-customizer-helper.php:29
+msgid "Full Width"
+msgstr "पूर्ण चौडाइ"
+
+#: inc/customizer/extend-customizer/class-customize-section.php:59
+msgid "Customizing"
+msgstr "कस्टमाइज गरिँदै"
+
+#: inc/customizer/extend-customizer/class-customize-section.php:57
+msgid "Customizing &#9656; %s"
+msgstr "कस्टमाइज &#9656; %s"
+
+#: inc/customizer/customizer.php:29
+msgid "Background"
+msgstr "पृष्ठभूमि"
+
+#: inc/customizer/np-additional-panel.php:264
+msgid "Enable/Disable sticky sidebar for frontpage sidebar"
+msgstr "फ्रन्टपेज साइडबारका लागि स्टिकी साइडबार सक्षम/असक्षम गर्नुहोस्"
+
+#: inc/customizer/np-additional-panel.php:263
+msgid "Frontpage Sticky"
+msgstr "फ्रन्टपेज स्टिकी"
+
+#: inc/customizer/np-general-panel.php:162
+msgid "Enable/disable Block-based Widgets Editor(since WordPress 5.8)."
+msgstr "ब्लक-आधारित विजेट सम्पादक सक्षम/असक्षम गर्नुहोस् (वर्डप्रेस ५.८ देखि)।"
+
+#: inc/customizer/np-general-panel.php:161
+msgid "Block Widget Editor Option"
+msgstr "ब्लक विजेट सम्पादक विकल्प"
+
+#: inc/customizer/np-additional-panel.php:235
+msgid "Enable/Disable sticky sidebar for innperpages like( archive, single, search ) pages."
+msgstr "(अभिलेख, एकल, खोज) पृष्ठहरु जस्तै भित्री पृष्ठहरु को लागी स्टिकी साइडबार सक्षम/अक्षम गर्नुहोस्।"
+
+#: inc/customizer/np-additional-panel.php:234
+msgid "Innerpage Sticky"
+msgstr "भित्रीपृष्ठका लागि स्टिकी"
+
+#: inc/customizer/np-additional-panel.php:211
+msgid "Sidebar Sticky Settings"
+msgstr "साइडबारका लागि स्टिकी सेटिङ"
+
+#: inc/customizer/np-general-panel.php:229
+msgid "Show/Hide option to display content of the pages that uses home page template."
+msgstr "पृष्ठको सामग्री प्रदर्शन गर्नको लागि विकल्प देखाउनुहोस् / लुकाउनुहोस् जुन गृह पृष्ठ टेम्प्लेट प्रयोग गर्दछ। "
+
+#: inc/customizer/np-general-panel.php:228
+msgid "Home Page Template"
+msgstr "गृह पृष्ठ टेम्पलेट"
+
+#: inc/customizer/np-general-panel.php:205
+msgid "Manage the settings for available templates."
+msgstr "उपलब्ध टेम्प्लेटहरूको लागि सेटिङ प्रबन्ध गर्नुहोस्।"
+
+#: inc/customizer/np-general-panel.php:204
+msgid "Template Settings"
+msgstr "टेम्प्लेट सेटिङ"
+
+#: inc/tgm/np-recommended-plugins.php:77
+msgid "WP Magazine Modules Lite"
+msgstr "WP म्याग्जीन मोड्युल लाइट"
+
+#: inc/customizer/sections/general/site-style.php:97
+msgid "Enable/Disable option for site dark mode skin."
+msgstr "डार्क मोड शैलीका लागि विकल्प सक्षम / अक्षम गर्नुहोस्।"
+
+#: inc/tgm/np-recommended-plugins.php:70
+msgid "WP Blog Post Layouts"
+msgstr "WP ब्लग पोष्ट लेआउटहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:894
+msgid "Plugin installed successfully"
+msgstr "प्लगिन सफलतापूर्वक स्थापना गरियो"
+
+#: inc/theme-settings/mt-theme-settings.php:876
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "फाईल प्रणालीमा जडान गर्न असमर्थ भयौं। कृपया तपाइँका परिचयपत्रहरू यकिन गर्नुहोस्।"
+
+#: inc/theme-settings/mt-theme-settings.php:831
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr "माफ गर्नुहोस्, तपाईंलाई यस साइटमा प्लगिनहरू स्थापना गर्न अनुमति छैन।"
+
+#: inc/theme-settings/mt-theme-settings.php:813
+msgid "Plugin Successfully Activated."
+msgstr "प्लगिन सफलतापूर्वक सक्रिय गरियो।"
+
+#: inc/theme-settings/mt-theme-settings.php:779
+msgid "Activate Now"
+msgstr "सुचारू गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:778
+msgid "Activated"
+msgstr "सुचारू भयो"
+
+#: inc/theme-settings/mt-theme-settings.php:778
+msgid "Activating"
+msgstr "सुचारू गर्दै"
+
+#: inc/theme-settings/mt-theme-settings.php:777
+msgid "Mystery Themes Demo Importer Plugin is installed but not activated!"
+msgstr "मिस्ट्रि थिम डेमो इम्पोर्टर प्लगिन स्थापना गरिएको छ तर सक्रिय छैन!"
+
+#: inc/theme-settings/mt-theme-settings.php:772
+msgid "Install and Activate"
+msgstr "स्थापना गर्नुहोस् र सुचारू गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:771
+msgid "Installed & Activated"
+msgstr "स्थापित र सुचारू गरियो"
+
+#: inc/theme-settings/mt-theme-settings.php:771
+msgid "Installing & Activating"
+msgstr "स्थापना गर्दै र सुचारू गर्दै"
+
+#: inc/theme-settings/mt-theme-settings.php:770
+msgid "Mystery Themes Demo Importer Plugin is not installed!"
+msgstr "मिस्ट्रि थिम डेमो इम्पोर्टर प्लगिन स्थापना गरिएको छैन!"
+
+#: inc/theme-settings/mt-theme-settings.php:766
+msgid "You can import available demos now!"
+msgstr "तपाईं अब उपलब्ध डेमो आयात गर्न सक्नुहुन्छ!"
+
+#: inc/theme-settings/mt-theme-settings.php:507
+msgid "$59.99"
+msgstr "$५९.९९"
+
+#: inc/theme-settings/mt-theme-settings.php:401
+msgid "Import"
+msgstr "आयात गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:400
+msgid "Import %1$s"
+msgstr "%1$s आयात गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:397
+msgid "Demo importer plugin is not installed or activated"
+msgstr "डेमो इम्पोर्टर प्लगिन स्थापना वा सक्रिय गरिएको छैन"
+
+#: inc/theme-settings/mt-theme-settings.php:395
+msgid "Click to import demo"
+msgstr "डेमो इम्पोर्ट गर्न क्लिक गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:390
+msgid "Buy Now"
+msgstr "अहिले खरिद गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:389
+msgid "Purchase Now"
+msgstr "अहिले खरिद गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:381
+msgid "Imported"
+msgstr "इम्पोर्ट गरियो"
+
+#: inc/theme-settings/mt-theme-settings.php:380
+msgid "Imported %1$s"
+msgstr "%1$s इम्पोर्ट गरियो"
+
+#: inc/theme-settings/mt-theme-settings.php:353
+msgid "No demos are configured for this theme, please contact the theme author"
+msgstr "कुनै पनि डेमोहरु यस थिमको लागि कन्फिगर गरिएको छैन, कृपया थिम लेखकलाई सम्पर्क गर्नुहोस् "
+
+#: inc/theme-settings/mt-theme-settings.php:295
+msgid "Review theme"
+msgstr "थिम समीक्षा गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:292
+msgid "Need theme support?"
+msgstr "थिम समर्थन आवश्यक छ?"
+
+#: inc/theme-settings/mt-theme-settings.php:289
+msgid "Premium version"
+msgstr "प्रीमियम संस्करण"
+
+#: inc/theme-settings/mt-theme-settings.php:283
+msgid "More Actions"
+msgstr "अधिक कार्यहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:277
+msgid "Manage widgets"
+msgstr "विजेटहरू प्रबन्ध गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:274
+msgid "Manage menus"
+msgstr "मेनूहरू प्रबन्ध गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:271
+msgid "Manage Social Icons"
+msgstr "सामाजिक आइकनहरू प्रबन्ध गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:268
+msgid "Single Post Layout"
+msgstr "एकल पोस्ट लेआउट"
+
+#: inc/theme-settings/mt-theme-settings.php:265
+msgid "Manage header section"
+msgstr "हेडर सेक्सन प्रबन्ध गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:262
+msgid "Set up your homepage"
+msgstr "तपाईंको होमपेज सेट अप गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:259
+msgid "Next Steps"
+msgstr "अर्को चरणहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:256
+msgid "Here are some usefull links for you to get started"
+msgstr "तपाईंलाई सुरू गर्न यहाँ केहि उपयोगी लिंकहरू छन्"
+
+#: inc/theme-settings/mt-theme-settings.php:209
+msgid "Demos"
+msgstr "डेमोहरु"
+
+#: inc/theme-settings/mt-theme-settings.php:205
+msgid "Get Started"
+msgstr "सुरु गर"
+
+#: inc/theme-settings/mt-theme-settings.php:198
+msgid "Unlock Features With Pro"
+msgstr "प्रो संग सुविधाहरु अनलक गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:196
+msgid "Upgrade to pro version for additional features and better supports."
+msgstr "अतिरिक्त सुविधाहरू र उत्तम सपोर्ट्सको लागि प्रो संस्करणमा स्तरवृद्धि गर्नुहोस्।"
+
+#: inc/theme-settings/mt-theme-settings.php:195
+msgid "Upgrade to Premium Version"
+msgstr "प्रिमियम संस्करणमा अपग्रेड गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:163
+msgid "Processing"
+msgstr "प्रशोधन गर्दै"
+
+#: inc/theme-settings/mt-theme-settings.php:163
+msgid "Done!"
+msgstr "भयो!"
+
+#: inc/theme-settings/mt-theme-settings.php:160
+msgid "Clicking get started will process to installation of %1$s Mystery Themes Demo Importer %2$s Plugin in your dashboard. After success it will redirect to the theme settings page."
+msgstr "क्लिक गर्न सुरू हुन्छ%1$s मिस्ट्री थिम डेमो इम्पोर्टर %2$s प्लागिन तपाईंको ड्याशबोर्डमा स्थापना गर्न प्रक्रिया हुन्छ। सफलता पछि, यो थिम सेटिङ पृष्ठमा रिडाइरेक्ट हुन्छ।"
+
+#: inc/theme-settings/mt-theme-settings.php:43
+msgid "Settings"
+msgstr "सेटिङ्गहरु"
+
+#: inc/customizer/customizer.php:114
+#: inc/theme-settings/mt-theme-settings.php:298
+msgid "WP Tutorials"
+msgstr "WP ट्यूटोरियलहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:662
+msgid "I already did"
+msgstr "मैले पहिले नै गरिसकें"
+
+#: inc/theme-settings/mt-theme-settings.php:657
+msgid "Maybe later"
+msgstr "हुनसक्छ पछि"
+
+#: inc/theme-settings/mt-theme-settings.php:652
+msgid "Sure"
+msgstr "निश्चित"
+
+#: inc/theme-settings/mt-theme-settings.php:641
+msgid "Howdy, %1$s! It seems that you have been using this theme for more than 15 days. We hope you are happy with everything that the theme has to offer. If you can spare a minute, please help us by leaving a 5-star review on WordPress.org.  By spreading the love, we can continue to develop new amazing features in the future, for free!"
+msgstr "नमस्कार, %1$s! तपाइँले यो थिम्स १५ भन्दा बढी  दिन देखी प्रयोग गरीरहनुभएको रहेछ। हामी आशा गर्दछौं कि तपाइँ थिमले दिएको सम्पुर्ण सुविधाहरुसंग सन्तुष्ट हुनुहुन्छ। यदि तपाइँ एक मिनेट खाली गर्न सक्नुहुन्छ भने कृपया, WordPress.org मा 5-इस्तार रेटिंग छोडेर हामीलाई मद्दत गर्नुहोस्। प्रेम फैलाएर, हामी भविष्यमा नयाँ आश्चर्यजनक नि: शुल्क सुविधाहरूको विकास गर्न जारी राख्न सक्दछौं!"
+
+#: inc/theme-settings/mt-theme-settings.php:748
+msgid "If you like <strong>%1$s</strong> please leave us a %2$s rating. A huge thank you from <strong>Mystery Themes</strong> in advance &#128515!"
+msgstr "यदि तपाइँलाई <strong>%1$s</strong> मनपर्‍यो भने कृपया हामीलाई %2$s रेटिंग दिनुहोस्। <strong>मिस्त्री थिम्स</strong>को तर्फबाट धेरै धेरै अग्रिम धन्यवाद!"
+
+#: inc/theme-settings/mt-theme-settings.php:188
+msgid "Version: %1$s"
+msgstr "संस्करण: %1$s"
+
+#: inc/theme-settings/mt-theme-settings.php:153
+msgid "Dismiss this notice."
+msgstr "यो सुचनालाई खारेज गर्नुहोस् ।"
+
+#: inc/theme-settings/mt-theme-settings.php:155
+msgid "Welcome to %s"
+msgstr "स्वागत छ %s"
+
+#: header.php:43
+msgid "Skip to content"
+msgstr "विषयवस्तुमा जानुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:164
+msgid "Get started with %1$s"
+msgstr "%1$s  को साथ सुरू गर्नुहोस्"
+
+#: inc/widgets/np-ads-banner.php:22
+msgid "NP: Banner Ads"
+msgstr "NP: ब्यानर विज्ञापन"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location."
+msgstr "यस्तो देखिन्छ कि यस स्थानमा केहि पनि फेला परेन।"
+
+#: inc/tgm/np-recommended-plugins.php:63
+msgid "Contact Form by WPForms – Drag & Drop Form Builder for WordPress"
+msgstr "WPForms द्वारा सम्पर्क फारम - ड्र्याग र ड्रप फारम बिल्डर वर्डप्रेसको लागी"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:364
+#: inc/tgm/np-recommended-plugins.php:134
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "%1$s निम्नलिखित सिफारिश गरिएको प्लगिन हाल निष्क्रिय छ ।"
+msgstr[1] "%1$s निम्नलिखित सिफारिश गरिएको प्लगिनहरु हाल निष्क्रिय छ ।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:358
+#: inc/tgm/np-recommended-plugins.php:129
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "निम्न आवश्यक प्लगिन हाल निष्क्रिय छ:%1$s।"
+msgstr[1] "निम्न आवश्यक प्लगिनहरू हाल निष्क्रिय छन्:%1$s।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:352
+#: inc/tgm/np-recommended-plugins.php:124
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "%1$s को अद्यावधिक उपलब्ध छ।"
+msgstr[1] "%1$s प्लगिनहरूका लागि अद्यावधिकहरू उपलब्ध छन्।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:346
+#: inc/tgm/np-recommended-plugins.php:119
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "थिम्ससंग अधिकतम अनुकूलता सुनिश्चित गर्न निम्न प्लगइनलाई नवीनतम संस्करणमा अपडेट गर्नुपर्ने आवश्यक छ: %1$s।"
+msgstr[1] "थिम्ससंग अधिकतम अनुकूलता सुनिश्चित गर्न निम्न प्लगइनहरुलाई नवीनतम संस्करणमा अपडेट गर्नुपर्ने आवश्यक छ: %1$s।"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:340
+#: inc/tgm/np-recommended-plugins.php:114
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "%1$s यो थिमले निम्न प्लगिनको सिफारिश गर्दछ ।"
+msgstr[1] "%1$s यो थिमले निम्न प्लगिनहरुको सिफारिश गर्दछ ।"
+
+#. translators: 1: plugin name(s).
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:334
+#: inc/tgm/np-recommended-plugins.php:109
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] " %1$s यो थिमलाई निम्न प्लगिन आवश्यक छ ।"
+msgstr[1] " %1$s यो थिमलाई निम्न प्लगिनहरु आवश्यक छ ।"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लगिन स्थापना गर्दै"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "सबै स्थापनाहरू पूरा गरिएको छ।"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s सफलतापूर्वक स्थापना गरियो।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "स्थापना प्रक्रिया सुरू हुँदैछ। यस प्रक्रियाले केहि होस्टहरूमा केहि समय लिन सक्दछ, त्यसैले कृपया धैर्य गर्नुहोस्।"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "प्लागिन स्थापना र सक्रिय गर्दै %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "सबै स्थापनाहरू र सक्रियताहरू पूरा भइसकेका छन्।"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "विवरण लुकाउनुहोस्"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "विवरण देखाऊ"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s स्थापित र सफलतापूर्वक सक्रिय गरियो।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "स्थापना र सक्रियता प्रक्रिया सुरू हुँदैछ। यस प्रक्रियाले केहि होस्टहरूमा केहि समय लिन सक्दछ, त्यसैले कृपया धैर्य गर्नुहोस्।"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "%1$s को स्थापना असफल भयो।"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s: <strong>%2$s</strong> स्थापना गर्दा त्रुटि देखा पर्‍यो।"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "%1$s (%2$d/%3$d) प्लागिन अपडेट गर्दै"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "सक्रियता असफल भयो।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "यस समयमा सक्रिय हुन कुनै पनि प्लगिनहरू उपलब्ध छैनन्।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "कुनै प्लगिनहरू सक्रिय हुनका लागि चयन गरिएको थिएन। कुनै कार्य लिईएन।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "यस समयमा अद्यावधिक हुन कुनै पनि प्लगिनहरू उपलब्ध छैनन्।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "यस समयमा कुनै पनि प्लगिनहरू स्थापना गर्न उपलब्ध छैनन्।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "कुनै प्लगिन अद्यावधिक गर्नका लागि चयन गरिएको थिएन। कुनै कार्य लिईएन।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "कुनै प्लगिनहरू स्थापना गर्न चयन गरिएको थिएन। कुनै कार्य लिईएन।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "नवीनीकरण गर्नुहोस्"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "जडान गर्नुहोस्"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "प्लगिन अथरबाट अपग्रेड सन्देश:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "%2$s सुचारु गर्नुहोस्"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "%2$s अद्यावधिक गर्नुहोस्"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "%2$s स्थापना गर्नुहोस"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "खबर"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "संस्करण"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "प्रकार"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "स्रोत"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "प्लगिन"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "स्थापना, अपडेट वा सक्रिय गर्न कुनै प्लगिनहरू छैनन्।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "उपलब्ध संस्करण:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "न्यूनतम आवश्यक संस्करण:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "स्थापित संस्करण:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "अज्ञात"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "सक्रिय <span class=\"count\">(%s)</span>"
+msgstr[1] "सक्रिय <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "अद्यावधिक उपलब्ध <span class=\"count\">(%s)</span>"
+msgstr[1] "अद्यावधिक उपलब्ध <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "स्थापना गर्न <span class=\"count\">(%s)</span>"
+msgstr[1] "स्थापना गर्न <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "सबै <span class=\"count\">(%s)</span>"
+msgstr[1] "सबै <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "अपडेट सिफारिश गरियो"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "अपडेट आवश्यक छ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "आवश्यक अपडेट उपलब्ध छैन"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "स्थापना गरियो तर सक्रिय छैन"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "स्थापना गरिएको छैन"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "प्रि-प्याकेज्ड"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "बाह्य स्रोत"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "वर्डप्रेस भण्डार"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "सिफारिश"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "आवश्यक छ"
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1121
+#: inc/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "र"
+
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "रिमोट प्लागिन प्याकेजले एक भन्दा बढी फाईलहरू समावेश गर्दछ, तर फाइलहरू फोल्डरमा प्याकेज गरिएको छैन।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "कृपया प्लागिन प्रदायकलाई सम्पर्क गर्नुहोस् र उनीहरूलाई वर्डप्रेस दिशानिर्देशहरूको अनुसार प्लागिन प्याकेज गर्न भन्नुहोस् ।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "रिमोट प्लागिन प्याकेजले इच्छित स्लगको साथ फोल्डर समावेश गर्दैन र पुनःनामाकरणले काम गरेन।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "अपडेट आवश्यक छ "
+
+#: inc/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "यो प्लगिन तपाइँको थिम संग अनुकुल हुन को लागी अपडेट गर्न को लागी आवश्यक छ।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+#: inc/tgm/np-recommended-plugins.php:162
+msgid "Please contact the administrator of this site for help."
+msgstr "मद्दतको लागि कृपया यस साइटको प्रशासकलाई सम्पर्क गर्नुहोस्। "
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+#: inc/tgm/np-recommended-plugins.php:161
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "त्यहाँ एक वा बढी आवश्यक वा सिफारिस गरिएका प्लगिनहरू स्थापना, अपडेट वा सक्रिय गर्नका लागि छन्। "
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+#: inc/tgm/np-recommended-plugins.php:160
+msgid "Dismiss this notice"
+msgstr "यस सुचनालाई खारेज गर्नुहोस्"
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#: inc/tgm/np-recommended-plugins.php:159
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "सबै प्लगिनहरू सफलतापूर्वक स्थापित र सक्रिय गरियो। %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#: inc/tgm/np-recommended-plugins.php:158
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "प्लगिन सक्रिय छैन। यस विषयवस्तुको लागि %s को उच्च संस्करण आवश्यक छ। कृपया प्लगिन अपडेट गर्नुहोस्। "
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:390
+#: inc/tgm/np-recommended-plugins.php:157
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "कुनै कारबाही भएको छैन। प्लगिन %1$s पहिले नै सक्रिय थियो। "
+
+#: inc/tgm/class-tgm-plugin-activation.php:388
+#: inc/tgm/class-tgm-plugin-activation.php:2952
+#: inc/tgm/np-recommended-plugins.php:156
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "निम्न प्लगिन सफलतापूर्वक सक्रिय गरियो:"
+msgstr[1] "निम्न प्लगिनहरु सफलतापूर्वक सक्रिय भए:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:387
+#: inc/tgm/class-tgm-plugin-activation.php:3159
+#: inc/tgm/np-recommended-plugins.php:155
+msgid "Plugin activated successfully."
+msgstr "प्लगिन सफलतापूर्वक सक्रिय गरियो ।"
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+#: inc/tgm/class-tgm-plugin-activation.php:827
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+#: inc/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "ड्यासबोर्डमा फर्कनुहोस्"
+
+#: inc/tgm/class-tgm-plugin-activation.php:385
+#: inc/tgm/np-recommended-plugins.php:154
+msgid "Return to Required Plugins Installer"
+msgstr "आवश्यक प्लगिनहरू स्थापनाकर्तामा फर्कनुहोस्"
+
+#: inc/tgm/class-tgm-plugin-activation.php:380
+#: inc/tgm/np-recommended-plugins.php:149
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "प्लगिन सक्रिय गर्न सुरू गर्नुहोस्"
+msgstr[1] "प्लगिनहरु सक्रिय गर्न सुरू गर्नुहोस्"
+
+#: inc/tgm/class-tgm-plugin-activation.php:375
+#: inc/tgm/np-recommended-plugins.php:144
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "प्लगिन अपडेट गर्न सुरू गर्नुहोस्"
+msgstr[1] "प्लगिनहरु अपडेट गर्न सुरू गर्नुहोस्"
+
+#: inc/tgm/class-tgm-plugin-activation.php:370
+#: inc/tgm/np-recommended-plugins.php:139
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "प्लगिन स्थापना सुरू गर्नुहोस्"
+msgstr[1] "प्लगिनहरु स्थापना सुरू गर्नुहोस्"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:333
+#: inc/tgm/np-recommended-plugins.php:108
+msgid "Something went wrong with the plugin API."
+msgstr "प्लगिन API का साथ केही गलत भयो।"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:332
+#: inc/tgm/np-recommended-plugins.php:107
+msgid "Updating Plugin: %s"
+msgstr "प्लगिन अपडेट गर्दै:%s"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:330
+#: inc/tgm/np-recommended-plugins.php:106
+msgid "Installing Plugin: %s"
+msgstr "प्लगिन स्थापना हुँदै: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+#: inc/tgm/np-recommended-plugins.php:105
+msgid "Install Plugins"
+msgstr "प्लगिनहरु स्थापना गर्नुहोस्"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+#: inc/tgm/np-recommended-plugins.php:104
+msgid "Install Required Plugins"
+msgstr "आवश्यक प्लगिनहरू स्थापना गर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:580
+msgid "Bottom Footer Layouts"
+msgstr "बटम फुटरका लेआउटहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:575
+msgid "Animation on Section"
+msgstr "सेक्सनमा एनिमेसन"
+
+#: inc/theme-settings/mt-theme-settings.php:570
+msgid "Custom 404 Page"
+msgstr "कस्टम ४०४ पृष्ठ"
+
+#: inc/theme-settings/mt-theme-settings.php:567
+msgid "12"
+msgstr "१२"
+
+#: inc/theme-settings/mt-theme-settings.php:566
+msgid "8"
+msgstr "८"
+
+#: inc/theme-settings/mt-theme-settings.php:565
+msgid "No. of Widgets"
+msgstr "विजेटहरूको संख्या"
+
+#: inc/theme-settings/mt-theme-settings.php:560
+msgid "WooCommerce Compatible"
+msgstr "WooCommerce अनुकुल"
+
+#: inc/theme-settings/mt-theme-settings.php:555
+msgid "Typography Options"
+msgstr "टाइपोग्राफीका विकल्पहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:552
+msgid "600+"
+msgstr "६००+"
+
+#: inc/theme-settings/mt-theme-settings.php:550
+msgid "Google Fonts"
+msgstr "गुगल फन्टहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:545
+msgid "Fallback Image"
+msgstr "फलब्याक छवि"
+
+#: inc/theme-settings/mt-theme-settings.php:540
+msgid "Image Hover Features"
+msgstr "छवि होभर सुविधाहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:535
+msgid "Breadcrumbs"
+msgstr "ब्रेडक्रम"
+
+#: inc/theme-settings/mt-theme-settings.php:582
+msgid "2"
+msgstr "२"
+
+#: inc/theme-settings/mt-theme-settings.php:530
+msgid "Post Review"
+msgstr "पोस्ट समीक्षा"
+
+#: inc/theme-settings/mt-theme-settings.php:525
+msgid "Single Page Layouts"
+msgstr "एकल पृष्ठ लेआउटहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:522
+#: inc/theme-settings/mt-theme-settings.php:527
+msgid "4"
+msgstr "४"
+
+#: inc/theme-settings/mt-theme-settings.php:520
+msgid "Archive Pages Layouts"
+msgstr "अभिलेख पृष्ठ लेआउटहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:517
+#: inc/theme-settings/mt-theme-settings.php:551
+msgid "3"
+msgstr "३"
+
+#: inc/theme-settings/mt-theme-settings.php:516
+#: inc/theme-settings/mt-theme-settings.php:521
+#: inc/theme-settings/mt-theme-settings.php:526
+#: inc/theme-settings/mt-theme-settings.php:581
+msgid "1"
+msgstr "१"
+
+#: inc/theme-settings/mt-theme-settings.php:515
+msgid "Header Layouts"
+msgstr "हेडर लेआउटहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:510
+msgid "Pre Loaders"
+msgstr "पूर्व लोडरहरू"
+
+#: inc/theme-settings/mt-theme-settings.php:506
+msgid "Free"
+msgstr "नि: शुल्क"
+
+#: inc/theme-settings/mt-theme-settings.php:505
+msgid "Price"
+msgstr "मूल्य"
+
+#: inc/theme-settings/mt-theme-settings.php:498
+msgid "Features"
+msgstr "विशेषताहरु"
+
+#: inc/theme-settings/mt-theme-settings.php:441
+msgid "View changelog below:"
+msgstr "तलको चेन्जलग हेर्नुहोस्:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "सुचारू गर्नुहोस्"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "सक्रिय"
+
+#: inc/theme-settings/mt-theme-settings.php:311
+msgid "Go to Dashboard"
+msgstr "ड्यासबोर्डमा जानुहोस"
+
+#: inc/theme-settings/mt-theme-settings.php:311
+msgid "Go to Dashboard &rarr; Home"
+msgstr "ड्यासबोर्ड &rarr; गृहमा जानुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:308
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "ड्यासबोर्ड &rarr; अद्यावधिकमा फर्कनुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:308
+msgid "Return to Updates"
+msgstr "अद्यावधिकहरुमा फर्कनुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:494
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "अधिक उत्साहजनक सुविधाहरूको लागि प्रो संस्करणमा अपग्रेड गर्नुहोस्।"
+
+#: inc/theme-settings/mt-theme-settings.php:667
+msgid "Got theme support question?"
+msgstr "थिम सपोर्टको प्रश्न प्राप्त गर्नु भयो?"
+
+#: inc/theme-settings/mt-theme-settings.php:217
+msgid "Changelog"
+msgstr "चेन्जलग"
+
+#: inc/theme-settings/mt-theme-settings.php:213
+msgid "Free Vs Pro"
+msgstr "फ्री vs प्रो"
+
+#: inc/theme-settings/mt-theme-settings.php:408
+msgid "View Demo"
+msgstr "डेमो हेर्नुहोस्"
+
+#: inc/theme-settings/mt-theme-settings.php:157
+msgid "Welcome! Thank you for choosing %1$s ! To fully take advantage of the best our theme can offer please make sure you visit our %2$s theme settings page %3$s."
+msgstr "स्वागत छ! %1$s रोज्नु भएकोमा धन्यवाद! थिम्सले प्रदान गर्न सक्ने सवोर्त्कृष्ट सुविधाहरुको लाभ लिन को लागी कृपया हाम्रो %2$s थिम्स सेटिंग्स पृष्ठ %3$s मा जानुहोस्।"
+
+#: inc/theme-settings/mt-theme-settings.php:136
+msgid "Cheat in &#8217; huh?"
+msgstr "बदमासी, हँ ?"
+
+#: inc/theme-settings/mt-theme-settings.php:132
+msgid "Action failed. Please refresh the page and retry."
+msgstr "कार्य असफल भयो। कृपया पृष्ठ ताजा गर्नुहोस् र पुन: प्रयास गर्नुहोस्।"
+
+#: inc/customizer/customizer.php:134
+msgid "Please do rate our theme if you liked it %s"
+msgstr "कृपया हाम्रो थिमलाई मूल्याङकन गर्नुहोस् यदि तपाईंलाई यो %s मनपर्‍यो भने"
+
+#: inc/customizer/customizer.php:114
+msgid "Upgrade to Pro"
+msgstr "प्रो मा स्तरवृद्धि गर्नुहोस्"
+
+#: inc/customizer/customizer.php:114
+msgid "Like Us in Facebook"
+msgstr "फेसबुकमा हामीलाई मन पराउनुहोस्"
+
+#: inc/customizer/customizer.php:114
+msgid "Live Demos"
+msgstr "प्रत्यक्ष डेमोहरु"
+
+#: inc/customizer/customizer.php:114
+#: inc/theme-settings/mt-theme-settings.php:286
+msgid "Documentation"
+msgstr "दस्तावेज:"
+
+#: inc/customizer/customizer.php:94
+msgid "Important Theme Links"
+msgstr "महत्वपूर्ण थिम लिंकहरू"
+
+#: inc/metaboxes/np-post-metabox.php:17
+msgid "Post Meta Options"
+msgstr "पोस्ट मेटाका विकल्पहरु"
+
+#: inc/metaboxes/np-page-metabox.php:92 inc/metaboxes/np-post-metabox.php:94
+msgid "Select sidebar from available options which replaced sidebar layout from customizer settings."
+msgstr "उपलब्ध विकल्पहरूबाट साइडबार चयन गर्नुहोस् जसले कस्टमाइजर सेटिङबाट साइडबार सजावट बदल्नुभयो।"
+
+#: inc/metaboxes/np-page-metabox.php:91 inc/metaboxes/np-post-metabox.php:93
+msgid "Available Sidebars"
+msgstr "उपलब्ध साईडबारहरू"
+
+#: inc/metaboxes/np-page-metabox.php:85 inc/metaboxes/np-post-metabox.php:87
+msgid "In this section we have lots of features which make your post unique and completely different."
+msgstr "यस सेक्सनमा हामीसँग धेरै सुविधाहरू छन् जुन तपाईंको पोष्टलाई अद्वितीय र पूर्ण रूपमा फरक बनाउँदछ।"
+
+#: inc/metaboxes/np-page-metabox.php:83 inc/metaboxes/np-post-metabox.php:85
+msgid "About Metabox Options"
+msgstr "मेटाबक्स विकल्पहरूको बारेमा"
+
+#: inc/metaboxes/np-page-metabox.php:76 inc/metaboxes/np-post-metabox.php:78
+msgid "Sidebars"
+msgstr "साइडबारहरू"
+
+#: inc/metaboxes/np-page-metabox.php:75 inc/metaboxes/np-post-metabox.php:77
+msgid "Information"
+msgstr "जानकारी"
+
+#: inc/metaboxes/np-page-metabox.php:55 inc/metaboxes/np-post-metabox.php:55
+msgid "No sidebar Content Centered"
+msgstr "कुनै साइडबार छैन सामग्री केन्द्रमा"
+
+#: inc/metaboxes/np-page-metabox.php:49 inc/metaboxes/np-post-metabox.php:49
+msgid "No sidebar Full width"
+msgstr "कुनै साइडबार छैन पूर्ण चौडाई"
+
+#: inc/metaboxes/np-page-metabox.php:43 inc/metaboxes/np-post-metabox.php:43
+msgid "Right sidebar"
+msgstr "दायाँ साइडबार"
+
+#: inc/metaboxes/np-page-metabox.php:37 inc/metaboxes/np-post-metabox.php:37
+msgid "Left sidebar"
+msgstr "बायाँ साइडबार"
+
+#: inc/metaboxes/np-page-metabox.php:31 inc/metaboxes/np-post-metabox.php:31
+msgid "Default Sidebar"
+msgstr "पूर्वनिर्धारित साइडबार"
+
+#: inc/metaboxes/np-page-metabox.php:17
+msgid "Page Meta Options"
+msgstr ""
+"17/5000\n"
+"पृष्ठ मेटा विकल्पहरू"
+
+#: inc/customizer/customizer.php:80
+#: inc/theme-settings/mt-theme-settings.php:588
+msgid "Buy Pro"
+msgstr "प्रो खरीद गर्नुहोस्"
+
+#: inc/customizer/customizer.php:79
+#: inc/theme-settings/mt-theme-settings.php:500
+msgid "News Portal Pro"
+msgstr "न्यूज पोर्टल प्रो"
+
+#. Template Name of the theme
+msgid "Home Page"
+msgstr "गृह पृष्ठ"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:35
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "पढाई जारी राख्नुहोस् <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:46
+msgid "Pages:"
+msgstr "पृष्ठहरु :"
+
+#: template-parts/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "यस्तो लाग्छ कि तपाईँले हेर्न खोज्नु भएको वस्तु हामीले भेटाउन सकेनौं । शायद खोजी गर्दा मद्दत पुग्छ कि ।"
+
+#: template-parts/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "माफ गर्नुहोस्, तर केहि तपाइँको खोज सर्तहरू मिलेन। कृपया केहि फरक कुञ्जी शब्दहरूको साथ फेरि प्रयास गर्नुहोस्।"
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:27
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "तपाईंको पहिलो पोस्ट प्रकाशन गर्न तयार हुनुहुन्छ? <a href=\"%1$s\"> यहाँ सुरू गर्नुहोस् </a>।"
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr "केहि पनि भेटिएन"
+
+#. translators: %s: search query.
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr "%s को खोजी नतिजाहरु :"
+
+#: inc/widgets/np-widget-functions.php:131
+msgid "Added widgets are display at Footer Widget Area."
+msgstr "थपिएका विजेटहरू फुटर विजेट क्षेत्रमा प्रदर्शन हुन्छन्।"
+
+#: inc/widgets/np-widget-functions.php:129
+msgid "Footer %d"
+msgstr "फ़ुटर %d"
+
+#: inc/widgets/np-widget-functions.php:114
+msgid "Home Bottom Section"
+msgstr "होम बटम सेक्सन"
+
+#: inc/widgets/np-widget-functions.php:99
+msgid "Home Middle Aside"
+msgstr "होम मिडल असाइड"
+
+#: inc/widgets/np-widget-functions.php:84
+msgid "Home Middle Section"
+msgstr "होम मिडल सेक्सन"
+
+#: inc/widgets/np-widget-functions.php:69
+msgid "Home Top Section"
+msgstr "होम टप सेक्सन"
+
+#: inc/widgets/np-widget-functions.php:56
+msgid "Add banner widgets here."
+msgstr "यहाँ ब्यानर विजेट थप्नुहोस्।"
+
+#: inc/widgets/np-widget-functions.php:54
+msgid "Header Ads"
+msgstr "हेडर विज्ञापन"
+
+#: inc/widgets/np-widget-functions.php:26
+#: inc/widgets/np-widget-functions.php:41
+#: inc/widgets/np-widget-functions.php:71
+#: inc/widgets/np-widget-functions.php:86
+#: inc/widgets/np-widget-functions.php:101
+#: inc/widgets/np-widget-functions.php:116
+msgid "Add widgets here."
+msgstr "यहाँ विजेटहरू थप्नुहोस्।"
+
+#: inc/widgets/np-widget-functions.php:24
+msgid "Sidebar"
+msgstr "साइडबार"
+
+#: inc/widgets/np-widget-fields.php:201
+msgid "Select Image"
+msgstr "तस्विर छान्नुहोस्"
+
+#: inc/widgets/np-widget-fields.php:200
+msgid "Remove"
+msgstr "हटाउनुहोस् "
+
+#: inc/widgets/np-widget-fields.php:193
+msgid "No image selected"
+msgstr "कुनै चित्र छानिएन"
+
+#: inc/widgets/np-social-media.php:22
+msgid "NP: Social Media"
+msgstr "NP: सोशल मिडिया"
+
+#: inc/widgets/np-social-media.php:20
+msgid "A widget shows the social media icons."
+msgstr "एक विजेट सामाजिक मिडिया आइकन देखाउँछ।"
+
+#: inc/widgets/np-recent-posts.php:41
+msgid "No. of Posts"
+msgstr "पोष्टहरूको संख्या"
+
+#: inc/widgets/np-recent-posts.php:35 inc/widgets/np-social-media.php:35
+msgid "Widget title"
+msgstr "विजेट शीर्षक"
+
+#: inc/widgets/np-recent-posts.php:22
+msgid "NP: Recent Posts"
+msgstr "NP: ताजा लेखहरु"
+
+#: inc/widgets/np-recent-posts.php:20
+msgid "A widget shows recent posts with thumbnail."
+msgstr "एउटा विजेटले थम्बनेलको साथ भर्खरका पोष्टहरू देखाउँदछ।"
+
+#: inc/widgets/np-featured-slider.php:41
+msgid "Featured Post Categories"
+msgstr "विशेष पोस्टका वर्गहरु"
+
+#: inc/widgets/np-featured-slider.php:34
+msgid "Slider Categories"
+msgstr "स्लाइडर वर्गहरु"
+
+#: inc/widgets/np-featured-slider.php:22
+msgid "NP: Featured Slider"
+msgstr "NP: विशेष स्लाइडर"
+
+#: inc/widgets/np-featured-slider.php:20
+msgid "Displays posts from selected categories in the slider with the featured section."
+msgstr "विशेष सेक्सनको साथ स्लाइडरमा चयन गरिएका वर्गहरु पोस्टहरू प्रदर्शन गर्दछ।"
+
+#: inc/widgets/np-featured-posts.php:22
+msgid "NP: Featured Posts"
+msgstr "NP: विशेष पोस्टहरू"
+
+#: inc/widgets/np-featured-posts.php:20
+msgid "Displays featured posts from selected categories in different layouts."
+msgstr "बिभिन्न लेआउटहरूमा चयन गरिएका वर्गहरुबाट विशेष पोस्टहरू प्रदर्शित गर्दछ।"
+
+#: inc/widgets/np-default-tabbed.php:117
+msgid "&nbsp;commented on"
+msgstr "&nbsp; मा टिप्पणी गरियो"
+
+#: inc/widgets/np-default-tabbed.php:43 inc/widgets/np-default-tabbed.php:65
+msgid "Comments"
+msgstr "टिप्पणीहरु"
+
+#: inc/widgets/np-default-tabbed.php:42
+msgid "Comments Tab title"
+msgstr "टिप्पणीहरु ट्याब शीर्षक"
+
+#: inc/widgets/np-default-tabbed.php:36 inc/widgets/np-default-tabbed.php:64
+msgid "Latest"
+msgstr "नवीनतम"
+
+#: inc/widgets/np-default-tabbed.php:35
+msgid "Latest Tab title"
+msgstr "भर्खरको ट्याब शीर्षक"
+
+#: inc/widgets/np-default-tabbed.php:22
+msgid "NP: Default Tabbed"
+msgstr "NP: पूर्वनिर्धारित ट्याब"
+
+#: inc/widgets/np-default-tabbed.php:20
+msgid "A widget shows recent posts and comment in tabbed layout."
+msgstr "एक विजेटले भर्खरका पोस्टहरू तथा टिप्पणीहरु ट्याब लेआउटमा देखाउँदछ।"
+
+#: inc/widgets/np-carousel.php:42 inc/widgets/np-featured-posts.php:42
+msgid "Block Categories"
+msgstr "ब्लक वर्गहरु"
+
+#: inc/widgets/np-carousel.php:22
+msgid "NP: Carousel"
+msgstr "NP: क्यारोजेल "
+
+#: inc/widgets/np-carousel.php:20
+msgid "Displays posts from selected categories in carousel layouts."
+msgstr "काराउजेल लेआउट मा चयन गरिएका वर्गहरु बाट पोस्टहरु प्रदर्शन गर्दछ।"
+
+#: inc/widgets/np-block-posts.php:52 inc/widgets/np-carousel.php:49
+msgid "Block Layouts"
+msgstr "ब्लक लेआउटहरु"
+
+#: inc/widgets/np-block-posts.php:44
+msgid "Block Category"
+msgstr "ब्लक वर्ग"
+
+#: inc/widgets/np-block-posts.php:38 inc/widgets/np-carousel.php:36
+#: inc/widgets/np-featured-posts.php:36
+msgid "Enter your block title. (Optional - Leave blank to hide the title.)"
+msgstr "तपाईंको ब्लक शीर्षक प्रविष्ट गर्नुहोस्। (वैकल्पिक - शीर्षक लुकाउन खाली छोड्नुहोस्।)"
+
+#: inc/widgets/np-block-posts.php:37 inc/widgets/np-carousel.php:35
+#: inc/widgets/np-featured-posts.php:35
+msgid "Block title"
+msgstr "ब्लक शीर्षक"
+
+#: inc/widgets/np-block-posts.php:22
+msgid "NP: Block Posts"
+msgstr "NP: ब्लक पोष्टहरू"
+
+#: inc/widgets/np-block-posts.php:20
+msgid "Displays block posts from selected category in different layouts."
+msgstr "विभिन्न लेआउटहरु मा चयन गरिएका श्रेणी बाट ब्लक पोस्टहरु प्रदर्शन गर्दछ।"
+
+#: inc/widgets/np-ads-banner.php:59
+msgid "Rel attribute for link"
+msgstr "लिंक को लागी Rel विशेषता"
+
+#: inc/widgets/np-ads-banner.php:53
+msgid "Open in new tab"
+msgstr "नयाँ ट्याब मा खोल्नुहोस् |"
+
+#: inc/widgets/np-ads-banner.php:47
+msgid "Banner Link"
+msgstr "ब्यानर लिंक"
+
+#: inc/widgets/np-ads-banner.php:41
+msgid "Select banner image"
+msgstr "ब्यानर छवि चयन गर्नुहोस्"
+
+#: inc/widgets/np-ads-banner.php:35
+msgid "Banner title"
+msgstr "ब्यानर शीर्षक"
+
+#: inc/widgets/np-ads-banner.php:20
+msgid "You can place a banner as an advertisement with links."
+msgstr "लिंकको साथ तपाइँ विज्ञापनको रूपमा ब्यानर राख्न सक्नुहुन्छ।"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:97 template-parts/content-page.php:37
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "<span class=\"screen-reader-text\">%s</span> सम्पादन गर्नु"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:89
+msgid "Tagged %1$s"
+msgstr "%1$s ट्याग गरिएको"
+
+#. translators: %s: post title
+#: inc/template-tags.php:61
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "<span class=\"screen-reader-text\">%s मा</span> प्रतिक्रिया दिनुहोस्"
+
+#: inc/template-functions.php:302
+msgid "Select Category"
+msgstr "वर्ग चयन गर्नुहोस्"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Titillium Web, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/template-functions.php:148
+msgctxt "Titillium Web font: on or off"
+msgid "on"
+msgstr "माथी"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+#: inc/template-functions.php:140
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "माथी"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Roboto Condensed, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/template-functions.php:132
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr "माथी"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: inc/hooks/np-footer-hooks.php:78
+msgid "Theme: %1$s by %2$s."
+msgstr "थिम:%2$s द्वारा %1$s।"
+
+#: inc/customizer/np-header-panel.php:288
+msgid "Ticker Caption"
+msgstr "टिकर क्याप्शन"
+
+#: inc/customizer/np-header-panel.php:279 inc/hooks/np-header-hooks.php:315
+msgid "Breaking News"
+msgstr "ब्रेकिङ न्युज"
+
+#: inc/customizer/np-header-panel.php:260
+msgid "Show/Hide option for news ticker section."
+msgstr "न्युज टिकर सेक्सनका लागि विकल्प देखाउनुहोस् / लुकाउनुहोस्।"
+
+#: inc/customizer/np-header-panel.php:259
+msgid "Ticker Option"
+msgstr "टिकरको विकल्प"
+
+#: inc/customizer/np-header-panel.php:236
+msgid "Ticker Section"
+msgstr "टिकर सेक्सन"
+
+#: inc/customizer/np-header-panel.php:218
+msgid "Show/Hide option for search icon at primary menu."
+msgstr "प्राईमरी मेनूमा सर्च आइकनको लागि विकल्प देखाउनुहोस् / लुकाउनुहोस्।"
+
+#: inc/customizer/np-header-panel.php:217
+msgid "Search Icon"
+msgstr "खोजी आइकन"
+
+#: inc/customizer/np-header-panel.php:189
+msgid "Show/Hide option for home icon at primary menu."
+msgstr "प्राईमरी मेनूमा होम आईकनको लागि विकल्प देखाउनुहोस् / लुकाउनुहोस्।"
+
+#: inc/customizer/np-header-panel.php:188
+msgid "Home Icon"
+msgstr "होम आईकन"
+
+#: inc/customizer/np-header-panel.php:160
+msgid "Enable/Disable option for sticky menu."
+msgstr "स्टिकी मेनूको लागि विकल्प सक्षम / अक्षम गर्नुहोस्।"
+
+#: inc/customizer/np-header-panel.php:159
+msgid "Sticky Menu"
+msgstr "स्टिकी मेनू"
+
+#: inc/customizer/np-header-panel.php:136
+msgid "Header Option"
+msgstr "हेडर विकल्प"
+
+#: inc/customizer/np-header-panel.php:119
+msgid "Show/Hide option for social media icons at top header section."
+msgstr "टप हेडर सेक्सनमा सामाजिक मिडिया आइकनहरूको लागि विकल्प देखाउनुहोस् / लुकाउनुहोस्।"
+
+#: inc/customizer/np-header-panel.php:90
+msgid "Show/Hide option for current date at top header section."
+msgstr "टप हेडर सेक्सनमा हालको मितिको लागि विकल्प देखाउनुहोस् / लुकाउनुहोस्।"
+
+#: inc/customizer/np-header-panel.php:89
+msgid "Current Date"
+msgstr "वर्तमान मिति"
+
+#: inc/customizer/np-header-panel.php:61
+msgid "Show/Hide option for top header section."
+msgstr "टप हेडर सेक्सनका लागि विकल्प देखाउनुहोस् / लुकाउनुहोस्।"
+
+#: inc/customizer/np-header-panel.php:37 inc/customizer/np-header-panel.php:60
+msgid "Top Header Section"
+msgstr "टप हेडर सेक्सन"
+
+#: inc/customizer/np-header-panel.php:25
+msgid "Header Settings"
+msgstr "हेडर सेटिङ"
+
+#: inc/customizer/np-general-panel.php:189
+msgid "Display Site Title and Tagline"
+msgstr "साइट शीर्षक र ट्यागलाइन देखाउनुहोस्"
+
+#: inc/customizer/np-general-panel.php:110
+msgid "FullWidth Layout"
+msgstr "फुलविड्थ लेआउट"
+
+#: inc/customizer/np-general-panel.php:107
+#: inc/customizer/sections/general/site-style.php:71
+msgid "Site Layout"
+msgstr "साइट लेआउट"
+
+#: inc/customizer/np-general-panel.php:89
+msgid "Choose a site to display your website more effectively."
+msgstr "तपाइँको वेबसाइट अधिक प्रभावकारी प्रदर्शन गर्न एक साइट छनौट गर्नुहोस्। "
+
+#: inc/customizer/np-general-panel.php:88
+msgid "Website Layout"
+msgstr "वेबसाइट लेआउट"
+
+#: inc/customizer/np-general-panel.php:72
+#: inc/customizer/sections/general/colors.php:114
+msgid "Header Text Color"
+msgstr "हेडर अक्षरको रंग"
+
+#: inc/customizer/np-register-panels-sections.php:46
+msgid "General Settings"
+msgstr "साधारण सेटिङहरु"
+
+#: inc/customizer/np-footer-panel.php:147
+msgid "Copyright Text"
+msgstr "प्रतिलिपि अधिकार टेक्स्ट"
+
+#: inc/customizer/np-footer-panel.php:124
+msgid "Bottom Section"
+msgstr "बटम सेक्सन"
+
+#: inc/customizer/np-footer-panel.php:106
+msgid "Column One"
+msgstr "एक स्तम्भ"
+
+#: inc/customizer/np-footer-panel.php:102
+msgid "Columns Two"
+msgstr "दुई स्तम्भहरू"
+
+#: inc/customizer/np-footer-panel.php:98
+msgid "Columns Three"
+msgstr "तीन स्तम्भहरू"
+
+#: inc/customizer/np-footer-panel.php:94
+msgid "Columns Four"
+msgstr "चार स्तम्भहरू"
+
+#: inc/customizer/np-footer-panel.php:89
+msgid "Footer Widget Layout"
+msgstr "फुटर विजेट लेआउट"
+
+#: inc/customizer/np-footer-panel.php:62
+msgid "Show/Hide option for footer widget area section."
+msgstr "फुटर विजेट क्षेत्र सेक्सनका लागि विकल्प देखाउनुहोस् / लुकाउनुहोस्।"
+
+#: inc/customizer/np-footer-panel.php:61
+msgid "Footer Widget Section"
+msgstr "फुटर विजेट सेक्सन"
+
+#: inc/customizer/np-footer-panel.php:38
+msgid "Widget Area"
+msgstr "विजेट क्षेत्र"
+
+#: inc/customizer/np-footer-panel.php:25
+msgid "Footer Settings"
+msgstr "फुटर सेटिंग्स"
+
+#: inc/customizer/np-design-panel.php:314
+msgid "Related Post Section Title"
+msgstr "सम्बन्धित पोस्ट सेक्सन शीर्षक"
+
+#: inc/customizer/np-design-panel.php:305 inc/hooks/np-custom-hooks.php:47
+msgid "Related Posts"
+msgstr "सम्बन्धित पोस्टहरु"
+
+#: inc/customizer/np-design-panel.php:286
+msgid "Show/Hide option for related posts section at single post page."
+msgstr "एकल पोस्ट पृष्ठमा सम्बन्धित पोष्ट सेक्सनका लागि विकल्प देखाउनुहोस् / लुकाउनुहोस्।"
+
+#: inc/customizer/np-design-panel.php:285
+msgid "Related Post Option"
+msgstr "सम्बन्धित पोस्ट विकल्प"
+
+#: inc/customizer/np-design-panel.php:242
+msgid "Post Sidebars"
+msgstr "पोष्ट साइडबार"
+
+#: inc/customizer/np-design-panel.php:220
+msgid "Post Settings"
+msgstr "पोस्ट सेटिङ"
+
+#: inc/customizer/np-design-panel.php:185
+msgid "Page Sidebars"
+msgstr "पृष्ठ साइडबार"
+
+#: inc/customizer/np-design-panel.php:163
+msgid "Page Settings"
+msgstr "पृष्ठ सेटिङहरु"
+
+#: inc/customizer/np-design-panel.php:141
+msgid "Enter read more button text for archive page."
+msgstr "अभिलेख पृष्ठको लागि अधिक बटन पाठ पढ्नुहोस् प्रविष्ट गर्नुहोस्।"
+
+#: inc/customizer/np-design-panel.php:140
+msgid "Read More Text"
+msgstr "थप पाठ पढ्नुहोस्"
+
+#: inc/customizer/np-design-panel.php:131 inc/template-functions.php:541
+msgid "Continue Reading"
+msgstr "पढ्न जारी राख्नुहोस्"
+
+#: inc/customizer/np-design-panel.php:114
+msgid "Grid"
+msgstr "ग्रिड"
+
+#: inc/customizer/np-design-panel.php:110
+msgid "Classic"
+msgstr "क्लासिक"
+
+#: inc/customizer/np-design-panel.php:106 inc/customizer/np-footer-panel.php:90
+msgid "Choose layout from available layouts"
+msgstr "उपलब्ध लेआउटहरुबाट लेआउट छनौट गर्नुहोस्"
+
+#: inc/customizer/np-design-panel.php:105
+msgid "Archive Layouts"
+msgstr " आर्काइभ लेआउटहरु"
+
+#: inc/customizer/np-design-panel.php:80 inc/customizer/np-design-panel.php:202
+#: inc/customizer/np-design-panel.php:259
+msgid "No Sidebar Center"
+msgstr "नो साइडबार सेन्टर"
+
+#: inc/customizer/np-design-panel.php:76 inc/customizer/np-design-panel.php:198
+#: inc/customizer/np-design-panel.php:255
+msgid "No Sidebar"
+msgstr "कुनै साइडबार छैन"
+
+#: inc/customizer/np-design-panel.php:72 inc/customizer/np-design-panel.php:194
+#: inc/customizer/np-design-panel.php:251
+msgid "Right Sidebar"
+msgstr "दायाँ साइडबार"
+
+#: inc/customizer/np-design-panel.php:68 inc/customizer/np-design-panel.php:190
+#: inc/customizer/np-design-panel.php:247
+#: inc/widgets/np-widget-functions.php:39
+msgid "Left Sidebar"
+msgstr "बायाँ साइडबार"
+
+#: inc/customizer/np-design-panel.php:64 inc/customizer/np-design-panel.php:186
+#: inc/customizer/np-design-panel.php:243
+msgid "Choose sidebar from available layouts"
+msgstr "उपलब्ध लेआउटबाट साइडबार छनौट गर्नुहोस्"
+
+#: inc/customizer/np-design-panel.php:63
+msgid "Archive Sidebars"
+msgstr "अभिलेख को साइडबारहरु"
+
+#: inc/customizer/np-design-panel.php:41
+msgid "Archive Settings"
+msgstr "अभिलेख को सेटिंग्सहरु"
+
+#: inc/customizer/np-design-panel.php:28
+msgid "Design Settings"
+msgstr "डिजाइन को सेटिंग्सहरु"
+
+#: inc/customizer/np-customizer-sanitize.php:93
+#: inc/customizer/np-design-panel.php:290 inc/customizer/np-footer-panel.php:66
+#: inc/customizer/np-general-panel.php:233
+#: inc/customizer/np-header-panel.php:65 inc/customizer/np-header-panel.php:94
+#: inc/customizer/np-header-panel.php:123
+#: inc/customizer/np-header-panel.php:193
+#: inc/customizer/np-header-panel.php:222
+#: inc/customizer/np-header-panel.php:264
+msgid "Hide"
+msgstr "लुकाउनुहोस्"
+
+#: inc/customizer/np-customizer-sanitize.php:92
+#: inc/customizer/np-design-panel.php:289 inc/customizer/np-footer-panel.php:65
+#: inc/customizer/np-general-panel.php:232
+#: inc/customizer/np-header-panel.php:64 inc/customizer/np-header-panel.php:93
+#: inc/customizer/np-header-panel.php:122
+#: inc/customizer/np-header-panel.php:192
+#: inc/customizer/np-header-panel.php:221
+#: inc/customizer/np-header-panel.php:263
+msgid "Show"
+msgstr "देखाउनुहोस्"
+
+#: inc/customizer/np-customizer-sanitize.php:76
+#: inc/customizer/np-general-panel.php:111
+msgid "Boxed Layout"
+msgstr "बक्स्ड लेआउट"
+
+#: inc/customizer/np-customizer-sanitize.php:75
+msgid "Fullwidth Layout"
+msgstr "फुलविड्थ लेआउट"
+
+#: inc/customizer/np-custom-classes.php:266
+msgid "Close"
+msgstr "बन्द गर्नुहोस्"
+
+#: inc/customizer/np-custom-classes.php:265
+msgid "Delete"
+msgstr "मेटाउनुहोस्"
+
+#: inc/customizer/np-additional-panel.php:191
+msgid "Enable/Disable option for category color for widget title in block layout widget."
+msgstr "ब्लक लेआउट विजेटमा विजेट शीर्षकको लागि वर्ग रंगको लागि विकल्प सक्षम / अक्षम गर्नुहोस्।"
+
+#: inc/customizer/np-additional-panel.php:190
+msgid "Category Color"
+msgstr "वर्ग रंग"
+
+#: inc/customizer/np-additional-panel.php:166
+#: inc/customizer/np-additional-panel.php:195
+#: inc/customizer/np-additional-panel.php:239
+#: inc/customizer/np-additional-panel.php:268
+#: inc/customizer/np-general-panel.php:167
+#: inc/customizer/np-header-panel.php:164
+msgid "Disable"
+msgstr "असक्षम गर्नुहोस्"
+
+#: inc/customizer/np-additional-panel.php:165
+#: inc/customizer/np-additional-panel.php:194
+#: inc/customizer/np-additional-panel.php:238
+#: inc/customizer/np-additional-panel.php:267
+#: inc/customizer/np-general-panel.php:166
+#: inc/customizer/np-header-panel.php:163
+msgid "Enable"
+msgstr "सक्षम गर्नुहोस्"
+
+#: inc/customizer/np-additional-panel.php:162
+msgid "Enable/Disable option for category link for widget title in block layout widget."
+msgstr "ब्लक लेआउट विजेटमा विजेट शीर्षकको लागि वर्ग लिंकको लागि विकल्प सक्षम / अक्षम गर्नुहोस्।"
+
+#: inc/customizer/np-additional-panel.php:161
+msgid "Category Link"
+msgstr "वर्ग लिंक"
+
+#: inc/customizer/np-additional-panel.php:138
+msgid "Widget Settings"
+msgstr "विजेट सेटिङ"
+
+#: inc/customizer/np-additional-panel.php:121
+msgid " %s"
+msgstr "%s"
+
+#: inc/customizer/np-additional-panel.php:96
+msgid "Categories Color"
+msgstr "वर्ग रंग"
+
+#: inc/customizer/np-additional-panel.php:81
+msgid "Enter social media url."
+msgstr "सामाजिक मिडिया यूआरएल प्रविष्ट गर्नुहोस्।"
+
+#: inc/customizer/np-additional-panel.php:80
+msgid "Social Icon Url"
+msgstr "सामाजिक आइकन यूआरएल"
+
+#: inc/customizer/np-additional-panel.php:76
+msgid "Choose social media icon."
+msgstr "सामाजिक मिडिया आइकन छान्नुहोस्।"
+
+#: inc/customizer/np-additional-panel.php:75
+msgid "Social Media Logo"
+msgstr "सामाजिक मिडिया लोगो"
+
+#: inc/customizer/np-additional-panel.php:70
+msgid "Add Icon"
+msgstr "आइकन थप्नुहोस्"
+
+#: inc/customizer/np-additional-panel.php:69
+msgid "Social Media Icon"
+msgstr "सामाजिक मिडिया आइकन"
+
+#: inc/customizer/np-additional-panel.php:65
+msgid "Social Media Icons"
+msgstr "सामाजिक मिडिया आइकनहरु"
+
+#: inc/customizer/np-additional-panel.php:38
+#: inc/customizer/np-header-panel.php:118
+msgid "Social Icons"
+msgstr "सामाजिक आइकनहरु"
+
+#: inc/customizer/np-additional-panel.php:25
+msgid "Additional Settings"
+msgstr "अतिरिक्त सेटिङ"
+
+#: functions.php:57
+msgid "Footer Menu"
+msgstr "फुटर मेनू"
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr "मुख्य मेनु"
+
+#: functions.php:55
+msgid "Top Menu"
+msgstr "टप मेनु"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "टिप्पणीहरु बन्द छन्।"
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr "नयाँ टिप्पणीहरु"
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr "पुराना टिप्पणीहरु"
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr "प्रतिक्रियाको मेनु"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; मा %1$s विचार"
+msgstr[1] "&ldquo;%2$s&rdquo; मा %1$s विचारहरु"
+
+#. translators: 1: title.
+#: comments.php:36
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "&ldquo;%1$s&rdquo; मा एक विचार"
+
+#: 404.php:21
+msgid "error"
+msgstr "त्रुटि"
+
+#: 404.php:21
+msgid "404"
+msgstr "४०४"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "ओहो ! त्यो पृष्ठ भेटाउन पो सकिएन त !"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://mysterythemes.com"
+msgstr "https://mysterythemes.com"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Mystery Themes"
+msgstr "मिस्ट्री थिम्स"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://mysterythemes.com/wp-themes/news-portal"
+msgstr "https://mysterythemes.com/wp-themes/news-portal"

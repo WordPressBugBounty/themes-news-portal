@@ -1,0 +1,227 @@
+== 1.5.2 : 2024-09-18 ==
+-New: Dark & Light mode switcher added.
+-Imp: Some design improvement done.
+-New: Required PHP version updated to 7.2
+-Imp: Lanaguage pot file updated.
+-Imp: Remove unused customizer control.
+
+== 1.5.1 : 2024-06-20 ==
+-Fix: Dashboard admin page api error fixed.
+
+== 1.5.0 : 2024-04-29 ==
+-New: Dashboard UI change.
+-New: Scroll top and preloader settings.
+-Imp: Rearrangement of customizer settings.
+
+== 1.4.1 : 2024-02-23 ==
+-New: Border bottom added in responsive menu.
+-Imp: Widget layout images updated.
+-Imp: Customizer archive layout images updated.
+
+== 1.4.0 : 2023-12-27 ==
+-Imp: Fontawesome icon update to 6.5.1.
+-New:  Social icons like thread, tiktok introduced.
+Design tweaks done.
+
+== 1.3.8 : 2023-10-31 ==
+-Fix: Dark mode toggle issue fixed.
+-Fix: Dark mode design issue fixed.
+Top & Footer navigation design issue fixed.
+
+== 1.3.7 : 2023-08-22 ==
+-Fix: Responsive bug fixed.
+-Fix: Menu toggle dynamic hover color added.
+Post meta spacing tweaks done.
+
+== 1.3.6 : 2023-05-24 ==
+-Fix: h1 tag bugs in homepage.
+
+== 1.3.5 : 2023-04-08 ==
+-Fix: Checkbox sanitize bugs in site title and tagline.
+
+== 1.3.4 : 2023-02-15 ==
+-New: Frontpage sticky sidebar option added.
+
+== 1.3.3 : 2022-12-06 ==
+-Fix: Margin issue in mobile devices fixed.
+-Fix: Arrow design when focus in responsive menu fixed.
+Comment reply design tweaks done.
+
+== 1.3.2 : 2022-09-02 ==
+Search page arrow design removed in no image for article.
+
+== 1.3.1 : 2022-06-24 ==
+-New: Block based widget design added.
+-Imp: Dashed underline in archive posts removed.
+-New: Block based tag dynamic hover color added.
+
+== 1.3.0 : 2022-02-24 ==
+-New: Switch option for block based widget editor.
+-Fix: Menu sticky for responsive device.
+
+== 1.2.9 : 2021-09-19 ==
+-New: Flag for resetting saved demo content.
+-New: Innerpage sidebar sticky option.
+-Imp: Unused file.
+Used `wp_localize_script` function to manage the sticky options.
+
+== 1.2.8 : 2021-06-02 ==
+-Fix: Bugs at archive grid layout.
+
+== 1.2.7 : 2021-05-10 ==
+-Fix: Popup box keyboard navigation issue fixed.
+-Fix: Latest posts design according to archive options in the front page.
+
+== 1.2.6 : 2021-02-01 ==
+-New: "the_content" show hide option in "homepage" template.
+
+== 1.2.5 : 2021-01-25 ==
+-New: add_theme_support "starter:content".
+-New: "the_content" in home template.
+-Imp: Keyboard accessibility update.
+
+== 1.2.4 : 2020-10-20 ==
+-New: "wp:magazine:modules:lite" added in tgm
+-Fix: Page meta box sidebar layout option issue.
+
+== 1.2.3 : 2020-08-12 ==
+-Fix: Meta box value while saving option value.
+
+== 1.2.2 : 2020-08-11 ==
+-New: Submenu dynamic hover color added on focus.
+-Fix: Submenu hove and focus bug fixed.
+
+== 1.2.1 : 2020-08-10 ==
+-New: Dark mode style.
+-Fix: Prefix for function and global variables.
+-Imp: Theme demo's library class.
+-Imp: Unused css and commented code.
+-Imp: Screenshot image url updated and changed.
+	
+== 1.2.0 : 2020-05-21 ==
+-New: Theme settings page added replacing old welcome page.
+-New: Two languages .po and .mo files.
+-New: Useful links at the theme settings page.
+-Imp: Welcome page to the settings page.
+
+== 1.1.19 : 2019-12-19 ==
+-Fix: Bugs while using wp_kses_post by adding required HTML attributes.
+ Design tweak on archive pages.
+
+== 1.1.18 : 2019-12-17 ==
+-New: Added theme review link.
+-Imp Updated .pot file.
+-Fix: Bugs at multi checkbox inside carousel widget.
+-Fix: Escaping issue at template:tags.php file.
+
+== 1.1.17 : 2019-12-16 ==
+-Fix: Bugs at multi checkbox inside widgets.
+	
+== 1.1.16 : 2019-11-07 ==
+-New: Added some social icons with limited repeater field.
+-New: Added `wp_body_open()` function at body.
+
+== 1.1.15 : 2019-08-01  ==
+-Fix: Skip links.
+-Fix: Some functions at the welcome section.
+-FixL Removed primary menu sticky from 600px width devices.
+
+== 1.1.14 : 2019-03-02 ==
+-Fix: Bugs for layout selector in the widget.
+
+== 1.1.13 : 2019-03-01 ==
+-Imp: Changed design for the theme activated message.
+-Fix: Bugs for layout selector in the widget.
+	
+== 1.1.12 : 2018-12-27 ==
+-Fix: Bugs in the customizer class file.
+
+== 1.1.11 : 2018-12-11 ==
+-Fix: Widget selector js.
+-Fix: Archive read more button by creating a new function.
+
+== 1.1.10 : 2018-11-13 ==
+-New: Added function to support WooCommerce Template.
+-Fix: Bugs at related posts section while WooCommerce plugin is activated.
+	
+== 1.1.9 : 2018-10-01 ==
+-Fix: Dynamic categories color field id.
+-Fix: Some spell in different files.
+
+== 1.1.8 : 2018-08-28 ==
+-Imp: Managed the theme tags.
+-Imp: Managed the function of register widgets.
+Some tweaks on CSS and functions code.
+
+== 1.1.7 : 2018-07-23 ==
+-New: Recommended useful plugins via TGM.
+-Fix: Some responsive bugs.
+
+== 1.1.6 : 2018-06-18 ==
+-Fix: Bugs at multi checkbox in widgets.
+
+== 1.1.5 : 2018-05-16 ==
+-Imp: Managed slider speed for main slider, ticker & carousel slider.
+-Fix: Some responsive bugs.
+Some design tweaks are done.
+
+== 1.1.4 : 2018-04-21 ==
+-Fix: Top and footer menu design tweaks.
+-Fix: Site title.
+	
+== 1.1.3 : 2018-03-15 ==
+-Imp: Design changes for content & search pages done.
+-Fix: Some escaping variables.
+
+== 1.1.2 : 2018-02-16 ==
+-New: Make Theme Support With RTL Language.
+
+== 1.1.1 : 2018-01-11 ==
+-New: Added theme about page.
+-Fix: Escape variable using in query args.
+
+== 1.1.0 : 2018-01-06 ==
+-Imp: Removed footer nav button.
+-Fix: Counting of categories lists in widgets section at the homepage.
+
+== 1.0.9 : 2017-12-09 ==
+-Fix: Bugs at the footer widget area section.
+	
+== 1.0.8 : 2017-11-11 ==
+-New: Added sidebar meta box for each post and pages.
+
+== 1.0.7 : 2017-11-04 ==
+-Fix: Bugs at carousel slider.
+-Fix: Minor CSS fix at the featured slider in responsive.
+
+== 1.0.6 : 2017-10-29 ==
+-New: Managed premium theme link using the customizer section.
+
+== 1.0.5 : 2017-10-27 ==
+-New: Link about Pro theme in the customizer.
+
+== 1.0.4 : 2017-10-17 ==
+-Imp: Screenshot Changed.
+-Imp: Theme Prefix Changed.
+
+== 1.0.3 : 2017-10-13 ==
+-Imp: Screenshot Changed.
+-Imp: Images license url changed on readme.txt.
+-Fix: wp_reset_query to wp_reset:postdata.
+-Fix: Removed comment code in content.php.
+	
+== 1.0.2 : 2017-09-18 ==
+-New: Featured section the slider widget.
+-Imp: Changed widget name "NP: FullWidth Posts" to "NP: Carousel".
+-Imp: Changed the limited skin color to unlimited.
+-Fix: Some minor issues.
+-Fix: Clearfix classes.
+
+== 1.0.1 : 2017-08-03 ==
+-New: Selective refresh function in several options.
+-Imp  Updated .pot file.
+-Imp: Removed unwanted files and folders.
+-Fix: Several issues about escaping.
+
+== 1.0.0 : 2017-07-11 ==
+-New: Initial release.

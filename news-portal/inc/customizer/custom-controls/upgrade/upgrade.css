@@ -1,0 +1,109 @@
+/**
+ * Custom Style for Upgrade Control
+ *
+ * @package Mystery Themes
+ * @subpackage News Portal
+ * @since 1.5.0
+ */
+
+.customize-control-mt-upgrade {
+	background: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.customize-control-title.upgrade-title i {
+	vertical-align: middle;
+	margin-right: 5px;
+	font-size: 18px;
+}
+
+.upgrade-description {
+	margin: 5px 0 10px;
+}
+
+.mt-upgrade-btn {
+	background: #2271b1;
+	color: #fff;
+	padding: 7px 10px;
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 3px;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+
+.mt-upgrade-btn:hover {
+	background: #135E96;
+	color: #fff;
+}
+
+.mt-upgrade-pro-wrapper .upgrade-title-wrap {
+	color: #414141;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+.mt-upgrade-pro-wrapper .upgrade-title-wrap::before {
+	content: "\f14c";
+	font-family: dashicons;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+
+.mt-upgrade-pro-wrapper .upgrade-item::before {
+	content: "\f147";
+	font-family: dashicons;
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: bottom;
+	margin-right: 5px;
+}
+
+.mt-upgrade-pro-wrapper .upgrade-list-item {
+	margin: 15px 0 15px;
+}
+
+.mt-upgrade-btn {
+	margin: 0;
+	background: #4abbd5;
+	color: #fff;
+	border-color: #4abbd5;
+	padding: 10px 15px;
+	display: inline-block;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 600;
+	border-radius: 3px;
+}
+
+.mt-upgrade-btn:hover {
+	background: #38aac4;
+	color: #fff;
+	border-color: #38aac4;
+}
+
+.upgrade-item {
+  position: relative;
+}
+
+.upgrade-item .hover-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.upgrade-item .hover-img img {
+ display: none;
+}
+
+.upgrade-item .hover-img img {
+  background: #FFFFFF;
+  position: absolute;
+  padding: 10px 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  z-index: 99;
+  left: 0;
+  top: 120%;
+}

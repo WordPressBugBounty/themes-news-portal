@@ -1,0 +1,1742 @@
+# Translation of Themes - News Portal in Dutch
+# This file is distributed under the same license as the Themes - News Portal package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-01-04 19:46:15+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - News Portal\n"
+
+#. Description of the theme
+#: style.css
+#, gp-priority: high
+msgid "News Portal is the free ultimate magazine theme with creative design and powerful features that allow you to quickly and easily create a newspaper & blog style website to suit your needs. It is completely built on Customizer which allows you to customize most of the theme settings easily with live previews. It is the fully widgetized theme so as to let users manage the website using the easy to use widgets. You can import the whole beautiful demo in just one click. News Portal Theme is the best choice to create a Beautiful & Powerful News/magazine/blog websites with ease.Check the demo at https://demo.mysterythemes.com/news-portal-demos/"
+msgstr "News Portal is het gratis ultieme tijdschrift thema met een creatief ontwerp en krachtige functies waarmee je snel en eenvoudig een site in de stijl van een kranten & blog kunt maken die past bij je behoeften. Het is volledig gebouwd op customizer waarmee je de meeste instellingen van het thema eenvoudig kunt aanpassen met live voorbeelden. Het is een volledig widget thema zodat gebruikers de site kunnen beheren met behulp van eenvoudig te gebruiken widgets. Je kunt de hele prachtige demo importeren met slechts één klik. News Portal thema is de beste keuze om met gemak een mooie & krachtig nieuws/tijdschrift/blog sites te maken. Bekijk de demo op https://demo.mysterythemes.com/news-portal-demos/"
+
+#. Theme Name of the theme
+#: style.css functions.php:89 inc/theme-settings/mt-theme-settings.php:499
+#, gp-priority: high
+msgid "News Portal"
+msgstr "News Portal"
+
+#: inc/customizer/sections/general/site-style.php:96
+msgid "Enable Dark Mode Skin"
+msgstr "Donkere modus skin inschakelen"
+
+#: inc/customizer/sections/general/site-style.php:47
+msgid "Site Style"
+msgstr "Site stijl"
+
+#: inc/customizer/sections/general/colors.php:90
+msgid "Primary Theme Color"
+msgstr "Primaire themakleur"
+
+#: inc/customizer/sections/general/colors.php:66
+msgid "Base Colors"
+msgstr "Basiskleuren"
+
+#: inc/customizer/sections/general/colors.php:47
+msgid "Colors"
+msgstr "Kleuren"
+
+#: inc/customizer/np-customizer-helper.php:33
+msgid "Boxed"
+msgstr "Boxed"
+
+#: inc/customizer/np-customizer-helper.php:29
+msgid "Full Width"
+msgstr "Volledige breedte"
+
+#: inc/customizer/extend-customizer/class-customize-section.php:59
+msgid "Customizing"
+msgstr "Aan het aanpassen"
+
+#: inc/customizer/extend-customizer/class-customize-section.php:57
+msgid "Customizing &#9656; %s"
+msgstr "Aan het aanpassen &#9656; %s"
+
+#: inc/customizer/customizer.php:29
+msgid "Background"
+msgstr "Achtergrond"
+
+#: inc/customizer/np-additional-panel.php:264
+msgid "Enable/Disable sticky sidebar for frontpage sidebar"
+msgstr "In-/uitschakelen van sticky zijbalk voor de zijbalk van de voorpagina"
+
+#: inc/customizer/np-additional-panel.php:263
+msgid "Frontpage Sticky"
+msgstr "Voorpagina sticky"
+
+#: inc/customizer/np-general-panel.php:162
+msgid "Enable/disable Block-based Widgets Editor(since WordPress 5.8)."
+msgstr "In-/uitschakelen van de editor voor blokgebaseerde widgets (sinds WordPress 5.8)."
+
+#: inc/customizer/np-general-panel.php:161
+msgid "Block Widget Editor Option"
+msgstr "Optie voor blok widget editor"
+
+#: inc/customizer/np-additional-panel.php:235
+msgid "Enable/Disable sticky sidebar for innperpages like( archive, single, search ) pages."
+msgstr "In-/uitschakelen van sticky zijbalk voor binnenpagina's zoals (archief, enkele, zoek) pagina's."
+
+#: inc/customizer/np-additional-panel.php:234
+msgid "Innerpage Sticky"
+msgstr "Binnenpagina sticky"
+
+#: inc/customizer/np-additional-panel.php:211
+msgid "Sidebar Sticky Settings"
+msgstr "Zijbalk sticky instellingen"
+
+#: inc/customizer/np-general-panel.php:229
+msgid "Show/Hide option to display content of the pages that uses home page template."
+msgstr "Toon/verberg optie om inhoud van de pagina's weer te geven die de homepage template gebruiken."
+
+#: inc/customizer/np-general-panel.php:228
+msgid "Home Page Template"
+msgstr "Homepage template"
+
+#: inc/customizer/np-general-panel.php:205
+msgid "Manage the settings for available templates."
+msgstr "Beheer de instellingen voor beschikbare templates."
+
+#: inc/customizer/np-general-panel.php:204
+msgid "Template Settings"
+msgstr "Template instellingen"
+
+#: inc/tgm/np-recommended-plugins.php:77
+msgid "WP Magazine Modules Lite"
+msgstr "WP Magazine Modules Lite"
+
+#: inc/customizer/sections/general/site-style.php:97
+msgid "Enable/Disable option for site dark mode skin."
+msgstr "In-/uitschakelen optie voor donkere modus skin."
+
+#: inc/tgm/np-recommended-plugins.php:70
+msgid "WP Blog Post Layouts"
+msgstr "Wp blog bericht lay-outs"
+
+#: inc/theme-settings/mt-theme-settings.php:894
+msgid "Plugin installed successfully"
+msgstr "Plugin succesvol geïnstalleerd"
+
+#: inc/theme-settings/mt-theme-settings.php:876
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Kan geen verbinding maken met het bestandssysteem. Bevestig je referenties."
+
+#: inc/theme-settings/mt-theme-settings.php:831
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr "Je hebt geen toestemming om plugins op deze site installeren."
+
+#: inc/theme-settings/mt-theme-settings.php:813
+msgid "Plugin Successfully Activated."
+msgstr "Plugin is succesvol geactiveerd."
+
+#: inc/theme-settings/mt-theme-settings.php:779
+msgid "Activate Now"
+msgstr "Activeer nu"
+
+#: inc/theme-settings/mt-theme-settings.php:778
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: inc/theme-settings/mt-theme-settings.php:778
+msgid "Activating"
+msgstr "Aan het activeren"
+
+#: inc/theme-settings/mt-theme-settings.php:777
+msgid "Mystery Themes Demo Importer Plugin is installed but not activated!"
+msgstr "Mystery Themes Demo Importer plugin is geïnstalleerd maar niet geactiveerd!"
+
+#: inc/theme-settings/mt-theme-settings.php:772
+msgid "Install and Activate"
+msgstr "Installeren en activeren"
+
+#: inc/theme-settings/mt-theme-settings.php:771
+msgid "Installed & Activated"
+msgstr "Geïnstalleerd & geactiveerd"
+
+#: inc/theme-settings/mt-theme-settings.php:771
+msgid "Installing & Activating"
+msgstr "Installeren & activeren"
+
+#: inc/theme-settings/mt-theme-settings.php:770
+msgid "Mystery Themes Demo Importer Plugin is not installed!"
+msgstr "De Mystery Themes Demo Importer plugin is niet geïnstalleerd!"
+
+#: inc/theme-settings/mt-theme-settings.php:766
+msgid "You can import available demos now!"
+msgstr "Je kunt nu beschikbare demo's importeren!"
+
+#: inc/theme-settings/mt-theme-settings.php:507
+msgid "$59.99"
+msgstr "$59.99"
+
+#: inc/theme-settings/mt-theme-settings.php:401
+msgid "Import"
+msgstr "Import"
+
+#: inc/theme-settings/mt-theme-settings.php:400
+msgid "Import %1$s"
+msgstr "Importeer %1$s"
+
+#: inc/theme-settings/mt-theme-settings.php:397
+msgid "Demo importer plugin is not installed or activated"
+msgstr "Demo importeur plugin is niet geïnstalleerd of ingeschakeld"
+
+#: inc/theme-settings/mt-theme-settings.php:395
+msgid "Click to import demo"
+msgstr "Klik om demo te importeren"
+
+#: inc/theme-settings/mt-theme-settings.php:390
+msgid "Buy Now"
+msgstr "Koop nu"
+
+#: inc/theme-settings/mt-theme-settings.php:389
+msgid "Purchase Now"
+msgstr "Koop nu"
+
+#: inc/theme-settings/mt-theme-settings.php:381
+msgid "Imported"
+msgstr "Geïmporteerd"
+
+#: inc/theme-settings/mt-theme-settings.php:380
+msgid "Imported %1$s"
+msgstr "Geïmporteerd %1$s"
+
+#: inc/theme-settings/mt-theme-settings.php:353
+msgid "No demos are configured for this theme, please contact the theme author"
+msgstr "Er zijn geen demo's geconfigureerd voor dit thema, neem contact op met de auteur van het thema"
+
+#: inc/theme-settings/mt-theme-settings.php:295
+msgid "Review theme"
+msgstr "Beoordeel het thema"
+
+#: inc/theme-settings/mt-theme-settings.php:292
+msgid "Need theme support?"
+msgstr "Hulp nodig bij het thema?"
+
+#: inc/theme-settings/mt-theme-settings.php:289
+msgid "Premium version"
+msgstr "Premium versie"
+
+#: inc/theme-settings/mt-theme-settings.php:283
+msgid "More Actions"
+msgstr "Meer acties"
+
+#: inc/theme-settings/mt-theme-settings.php:277
+msgid "Manage widgets"
+msgstr "Beheer widgets"
+
+#: inc/theme-settings/mt-theme-settings.php:274
+msgid "Manage menus"
+msgstr "Beheer menu's"
+
+#: inc/theme-settings/mt-theme-settings.php:271
+msgid "Manage Social Icons"
+msgstr "Sociale pictogrammen beheren"
+
+#: inc/theme-settings/mt-theme-settings.php:268
+msgid "Single Post Layout"
+msgstr "Enkelvoudig bericht lay-out"
+
+#: inc/theme-settings/mt-theme-settings.php:265
+msgid "Manage header section"
+msgstr "Beheer header sectie"
+
+#: inc/theme-settings/mt-theme-settings.php:262
+msgid "Set up your homepage"
+msgstr "Je homepage instellen"
+
+#: inc/theme-settings/mt-theme-settings.php:259
+msgid "Next Steps"
+msgstr "Vervolgstappen"
+
+#: inc/theme-settings/mt-theme-settings.php:256
+msgid "Here are some usefull links for you to get started"
+msgstr "Hier zijn enkele nuttige links voor je om te beginnen"
+
+#: inc/theme-settings/mt-theme-settings.php:209
+msgid "Demos"
+msgstr "Demo's"
+
+#: inc/theme-settings/mt-theme-settings.php:205
+msgid "Get Started"
+msgstr "Aan de slag"
+
+#: inc/theme-settings/mt-theme-settings.php:198
+msgid "Unlock Features With Pro"
+msgstr "Functies ontgrendelen met Pro"
+
+#: inc/theme-settings/mt-theme-settings.php:196
+msgid "Upgrade to pro version for additional features and better supports."
+msgstr "Upgrade naar Pro versie voor extra functies en betere ondersteuning."
+
+#: inc/theme-settings/mt-theme-settings.php:195
+msgid "Upgrade to Premium Version"
+msgstr "Upgrade naar Premium versie"
+
+#: inc/theme-settings/mt-theme-settings.php:163
+msgid "Processing"
+msgstr "Aan het verwerken"
+
+#: inc/theme-settings/mt-theme-settings.php:163
+msgid "Done!"
+msgstr "Klaar!"
+
+#: inc/theme-settings/mt-theme-settings.php:160
+msgid "Clicking get started will process to installation of %1$s Mystery Themes Demo Importer %2$s Plugin in your dashboard. After success it will redirect to the theme settings page."
+msgstr "Door op 'Aan de slag' te klikken, zal de installatie van de %1$s Mystery Themes Demo Importer %2$s plugin in je dashboard worden verwerkt. Na succesvolle installatie word je omgeleid naar de thema instellingen pagina."
+
+#: inc/theme-settings/mt-theme-settings.php:43
+msgid "Settings"
+msgstr "﻿Instellingen"
+
+#: inc/customizer/customizer.php:114
+#: inc/theme-settings/mt-theme-settings.php:298
+msgid "WP Tutorials"
+msgstr "WP handleidingen"
+
+#: inc/theme-settings/mt-theme-settings.php:662
+msgid "I already did"
+msgstr "Heb ik al gedaan"
+
+#: inc/theme-settings/mt-theme-settings.php:657
+msgid "Maybe later"
+msgstr "Misschien later"
+
+#: inc/theme-settings/mt-theme-settings.php:652
+msgid "Sure"
+msgstr "Zeker"
+
+#: inc/theme-settings/mt-theme-settings.php:641
+msgid "Howdy, %1$s! It seems that you have been using this theme for more than 15 days. We hope you are happy with everything that the theme has to offer. If you can spare a minute, please help us by leaving a 5-star review on WordPress.org.  By spreading the love, we can continue to develop new amazing features in the future, for free!"
+msgstr "Hallo, %1$s! Het lijkt erop dat je dit thema al meer dan 15 dagen gebruikt. We hopen dat je blij bent met alles wat het thema te bieden heeft. Als je even de tijd hebt, help ons dan door een 5 sterren beoordeling achter te laten op WordPress.org. Door de liefde te verspreiden, kunnen we in de toekomst gratis nieuwe geweldige functies blijven ontwikkelen!"
+
+#: inc/theme-settings/mt-theme-settings.php:748
+msgid "If you like <strong>%1$s</strong> please leave us a %2$s rating. A huge thank you from <strong>Mystery Themes</strong> in advance &#128515!"
+msgstr "Als je <strong>%1$s</strong> leuk vindt, laat ons dan een %2$s waardering achter. Bij voorbaat hartelijk dank van <strong>Mystery themes</strong> &#128515!"
+
+#: inc/theme-settings/mt-theme-settings.php:188
+msgid "Version: %1$s"
+msgstr "Versie: %1$s"
+
+#: inc/theme-settings/mt-theme-settings.php:153
+msgid "Dismiss this notice."
+msgstr "Negeer dit bericht."
+
+#: inc/theme-settings/mt-theme-settings.php:155
+msgid "Welcome to %s"
+msgstr "Welkom bij %s"
+
+#: header.php:43
+msgid "Skip to content"
+msgstr "Ga naar de inhoud"
+
+#: inc/theme-settings/mt-theme-settings.php:164
+msgid "Get started with %1$s"
+msgstr "Aan de slag met %1$s"
+
+#: inc/widgets/np-ads-banner.php:22
+msgid "NP: Banner Ads"
+msgstr "NP: banner advertenties"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location."
+msgstr "Het lijkt erop dat er niets is gevonden op deze locatie."
+
+#: inc/tgm/np-recommended-plugins.php:63
+msgid "Contact Form by WPForms – Drag & Drop Form Builder for WordPress"
+msgstr "Contactformulier door WPForms - Drag & Drop formulier bouwer voor WordPress"
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:364
+#: inc/tgm/np-recommended-plugins.php:134
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "De volgende aanbevolen plugin is momenteel inactief: %1$s."
+msgstr[1] "De volgende aanbevolen plugins zijn momenteel inactief: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:358
+#: inc/tgm/np-recommended-plugins.php:129
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "De volgende vereiste plugin is momenteel inactief: %1$s."
+msgstr[1] "De volgende vereiste plugins zijn momenteel inactief: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:352
+#: inc/tgm/np-recommended-plugins.php:124
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Er is een update beschikbaar voor: %1$s."
+msgstr[1] "Er zijn updates beschikbaar voor de volgende plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:346
+#: inc/tgm/np-recommended-plugins.php:119
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "De volgende plugin moet worden geüpdatet naar de nieuwste versie om maximale compatibiliteit met dit thema te garanderen: %1$s."
+msgstr[1] "De volgende plugins moeten worden geüpdatet naar hun nieuwste versie om maximale compatibiliteit met dit thema te garanderen: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/tgm/class-tgm-plugin-activation.php:340
+#: inc/tgm/np-recommended-plugins.php:114
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Dit thema beveelt de volgende plugin aan: %1$s."
+msgstr[1] "Dit thema beveelt de volgende plugins aan: %1$s."
+
+#. translators: 1: plugin name(s).
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:334
+#: inc/tgm/np-recommended-plugins.php:109
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Dit thema vereist de volgende plugin: %1$s."
+msgstr[1] "Dit thema vereist de volgende plugins: %1$s."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s (%2$d/%3$d) installeren"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Alle installaties zijn afgerond."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s is succesvol geïnstalleerd."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Het installatieproces begint. Dit proces kan een tijdje duren op sommige hosts, dus wees geduldig."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installeren en activeren van plugin %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Alle installaties en activeringen zijn afgerond."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Verberg details"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Toon details"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s geïnstalleerd en met succes geactiveerd."
+
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Het installatie- en activeringsproces is begonnen. Dit proces kan een tijdje duren afhankelijk van je webhost, een moment geduld."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "De installatie van %1$s is mislukt."
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/tgm/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Er is een fout opgetreden tijdens het installeren van %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/tgm/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Plugin %1$s (%2$d/%3$d) updaten"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Activering van de plugin mislukt."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "Er zijn op dit moment geen plugins beschikbaar om te activeren."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Er werden geen plugins geselecteerd om geactiveerd te worden. Geen actie ondernomen."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "Er zijn op dit moment geen plugins beschikbaar om te worden geüpdatet."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "Er zijn op dit moment geen plugins beschikbaar om te installeren."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Er zijn geen plugins geselecteerd om te worden geüpdatet. Geen actie ondernomen."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Er werden geen plugins geselecteerd om te worden geïnstalleerd. Geen actie ondernomen."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Update"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Installeer"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade bericht van de plugin auteur:"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Activeer %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Update %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Installeer %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Status"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versie"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Type"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Bron"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "Geen plugins te installeren, te updaten of te activeren."
+
+#: inc/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Beschikbare versie:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Minimaal vereiste versie:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Geïnstalleerde versie:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "onbekend"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Om er <span class=\"count\">(%s)</span> te activeren"
+msgstr[1] "Om er <span class=\"count\">(%s)</span> te activeren"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Update beschikbaar <span class=\"count\">(%s)</span>"
+msgstr[1] "Update beschikbaar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Om er <span class=\"count\">(%s)</span> te installeren"
+msgstr[1] "Om er <span class=\"count\">(%s)</span> te installeren"
+
+#. translators: 1: number of plugins.
+#: inc/tgm/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Alle <span class=\"count\">(%s)</span>"
+msgstr[1] "Alle <span class=\"count\">(%s)</span>"
+
+#. translators: 1: install status, 2: update status
+#: inc/tgm/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Update aanbevolen"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Vereist update"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Vereiste update niet beschikbaar"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Geïnstalleerd maar niet geactiveerd"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "Niet geïnstalleerd"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Externe bron"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress repository"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Aanbevolen"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Vereist"
+
+#. translators: %s: version number
+#: inc/tgm/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1121
+#: inc/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "en"
+
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Het remote plugin pakket bestaat uit meer dan één bestand, maar de bestanden zijn niet verpakt in een map."
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Neem contact op met de plugin provider en vraag hen om hun plugin te verpakken volgens de WordPress richtlijnen."
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Het remote plugin pakket bevat geen map met de gewenste slug en het hernoemen werkte niet."
+
+#: inc/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Update vereist"
+
+#: inc/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Deze plugin moet worden geüpdatet om compatibel te zijn met je thema."
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+#: inc/tgm/np-recommended-plugins.php:162
+msgid "Please contact the administrator of this site for help."
+msgstr "Neem voor hulp contact op met de beheerder van deze site."
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+#: inc/tgm/np-recommended-plugins.php:161
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Er zijn een of meer vereiste of aanbevolen plugins om te installeren, te updaten of te activeren."
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+#: inc/tgm/np-recommended-plugins.php:160
+msgid "Dismiss this notice"
+msgstr "Negeer dit bericht"
+
+#. translators: 1: dashboard link.
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#: inc/tgm/np-recommended-plugins.php:159
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle plugins geïnstalleerd en met succes geactiveerd. %1$s"
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#: inc/tgm/np-recommended-plugins.php:158
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Plugin niet geactiveerd. Voor dit thema is een hogere versie van %s nodig. Update de plugin."
+
+#. translators: 1: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:390
+#: inc/tgm/np-recommended-plugins.php:157
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Geen actie ondernomen. Plugin %1$s was al actief."
+
+#: inc/tgm/class-tgm-plugin-activation.php:388
+#: inc/tgm/class-tgm-plugin-activation.php:2952
+#: inc/tgm/np-recommended-plugins.php:156
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "De volgende plugin is succesvol geactiveerd:"
+msgstr[1] "De volgende plugins zijn succesvol geactiveerd:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:387
+#: inc/tgm/class-tgm-plugin-activation.php:3159
+#: inc/tgm/np-recommended-plugins.php:155
+msgid "Plugin activated successfully."
+msgstr "Plugin succesvol geactiveerd."
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+#: inc/tgm/class-tgm-plugin-activation.php:827
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+#: inc/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Terug naar het dashboard"
+
+#: inc/tgm/class-tgm-plugin-activation.php:385
+#: inc/tgm/np-recommended-plugins.php:154
+msgid "Return to Required Plugins Installer"
+msgstr "Terug naar vereiste plugins installer"
+
+#: inc/tgm/class-tgm-plugin-activation.php:380
+#: inc/tgm/np-recommended-plugins.php:149
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Begin met het activeren van de plugin"
+msgstr[1] "Begin met het activeren van de plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:375
+#: inc/tgm/np-recommended-plugins.php:144
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Beginnen met updaten van de plugin"
+msgstr[1] "Begin met het updaten van de plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:370
+#: inc/tgm/np-recommended-plugins.php:139
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Begin met het installeren van de plugin"
+msgstr[1] "Begin met het installeren van de plugins"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:333
+#: inc/tgm/np-recommended-plugins.php:108
+msgid "Something went wrong with the plugin API."
+msgstr "Er ging iets mis met de plugin API."
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:332
+#: inc/tgm/np-recommended-plugins.php:107
+msgid "Updating Plugin: %s"
+msgstr "Updaten plugin: %s"
+
+#. translators: %s: plugin name.
+#: inc/tgm/class-tgm-plugin-activation.php:330
+#: inc/tgm/np-recommended-plugins.php:106
+msgid "Installing Plugin: %s"
+msgstr "Installeren plugin: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+#: inc/tgm/np-recommended-plugins.php:105
+msgid "Install Plugins"
+msgstr "Installeer plugins"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+#: inc/tgm/np-recommended-plugins.php:104
+msgid "Install Required Plugins"
+msgstr "Installeer vereiste plugins"
+
+#: inc/theme-settings/mt-theme-settings.php:580
+msgid "Bottom Footer Layouts"
+msgstr "Lay-outs voor de onderste footer"
+
+#: inc/theme-settings/mt-theme-settings.php:575
+msgid "Animation on Section"
+msgstr "Animatie op sectie"
+
+#: inc/theme-settings/mt-theme-settings.php:570
+msgid "Custom 404 Page"
+msgstr "Aangepaste 404 pagina"
+
+#: inc/theme-settings/mt-theme-settings.php:567
+msgid "12"
+msgstr "12"
+
+#: inc/theme-settings/mt-theme-settings.php:566
+msgid "8"
+msgstr "8"
+
+#: inc/theme-settings/mt-theme-settings.php:565
+msgid "No. of Widgets"
+msgstr "Aantal widgets"
+
+#: inc/theme-settings/mt-theme-settings.php:560
+msgid "WooCommerce Compatible"
+msgstr "WooCommerce compatibel"
+
+#: inc/theme-settings/mt-theme-settings.php:555
+msgid "Typography Options"
+msgstr "Typografie opties"
+
+#: inc/theme-settings/mt-theme-settings.php:552
+msgid "600+"
+msgstr "600+"
+
+#: inc/theme-settings/mt-theme-settings.php:550
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: inc/theme-settings/mt-theme-settings.php:545
+msgid "Fallback Image"
+msgstr "Fallback afbeelding"
+
+#: inc/theme-settings/mt-theme-settings.php:540
+msgid "Image Hover Features"
+msgstr "Afbeelding hoveren functies"
+
+#: inc/theme-settings/mt-theme-settings.php:535
+msgid "Breadcrumbs"
+msgstr "Kruimelpaden"
+
+#: inc/theme-settings/mt-theme-settings.php:582
+msgid "2"
+msgstr "2"
+
+#: inc/theme-settings/mt-theme-settings.php:530
+msgid "Post Review"
+msgstr "Beoordeling plaatsen"
+
+#: inc/theme-settings/mt-theme-settings.php:525
+msgid "Single Page Layouts"
+msgstr "Enkelvoudige pagina lay-outs"
+
+#: inc/theme-settings/mt-theme-settings.php:522
+#: inc/theme-settings/mt-theme-settings.php:527
+msgid "4"
+msgstr "4"
+
+#: inc/theme-settings/mt-theme-settings.php:520
+msgid "Archive Pages Layouts"
+msgstr "Lay-outs archiefpagina's"
+
+#: inc/theme-settings/mt-theme-settings.php:517
+#: inc/theme-settings/mt-theme-settings.php:551
+msgid "3"
+msgstr "3"
+
+#: inc/theme-settings/mt-theme-settings.php:516
+#: inc/theme-settings/mt-theme-settings.php:521
+#: inc/theme-settings/mt-theme-settings.php:526
+#: inc/theme-settings/mt-theme-settings.php:581
+msgid "1"
+msgstr "1"
+
+#: inc/theme-settings/mt-theme-settings.php:515
+msgid "Header Layouts"
+msgstr "Header lay-outs"
+
+#: inc/theme-settings/mt-theme-settings.php:510
+msgid "Pre Loaders"
+msgstr "Voorladers"
+
+#: inc/theme-settings/mt-theme-settings.php:506
+msgid "Free"
+msgstr "Gratis"
+
+#: inc/theme-settings/mt-theme-settings.php:505
+msgid "Price"
+msgstr "Prijs"
+
+#: inc/theme-settings/mt-theme-settings.php:498
+msgid "Features"
+msgstr "Functies"
+
+#: inc/theme-settings/mt-theme-settings.php:441
+msgid "View changelog below:"
+msgstr "Bekijk de wijzigingslog hieronder:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activeer"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Actief"
+
+#: inc/theme-settings/mt-theme-settings.php:311
+msgid "Go to Dashboard"
+msgstr "Ga naar het dashboard"
+
+#: inc/theme-settings/mt-theme-settings.php:311
+msgid "Go to Dashboard &rarr; Home"
+msgstr "Ga naar Dashboard &rarr; Home"
+
+#: inc/theme-settings/mt-theme-settings.php:308
+msgid "Return to Dashboard &rarr; Updates"
+msgstr "Terugkeren naar het Dashboard &rarr; Updates"
+
+#: inc/theme-settings/mt-theme-settings.php:308
+msgid "Return to Updates"
+msgstr "Terug naar updates"
+
+#: inc/theme-settings/mt-theme-settings.php:494
+msgid "Upgrade to PRO version for more exciting features."
+msgstr "Upgrade naar de PRO versie voor nog meer spannende functies."
+
+#: inc/theme-settings/mt-theme-settings.php:667
+msgid "Got theme support question?"
+msgstr "Heb je een vraag over thema ondersteuning?"
+
+#: inc/theme-settings/mt-theme-settings.php:217
+msgid "Changelog"
+msgstr "Wijzigingslog"
+
+#: inc/theme-settings/mt-theme-settings.php:213
+msgid "Free Vs Pro"
+msgstr "Gratis vs Pro"
+
+#: inc/theme-settings/mt-theme-settings.php:408
+msgid "View Demo"
+msgstr "Bekijk demo"
+
+#: inc/theme-settings/mt-theme-settings.php:157
+msgid "Welcome! Thank you for choosing %1$s ! To fully take advantage of the best our theme can offer please make sure you visit our %2$s theme settings page %3$s."
+msgstr "Hallo! Bedankt dat je %1$s hebt gekozen! Om optimaal gebruik te maken van alles wat ons thema te bieden heeft, zorg ervoor dat je onze %2$s thema instellingen pagina %3$s bezoekt."
+
+#: inc/theme-settings/mt-theme-settings.php:136
+msgid "Cheat in &#8217; huh?"
+msgstr "Valsspelen hè?"
+
+#: inc/theme-settings/mt-theme-settings.php:132
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Actie mislukt. Vernieuw de pagina en probeer het opnieuw."
+
+#: inc/customizer/customizer.php:134
+msgid "Please do rate our theme if you liked it %s"
+msgstr "Waardeer ons thema als je het leuk vond %s"
+
+#: inc/customizer/customizer.php:114
+msgid "Upgrade to Pro"
+msgstr "Upgrade naar pro"
+
+#: inc/customizer/customizer.php:114
+msgid "Like Us in Facebook"
+msgstr "Vind ons leuk op Facebook"
+
+#: inc/customizer/customizer.php:114
+msgid "Live Demos"
+msgstr "Live demo's"
+
+#: inc/customizer/customizer.php:114
+#: inc/theme-settings/mt-theme-settings.php:286
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: inc/customizer/customizer.php:94
+msgid "Important Theme Links"
+msgstr "Belangrijke thema links"
+
+#: inc/metaboxes/np-post-metabox.php:17
+msgid "Post Meta Options"
+msgstr "Bericht meta opties"
+
+#: inc/metaboxes/np-page-metabox.php:92 inc/metaboxes/np-post-metabox.php:94
+msgid "Select sidebar from available options which replaced sidebar layout from customizer settings."
+msgstr "Selecteer een zijbalk uit de beschikbare opties die de zijbalk lay-out van de customizer instellingen vervangt."
+
+#: inc/metaboxes/np-page-metabox.php:91 inc/metaboxes/np-post-metabox.php:93
+msgid "Available Sidebars"
+msgstr "Beschikbare zijbalken"
+
+#: inc/metaboxes/np-page-metabox.php:85 inc/metaboxes/np-post-metabox.php:87
+msgid "In this section we have lots of features which make your post unique and completely different."
+msgstr "In deze sectie hebben we veel functies die je bericht uniek en volledig anders maken."
+
+#: inc/metaboxes/np-page-metabox.php:83 inc/metaboxes/np-post-metabox.php:85
+msgid "About Metabox Options"
+msgstr "Over Metabox opties"
+
+#: inc/metaboxes/np-page-metabox.php:76 inc/metaboxes/np-post-metabox.php:78
+msgid "Sidebars"
+msgstr "Zijbalken"
+
+#: inc/metaboxes/np-page-metabox.php:75 inc/metaboxes/np-post-metabox.php:77
+msgid "Information"
+msgstr "Informatie"
+
+#: inc/metaboxes/np-page-metabox.php:55 inc/metaboxes/np-post-metabox.php:55
+msgid "No sidebar Content Centered"
+msgstr "Geen zijbalk inhoud gecentreerd"
+
+#: inc/metaboxes/np-page-metabox.php:49 inc/metaboxes/np-post-metabox.php:49
+msgid "No sidebar Full width"
+msgstr "Geen zijbalk volledige breedte"
+
+#: inc/metaboxes/np-page-metabox.php:43 inc/metaboxes/np-post-metabox.php:43
+msgid "Right sidebar"
+msgstr "Zijbalk rechts"
+
+#: inc/metaboxes/np-page-metabox.php:37 inc/metaboxes/np-post-metabox.php:37
+msgid "Left sidebar"
+msgstr "Zijbalk links"
+
+#: inc/metaboxes/np-page-metabox.php:31 inc/metaboxes/np-post-metabox.php:31
+msgid "Default Sidebar"
+msgstr "Standaard zijbalk"
+
+#: inc/metaboxes/np-page-metabox.php:17
+msgid "Page Meta Options"
+msgstr "Pagina meta opties"
+
+#: inc/customizer/customizer.php:80
+#: inc/theme-settings/mt-theme-settings.php:588
+msgid "Buy Pro"
+msgstr "Koop Pro"
+
+#: inc/customizer/customizer.php:79
+#: inc/theme-settings/mt-theme-settings.php:500
+msgid "News Portal Pro"
+msgstr "News Portal Pro"
+
+#. Template Name of the theme
+msgid "Home Page"
+msgstr "Homepage"
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:35
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Ga door met lezen van <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:46
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#: template-parts/content-none.php:46
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden wat je zoekt. Misschien kan zoeken helpen."
+
+#: template-parts/content-none.php:40
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Er kwam niets overeen met je zoektermen. Probeer het nog eens met wat andere keywords."
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:27
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Ga hier aan de slag</a>."
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#. translators: %s: search query.
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: inc/widgets/np-widget-functions.php:131
+msgid "Added widgets are display at Footer Widget Area."
+msgstr "Toegevoegde widgets worden weergegeven in het footer widget gebied."
+
+#: inc/widgets/np-widget-functions.php:129
+msgid "Footer %d"
+msgstr "Footer %d"
+
+#: inc/widgets/np-widget-functions.php:114
+msgid "Home Bottom Section"
+msgstr "Home onderste sectie"
+
+#: inc/widgets/np-widget-functions.php:99
+msgid "Home Middle Aside"
+msgstr "Home midden terzijde"
+
+#: inc/widgets/np-widget-functions.php:84
+msgid "Home Middle Section"
+msgstr "Home midden sectie"
+
+#: inc/widgets/np-widget-functions.php:69
+msgid "Home Top Section"
+msgstr "Home top sectie"
+
+#: inc/widgets/np-widget-functions.php:56
+msgid "Add banner widgets here."
+msgstr "Voeg hier banner widgets toe."
+
+#: inc/widgets/np-widget-functions.php:54
+msgid "Header Ads"
+msgstr "Header advertenties"
+
+#: inc/widgets/np-widget-functions.php:26
+#: inc/widgets/np-widget-functions.php:41
+#: inc/widgets/np-widget-functions.php:71
+#: inc/widgets/np-widget-functions.php:86
+#: inc/widgets/np-widget-functions.php:101
+#: inc/widgets/np-widget-functions.php:116
+msgid "Add widgets here."
+msgstr "Voeg hier widgets toe."
+
+#: inc/widgets/np-widget-functions.php:24
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: inc/widgets/np-widget-fields.php:201
+msgid "Select Image"
+msgstr "Selecteer afbeelding"
+
+#: inc/widgets/np-widget-fields.php:200
+msgid "Remove"
+msgstr "Verwijder"
+
+#: inc/widgets/np-widget-fields.php:193
+msgid "No image selected"
+msgstr "Geen afbeelding geselecteerd"
+
+#: inc/widgets/np-social-media.php:22
+msgid "NP: Social Media"
+msgstr "NP: sociale media"
+
+#: inc/widgets/np-social-media.php:20
+msgid "A widget shows the social media icons."
+msgstr "Een widget toont de pictogrammen van de sociale media."
+
+#: inc/widgets/np-recent-posts.php:41
+msgid "No. of Posts"
+msgstr "Aantal berichten"
+
+#: inc/widgets/np-recent-posts.php:35 inc/widgets/np-social-media.php:35
+msgid "Widget title"
+msgstr "Widget titel"
+
+#: inc/widgets/np-recent-posts.php:22
+msgid "NP: Recent Posts"
+msgstr "NP: recente berichten"
+
+#: inc/widgets/np-recent-posts.php:20
+msgid "A widget shows recent posts with thumbnail."
+msgstr "Een widget toont recente berichten met thumbnail."
+
+#: inc/widgets/np-featured-slider.php:41
+msgid "Featured Post Categories"
+msgstr "Uitgelichte bericht categorieën"
+
+#: inc/widgets/np-featured-slider.php:34
+msgid "Slider Categories"
+msgstr "Slider categorieën"
+
+#: inc/widgets/np-featured-slider.php:22
+msgid "NP: Featured Slider"
+msgstr "NP: uitgelichte slider"
+
+#: inc/widgets/np-featured-slider.php:20
+msgid "Displays posts from selected categories in the slider with the featured section."
+msgstr "Toont berichten van geselecteerde categorieën in de slider met de uitgelichte sectie."
+
+#: inc/widgets/np-featured-posts.php:22
+msgid "NP: Featured Posts"
+msgstr "NP: uitgelichte berichten"
+
+#: inc/widgets/np-featured-posts.php:20
+msgid "Displays featured posts from selected categories in different layouts."
+msgstr "Toont uitgelichte berichten van geselecteerde categorieën in verschillende lay-outs."
+
+#: inc/widgets/np-default-tabbed.php:117
+msgid "&nbsp;commented on"
+msgstr "&nbsp;gereageerd op"
+
+#: inc/widgets/np-default-tabbed.php:43 inc/widgets/np-default-tabbed.php:65
+msgid "Comments"
+msgstr "Reacties"
+
+#: inc/widgets/np-default-tabbed.php:42
+msgid "Comments Tab title"
+msgstr "Reacties tab titel"
+
+#: inc/widgets/np-default-tabbed.php:36 inc/widgets/np-default-tabbed.php:64
+msgid "Latest"
+msgstr "Nieuwste"
+
+#: inc/widgets/np-default-tabbed.php:35
+msgid "Latest Tab title"
+msgstr "Nieuwste tab titel"
+
+#: inc/widgets/np-default-tabbed.php:22
+msgid "NP: Default Tabbed"
+msgstr "NP: standaard met tabs"
+
+#: inc/widgets/np-default-tabbed.php:20
+msgid "A widget shows recent posts and comment in tabbed layout."
+msgstr "Een widget toont recente berichten en reactie in tab lay-out."
+
+#: inc/widgets/np-carousel.php:42 inc/widgets/np-featured-posts.php:42
+msgid "Block Categories"
+msgstr "Blok categorieën"
+
+#: inc/widgets/np-carousel.php:22
+msgid "NP: Carousel"
+msgstr "NP: carrousel"
+
+#: inc/widgets/np-carousel.php:20
+msgid "Displays posts from selected categories in carousel layouts."
+msgstr "Toont berichten van geselecteerde categorieën in carrousel lay-outs."
+
+#: inc/widgets/np-block-posts.php:52 inc/widgets/np-carousel.php:49
+msgid "Block Layouts"
+msgstr "Blok lay-outs"
+
+#: inc/widgets/np-block-posts.php:44
+msgid "Block Category"
+msgstr "Blok categorie"
+
+#: inc/widgets/np-block-posts.php:38 inc/widgets/np-carousel.php:36
+#: inc/widgets/np-featured-posts.php:36
+msgid "Enter your block title. (Optional - Leave blank to hide the title.)"
+msgstr "Voer de titel van je blok in. (Optioneel - Leeg laten om de titel te verbergen)"
+
+#: inc/widgets/np-block-posts.php:37 inc/widgets/np-carousel.php:35
+#: inc/widgets/np-featured-posts.php:35
+msgid "Block title"
+msgstr "Blok titel"
+
+#: inc/widgets/np-block-posts.php:22
+msgid "NP: Block Posts"
+msgstr "NP: berichten blokkeren"
+
+#: inc/widgets/np-block-posts.php:20
+msgid "Displays block posts from selected category in different layouts."
+msgstr "Toont geblokkeerde berichten van geselecteerde categorie in verschillende lay-outs."
+
+#: inc/widgets/np-ads-banner.php:59
+msgid "Rel attribute for link"
+msgstr "Rel attribuut voor link"
+
+#: inc/widgets/np-ads-banner.php:53
+msgid "Open in new tab"
+msgstr "Openen in nieuwe tab"
+
+#: inc/widgets/np-ads-banner.php:47
+msgid "Banner Link"
+msgstr "Banner link"
+
+#: inc/widgets/np-ads-banner.php:41
+msgid "Select banner image"
+msgstr "Selecteer banner afbeelding"
+
+#: inc/widgets/np-ads-banner.php:35
+msgid "Banner title"
+msgstr "Banner titel"
+
+#: inc/widgets/np-ads-banner.php:20
+msgid "You can place a banner as an advertisement with links."
+msgstr "Je kunt een banner plaatsen als advertentie met links."
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:97 template-parts/content-page.php:37
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Bewerk <span class=\"screen-reader-text\">%s</span>"
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:89
+msgid "Tagged %1$s"
+msgstr "Getagd %1$s"
+
+#. translators: %s: post title
+#: inc/template-tags.php:61
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Laat een reactie achter <span class=\"screen-reader-text\">op %s</span>"
+
+#: inc/template-functions.php:302
+msgid "Select Category"
+msgstr "Selecteer categorie"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Titillium Web, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/template-functions.php:148
+msgctxt "Titillium Web font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+#: inc/template-functions.php:140
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "on"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Roboto Condensed, translate this to 'off'. Do not translate into your own
+#. language.
+#: inc/template-functions.php:132
+msgctxt "Roboto Condensed font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: 1: Theme name, 2: Theme author.
+#: inc/hooks/np-footer-hooks.php:78
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s door %2$s."
+
+#: inc/customizer/np-header-panel.php:288
+msgid "Ticker Caption"
+msgstr "Ticker bijschrift"
+
+#: inc/customizer/np-header-panel.php:279 inc/hooks/np-header-hooks.php:315
+msgid "Breaking News"
+msgstr "Belangrijk nieuws"
+
+#: inc/customizer/np-header-panel.php:260
+msgid "Show/Hide option for news ticker section."
+msgstr "Toon/verberg optie voor nieuws ticker sectie."
+
+#: inc/customizer/np-header-panel.php:259
+msgid "Ticker Option"
+msgstr "Ticker optie"
+
+#: inc/customizer/np-header-panel.php:236
+msgid "Ticker Section"
+msgstr "Ticker sectie"
+
+#: inc/customizer/np-header-panel.php:218
+msgid "Show/Hide option for search icon at primary menu."
+msgstr "Toon/verberg de optie voor het zoekpictogram in het hoofdmenu."
+
+#: inc/customizer/np-header-panel.php:217
+msgid "Search Icon"
+msgstr "Zoek pictogram"
+
+#: inc/customizer/np-header-panel.php:189
+msgid "Show/Hide option for home icon at primary menu."
+msgstr "Toon/verberg optie voor home pictogram in primair menu."
+
+#: inc/customizer/np-header-panel.php:188
+msgid "Home Icon"
+msgstr "Home pictogram"
+
+#: inc/customizer/np-header-panel.php:160
+msgid "Enable/Disable option for sticky menu."
+msgstr "In-/uitschakelen optie voor sticky menu."
+
+#: inc/customizer/np-header-panel.php:159
+msgid "Sticky Menu"
+msgstr "Sticky menu"
+
+#: inc/customizer/np-header-panel.php:136
+msgid "Header Option"
+msgstr "Header optie"
+
+#: inc/customizer/np-header-panel.php:119
+msgid "Show/Hide option for social media icons at top header section."
+msgstr "Toon/verberg optie voor sociale media pictogrammen op top header sectie."
+
+#: inc/customizer/np-header-panel.php:90
+msgid "Show/Hide option for current date at top header section."
+msgstr "Toon/verberg de optie voor de huidige datum op top header sectie."
+
+#: inc/customizer/np-header-panel.php:89
+msgid "Current Date"
+msgstr "Huidige datum"
+
+#: inc/customizer/np-header-panel.php:61
+msgid "Show/Hide option for top header section."
+msgstr "Toon/verberg optie voor top header sectie."
+
+#: inc/customizer/np-header-panel.php:37 inc/customizer/np-header-panel.php:60
+msgid "Top Header Section"
+msgstr "Bovenste header sectie"
+
+#: inc/customizer/np-header-panel.php:25
+msgid "Header Settings"
+msgstr "Header instellingen"
+
+#: inc/customizer/np-general-panel.php:189
+msgid "Display Site Title and Tagline"
+msgstr "Sitetitel en slogan weergeven"
+
+#: inc/customizer/np-general-panel.php:110
+msgid "FullWidth Layout"
+msgstr "Lay-out volle breedte"
+
+#: inc/customizer/np-general-panel.php:107
+#: inc/customizer/sections/general/site-style.php:71
+msgid "Site Layout"
+msgstr "Site lay-out"
+
+#: inc/customizer/np-general-panel.php:89
+msgid "Choose a site to display your website more effectively."
+msgstr "Kies een site om je site beter weer te geven."
+
+#: inc/customizer/np-general-panel.php:88
+msgid "Website Layout"
+msgstr "Site lay-out"
+
+#: inc/customizer/np-general-panel.php:72
+#: inc/customizer/sections/general/colors.php:114
+msgid "Header Text Color"
+msgstr "Header tekstkleur"
+
+#: inc/customizer/np-register-panels-sections.php:46
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: inc/customizer/np-footer-panel.php:147
+msgid "Copyright Text"
+msgstr "Copyright tekst"
+
+#: inc/customizer/np-footer-panel.php:124
+msgid "Bottom Section"
+msgstr "Onderste sectie"
+
+#: inc/customizer/np-footer-panel.php:106
+msgid "Column One"
+msgstr "Kolom één"
+
+#: inc/customizer/np-footer-panel.php:102
+msgid "Columns Two"
+msgstr "Kolommen twee"
+
+#: inc/customizer/np-footer-panel.php:98
+msgid "Columns Three"
+msgstr "Kolommen drie"
+
+#: inc/customizer/np-footer-panel.php:94
+msgid "Columns Four"
+msgstr "Kolommen vier"
+
+#: inc/customizer/np-footer-panel.php:89
+msgid "Footer Widget Layout"
+msgstr "Widget lay-out footer"
+
+#: inc/customizer/np-footer-panel.php:62
+msgid "Show/Hide option for footer widget area section."
+msgstr "Toon/verberg optie voor footer widget sectie."
+
+#: inc/customizer/np-footer-panel.php:61
+msgid "Footer Widget Section"
+msgstr "Footer widget sectie"
+
+#: inc/customizer/np-footer-panel.php:38
+msgid "Widget Area"
+msgstr "Widget gebied"
+
+#: inc/customizer/np-footer-panel.php:25
+msgid "Footer Settings"
+msgstr "Footer instellingen"
+
+#: inc/customizer/np-design-panel.php:314
+msgid "Related Post Section Title"
+msgstr "Gerelateerde bericht sectie titel"
+
+#: inc/customizer/np-design-panel.php:305 inc/hooks/np-custom-hooks.php:47
+msgid "Related Posts"
+msgstr "Gerelateerde berichten"
+
+#: inc/customizer/np-design-panel.php:286
+msgid "Show/Hide option for related posts section at single post page."
+msgstr "Toon/verberg optie voor gerelateerde berichten sectie op een enkelvoudige bericht pagina."
+
+#: inc/customizer/np-design-panel.php:285
+msgid "Related Post Option"
+msgstr "Gerelateerd bericht optie"
+
+#: inc/customizer/np-design-panel.php:242
+msgid "Post Sidebars"
+msgstr "Bericht zijbalken"
+
+#: inc/customizer/np-design-panel.php:220
+msgid "Post Settings"
+msgstr "Bericht instellingen"
+
+#: inc/customizer/np-design-panel.php:185
+msgid "Page Sidebars"
+msgstr "Pagina zijbalken"
+
+#: inc/customizer/np-design-panel.php:163
+msgid "Page Settings"
+msgstr "Pagina instellingen"
+
+#: inc/customizer/np-design-panel.php:141
+msgid "Enter read more button text for archive page."
+msgstr "Voer de tekst van de lees meer knop in voor de archiefpagina."
+
+#: inc/customizer/np-design-panel.php:140
+msgid "Read More Text"
+msgstr "Lees meer tekst"
+
+#: inc/customizer/np-design-panel.php:131 inc/template-functions.php:541
+msgid "Continue Reading"
+msgstr "Lees verder"
+
+#: inc/customizer/np-design-panel.php:114
+msgid "Grid"
+msgstr "Raster"
+
+#: inc/customizer/np-design-panel.php:110
+msgid "Classic"
+msgstr "Klassiek"
+
+#: inc/customizer/np-design-panel.php:106 inc/customizer/np-footer-panel.php:90
+msgid "Choose layout from available layouts"
+msgstr "Kies een lay-out uit de beschikbare lay-outs"
+
+#: inc/customizer/np-design-panel.php:105
+msgid "Archive Layouts"
+msgstr "Archief lay-outs"
+
+#: inc/customizer/np-design-panel.php:80 inc/customizer/np-design-panel.php:202
+#: inc/customizer/np-design-panel.php:259
+msgid "No Sidebar Center"
+msgstr "Geen zijbalk midden"
+
+#: inc/customizer/np-design-panel.php:76 inc/customizer/np-design-panel.php:198
+#: inc/customizer/np-design-panel.php:255
+msgid "No Sidebar"
+msgstr "Geen zijbalk"
+
+#: inc/customizer/np-design-panel.php:72 inc/customizer/np-design-panel.php:194
+#: inc/customizer/np-design-panel.php:251
+msgid "Right Sidebar"
+msgstr "Zijbalk rechts"
+
+#: inc/customizer/np-design-panel.php:68 inc/customizer/np-design-panel.php:190
+#: inc/customizer/np-design-panel.php:247
+#: inc/widgets/np-widget-functions.php:39
+msgid "Left Sidebar"
+msgstr "Zijbalk links"
+
+#: inc/customizer/np-design-panel.php:64 inc/customizer/np-design-panel.php:186
+#: inc/customizer/np-design-panel.php:243
+msgid "Choose sidebar from available layouts"
+msgstr "Kies zijbalk uit beschikbare lay-outs"
+
+#: inc/customizer/np-design-panel.php:63
+msgid "Archive Sidebars"
+msgstr "Archief zijbalken"
+
+#: inc/customizer/np-design-panel.php:41
+msgid "Archive Settings"
+msgstr "Archief instellingen"
+
+#: inc/customizer/np-design-panel.php:28
+msgid "Design Settings"
+msgstr "Ontwerp instellingen"
+
+#: inc/customizer/np-customizer-sanitize.php:93
+#: inc/customizer/np-design-panel.php:290 inc/customizer/np-footer-panel.php:66
+#: inc/customizer/np-general-panel.php:233
+#: inc/customizer/np-header-panel.php:65 inc/customizer/np-header-panel.php:94
+#: inc/customizer/np-header-panel.php:123
+#: inc/customizer/np-header-panel.php:193
+#: inc/customizer/np-header-panel.php:222
+#: inc/customizer/np-header-panel.php:264
+msgid "Hide"
+msgstr "Verberg"
+
+#: inc/customizer/np-customizer-sanitize.php:92
+#: inc/customizer/np-design-panel.php:289 inc/customizer/np-footer-panel.php:65
+#: inc/customizer/np-general-panel.php:232
+#: inc/customizer/np-header-panel.php:64 inc/customizer/np-header-panel.php:93
+#: inc/customizer/np-header-panel.php:122
+#: inc/customizer/np-header-panel.php:192
+#: inc/customizer/np-header-panel.php:221
+#: inc/customizer/np-header-panel.php:263
+msgid "Show"
+msgstr "Toon"
+
+#: inc/customizer/np-customizer-sanitize.php:76
+#: inc/customizer/np-general-panel.php:111
+msgid "Boxed Layout"
+msgstr "Boxed lay-out"
+
+#: inc/customizer/np-customizer-sanitize.php:75
+msgid "Fullwidth Layout"
+msgstr "Lay-out volle breedte"
+
+#: inc/customizer/np-custom-classes.php:266
+msgid "Close"
+msgstr "Sluiten"
+
+#: inc/customizer/np-custom-classes.php:265
+msgid "Delete"
+msgstr "Verwijder"
+
+#: inc/customizer/np-additional-panel.php:191
+msgid "Enable/Disable option for category color for widget title in block layout widget."
+msgstr "Inschakelen/uitschakelen optie voor categoriekleur voor widget titel in blok lay-out widget."
+
+#: inc/customizer/np-additional-panel.php:190
+msgid "Category Color"
+msgstr "Categoriekleur"
+
+#: inc/customizer/np-additional-panel.php:166
+#: inc/customizer/np-additional-panel.php:195
+#: inc/customizer/np-additional-panel.php:239
+#: inc/customizer/np-additional-panel.php:268
+#: inc/customizer/np-general-panel.php:167
+#: inc/customizer/np-header-panel.php:164
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: inc/customizer/np-additional-panel.php:165
+#: inc/customizer/np-additional-panel.php:194
+#: inc/customizer/np-additional-panel.php:238
+#: inc/customizer/np-additional-panel.php:267
+#: inc/customizer/np-general-panel.php:166
+#: inc/customizer/np-header-panel.php:163
+msgid "Enable"
+msgstr "Inschakelen"
+
+#: inc/customizer/np-additional-panel.php:162
+msgid "Enable/Disable option for category link for widget title in block layout widget."
+msgstr "Inschakelen/uitschakelen optie voor categorie link voor widget titel in blok lay-out widget."
+
+#: inc/customizer/np-additional-panel.php:161
+msgid "Category Link"
+msgstr "Categorie link"
+
+#: inc/customizer/np-additional-panel.php:138
+msgid "Widget Settings"
+msgstr "Widget instellingen"
+
+#: inc/customizer/np-additional-panel.php:121
+msgid " %s"
+msgstr " %s"
+
+#: inc/customizer/np-additional-panel.php:96
+msgid "Categories Color"
+msgstr "Categorieën kleur"
+
+#: inc/customizer/np-additional-panel.php:81
+msgid "Enter social media url."
+msgstr "Voer sociale media URL in."
+
+#: inc/customizer/np-additional-panel.php:80
+msgid "Social Icon Url"
+msgstr "Url van sociaal pictogram"
+
+#: inc/customizer/np-additional-panel.php:76
+msgid "Choose social media icon."
+msgstr "Kies sociale media pictogram."
+
+#: inc/customizer/np-additional-panel.php:75
+msgid "Social Media Logo"
+msgstr "Logo voor sociale media"
+
+#: inc/customizer/np-additional-panel.php:70
+msgid "Add Icon"
+msgstr "Pictogram toevoegen"
+
+#: inc/customizer/np-additional-panel.php:69
+msgid "Social Media Icon"
+msgstr "Pictogram voor sociale media"
+
+#: inc/customizer/np-additional-panel.php:65
+msgid "Social Media Icons"
+msgstr "Sociale media pictogrammen"
+
+#: inc/customizer/np-additional-panel.php:38
+#: inc/customizer/np-header-panel.php:118
+msgid "Social Icons"
+msgstr "Sociale pictogrammen"
+
+#: inc/customizer/np-additional-panel.php:25
+msgid "Additional Settings"
+msgstr "Aanvullende instellingen"
+
+#: functions.php:57
+msgid "Footer Menu"
+msgstr "Footer menu"
+
+#: functions.php:56
+msgid "Primary Menu"
+msgstr "Primair menu"
+
+#: functions.php:55
+msgid "Top Menu"
+msgstr "Topmenu"
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr "Reactie navigatie"
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:42
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s gedachte over &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachten over &ldquo;%2$s&rdquo;"
+
+#. translators: 1: title.
+#: comments.php:36
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Eén gedachte over &ldquo;%1$s&rdquo;"
+
+#: 404.php:21
+msgid "error"
+msgstr "fout"
+
+#: 404.php:21
+msgid "404"
+msgstr "404"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Die pagina kan niet worden gevonden."
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://mysterythemes.com"
+msgstr "https://mysterythemes.com"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "Mystery Themes"
+msgstr "Mystery Themes"
+
+#. Theme URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://mysterythemes.com/wp-themes/news-portal"
+msgstr "https://mysterythemes.com/wp-themes/news-portal"
