@@ -541,7 +541,7 @@ if ( ! function_exists( 'news_portal_font_awesome_social_icon_array' ) ) :
     function news_portal_font_awesome_social_icon_array() {
 
         return array(
-            "fab fa-facebook-square","fab fa-facebook-f","fab fa-facebook","fab fa-twitter-square","fab fa-twitter","fab fa-yahoo","fab fa-google","fab fa-google-wallet","fab fa-google-plus","fab fa-google-plus-g","fab fa-instagram","fab fa-linkedin-in","fab fa-linkedin","fab fa-pinterest-p","fab fa-pinterest","fab fa-pinterest-square","fab fa-youtube-square","fab fa-youtube","fab fa-vimeo","fab fa-vimeo-square", "fab fa-github", "fab fa-github-alt", "fab fa-github-square", "fab fa-skype", "fab fa-vk", "fab fa-whatsapp", "fab fa-slack", "fab fa-tiktok", "fab fa-x-twitter","fab fa-square-x-twitter", "fab fa-threads","fab fa-square-threads","fab fa-snapchat","fab fa-square-snapchat"
+            "fab fa-facebook-square","fab fa-facebook-f","fab fa-facebook","fab fa-twitter-square","fab fa-twitter","fab fa-yahoo","fab fa-google","fab fa-google-wallet","fab fa-google-plus","fab fa-google-plus-g","fab fa-instagram","fab fa-linkedin-in","fab fa-linkedin","fab fa-pinterest-p","fab fa-pinterest","fab fa-pinterest-square","fab fa-youtube-square","fab fa-youtube","fab fa-vimeo","fab fa-vimeo-square", "fab fa-github", "fab fa-github-alt", "fab fa-github-square", "fab fa-skype", "fab fa-vk", "fab fa-whatsapp", "fab fa-slack", "fab fa-tiktok", "fab fa-x-twitter","fab fa-square-x-twitter", "fab fa-threads","fab fa-square-threads","fab fa-snapchat","fab fa-square-snapchat","fab fa-telegram"
         );
     }
 

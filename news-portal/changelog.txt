@@ -1,3 +1,7 @@
+== 1.5.3 : 2024-11-12 ==
+-New: Telegram social icon added.
+-Imp: Dark mode single post title hover removed.
+
 == 1.5.2 : 2024-09-18 ==
 -New: Dark & Light mode switcher added.
 -Imp: Some design improvement done.

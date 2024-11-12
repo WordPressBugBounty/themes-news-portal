@@ -125,3 +125,7 @@ body.site-mode--dark,
 .comment-author .fn .url {
   color: #fff;
 }
+
+.site-mode--dark.single h1.entry-title:hover {
+  color: #fff;
+}
