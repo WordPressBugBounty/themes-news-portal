@@ -251,6 +251,10 @@
     float: none;
     width: 100%;
   }
+
+  #secondary {
+    margin-top: 30px;
+  }
 }
 
 

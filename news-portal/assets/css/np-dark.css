@@ -3,12 +3,12 @@
   background: #222222;
 }
 
-.site-mode--dark .news_portal_block_posts .layout4 .np-block-posts-wrapper .np-alt-grid-post .np-post-content ,
-.site-mode--dark .np-header-search-wrapper .search-form-main{
+.site-mode--dark .news_portal_block_posts .layout4 .np-block-posts-wrapper .np-alt-grid-post .np-post-content,
+.site-mode--dark .np-header-search-wrapper .search-form-main {
   background: #303030;
 }
 
- .site-mode--dark .np-home-top-section .news_portal_featured_posts .np-block-wrapper {
+.site-mode--dark .np-home-top-section .news_portal_featured_posts .np-block-wrapper {
   background: none;
 }
 
@@ -18,7 +18,7 @@
 .site-mode--dark .news-ticker-title>a,
 .site-mode--dark .np-archive-post-content-wrapper .entry-title a,
 .site-mode--dark h1.entry-title,
-.site-mode--dark .news_portal_block_posts .layout4 .np-post-title a{
+.site-mode--dark .news_portal_block_posts .layout4 .np-post-title a {
   color: #ffffff;
 }
 
@@ -26,13 +26,13 @@
 .site-mode--dark .cvmm-timeline-title a,
 .site-mode--dark .cvmm-ticker-single-title,
 .site-mode--dark .cvmm-block-title span,
-.site-mode--dark .cvmm-ticker-wrapper .cvmm-ticker-single-title, 
+.site-mode--dark .cvmm-ticker-wrapper .cvmm-ticker-single-title,
 .site-mode--dark .cvmm-ticker-wrapper .cvmm-ticker-single-title a,
-.site-mode--dark .cvmm-post-filter-cat-title-wrapper .cvmm-term-titles-wrap li{
+.site-mode--dark .cvmm-post-filter-cat-title-wrapper .cvmm-term-titles-wrap li {
   color: #ffffff;
 }
 
-.site-mode--dark  .cvmm-block-post-filter--layout-one .cvmm-post-wrapper {
+.site-mode--dark .cvmm-block-post-filter--layout-one .cvmm-post-wrapper {
   background: #303030;
 }
 
@@ -52,7 +52,7 @@
 .site-mode--dark .wp-block-archives li a,
 .site-mode--dark .wp-block-categories li a,
 .site-mode--dark .wp-block-page-list li a,
-.site-mode--dark .wp-block-latest-comments li{
+.site-mode--dark .wp-block-latest-comments li {
   color: #fff;
 }
 
@@ -104,8 +104,21 @@ body.site-mode--dark,
 .site-mode--dark .widget_recent_comments li,
 .site-mode--dark .widget_rss li,
 .site-mode--dark .widget_pages li a,
-.site-mode--dark .widget_nav_menu li a {
-  color: #9f9f9f;
+.site-mode--dark .widget_nav_menu li a,
+.site-mode--dark .widget_archive a::before,
+.site-mode--dark .widget_categories a::before,
+.site-mode--dark .widget_recent_entries a::before,
+.site-mode--dark .widget_meta a::before,
+.site-mode--dark .widget_recent_comments li::before,
+.site-mode--dark .widget_rss li::before,
+.site-mode--dark .widget_pages li a::before,
+.site-mode--dark .widget_nav_menu li a::before,
+.site-mode--dark .wp-block-latest-posts li a::before,
+.site-mode--dark .wp-block-archives li a::before,
+.site-mode--dark .wp-block-categories li a::before,
+.site-mode--dark .wp-block-page-list li a::before,
+.site-mode--dark .wp-block-latest-comments li::before {
+  color: #dfdfdf;
 }
 
 .site-mode--dark .entry-meta span a,
