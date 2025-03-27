@@ -135,6 +135,10 @@ if ( ! defined( 'ABSPATH' ) ) {
                     'grid' => array(
                         'title' => esc_html__( 'Grid', 'news-portal' ),
                         'src'   => get_template_directory_uri() . '/assets/images/archive-layout2.png'
+                    ),
+                    'list' => array(
+                        'title' => esc_html__( 'List', 'news-portal' ),
+                        'src'   => get_template_directory_uri() . '/assets/images/archive-layout3.png'
                     )
                 )
             );

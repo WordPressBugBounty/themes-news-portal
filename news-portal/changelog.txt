@@ -1,3 +1,7 @@
+== 1.5.6 : 2025-03-27 ==
+-New: Archive list layout added.
+-Imp: Customizer panel design tweaks done.
+
 == 1.5.5 : 2025-02-03 ==
 -Imp: Responsive design update done.
 -Imp: Sidebar dark mode design update done.

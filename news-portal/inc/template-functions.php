@@ -102,7 +102,7 @@ function news_portal_body_classes( $classes ) {
     /**
      * Class for archive
      */
-    if ( is_archive() ) {
+    if ( is_archive() || is_home() || is_front_page() ) {
         $news_portal_archive_layout = news_portal_get_customizer_option_value( 'news_portal_archive_layout' );
         if ( !empty( $news_portal_archive_layout ) ) {
             $classes[] = 'archive-'.$news_portal_archive_layout;

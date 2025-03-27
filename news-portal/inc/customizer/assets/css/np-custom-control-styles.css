@@ -334,11 +334,11 @@
 
 .customize-pane-parent .control-section .accordion-section-title {
     position: relative;
-    padding: 15px 40px 15px 40px;
+    padding: 0;
 }
 
-.customize-pane-parent .control-section .accordion-section-title button.accordion-trigger{
-    padding: 0;
+.customize-pane-parent .control-section .accordion-section-title button.accordion-trigger {
+    padding: 12px 40px;
 }
 
 .customize-pane-parent .control-section .accordion-section-title button.accordion-trigger:hover,
