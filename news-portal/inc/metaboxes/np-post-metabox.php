@@ -24,46 +24,46 @@ if ( ! function_exists( 'news_portal_post_meta_options' ) ) :
 
 endif;
 
-$news_portal_post_sidebar_options = array(
-    'default-sidebar' => array(
-        'id'		=> 'post-default-sidebar',
-        'value'     => 'default_sidebar',
-        'label'     => __( 'Default Sidebar', 'news-portal' ),
-        'thumbnail' => get_template_directory_uri() . '/assets/images/default-sidebar.png'
-    ),
-    'left-sidebar' => array(
-        'id'		=> 'post-left-sidebar',
-        'value'     => 'left_sidebar',
-        'label'     => __( 'Left sidebar', 'news-portal' ),
-        'thumbnail' => get_template_directory_uri() . '/assets/images/left-sidebar.png'
-    ),
-    'right-sidebar' => array(
-        'id'		=> 'post-right-sidebar',
-        'value'     => 'right_sidebar',
-        'label'     => __( 'Right sidebar', 'news-portal' ),
-        'thumbnail' => get_template_directory_uri() . '/assets/images/right-sidebar.png'
-    ),
-    'no-sidebar' => array(
-        'id'		=> 'post-no-sidebar',
-        'value'     => 'no_sidebar',
-        'label'     => __( 'No sidebar Full width', 'news-portal' ),
-        'thumbnail' => get_template_directory_uri() . '/assets/images/no-sidebar.png'
-    ),
-    'no-sidebar-center' => array(
-        'id'		=> 'post-no-sidebar-center',
-        'value'     => 'no_sidebar_center',
-        'label'     => __( 'No sidebar Content Centered', 'news-portal' ),
-        'thumbnail' => get_template_directory_uri() . '/assets/images/no-sidebar-center.png'
-    )
-);
-
 /**
  * Callback function for post option
  */
 if ( ! function_exists( 'news_portal_post_meta_callback' ) ) :
 
 	function news_portal_post_meta_callback() {
-		global $post, $news_portal_post_sidebar_options;
+		global $post;
+
+        $news_portal_post_sidebar_options = array(
+            'default-sidebar' => array(
+                'id'        => 'post-default-sidebar',
+                'value'     => 'default_sidebar',
+                'label'     => __( 'Default Sidebar', 'news-portal' ),
+                'thumbnail' => get_template_directory_uri() . '/assets/images/default-sidebar.png'
+            ),
+            'left-sidebar' => array(
+                'id'        => 'post-left-sidebar',
+                'value'     => 'left_sidebar',
+                'label'     => __( 'Left sidebar', 'news-portal' ),
+                'thumbnail' => get_template_directory_uri() . '/assets/images/left-sidebar.png'
+            ),
+            'right-sidebar' => array(
+                'id'        => 'post-right-sidebar',
+                'value'     => 'right_sidebar',
+                'label'     => __( 'Right sidebar', 'news-portal' ),
+                'thumbnail' => get_template_directory_uri() . '/assets/images/right-sidebar.png'
+            ),
+            'no-sidebar' => array(
+                'id'        => 'post-no-sidebar',
+                'value'     => 'no_sidebar',
+                'label'     => __( 'No sidebar Full width', 'news-portal' ),
+                'thumbnail' => get_template_directory_uri() . '/assets/images/no-sidebar.png'
+            ),
+            'no-sidebar-center' => array(
+                'id'        => 'post-no-sidebar-center',
+                'value'     => 'no_sidebar_center',
+                'label'     => __( 'No sidebar Content Centered', 'news-portal' ),
+                'thumbnail' => get_template_directory_uri() . '/assets/images/no-sidebar-center.png'
+            )
+        );
 
         $get_post_meta_identity = get_post_meta( $post->ID, 'post_meta_identity', true );
         $post_identity_value = empty( $get_post_meta_identity ) ? 'np-metabox-info' : $get_post_meta_identity;

@@ -125,73 +125,44 @@ if ( ! class_exists( 'News_Portal_Notice' ) ) :
                 <a class="news-portal-message-close notice-dismiss" href="<?php echo esc_url( wp_nonce_url( remove_query_arg( array( 'activated' ), add_query_arg( 'news-portal-hide-welcome-notice', 'welcome' ) ), 'news_portal_hide_welcome_notices_nonce', '_news_portal_welcome_notice_nonce' ) ); ?>">
                     <span class="screen-reader-text"><?php esc_html_e( 'Dismiss this notice.', 'news-portal' ); ?>
                 </a>
-                <div class="news-portal-welcome-title-wrapper">
-                    <h2 class="notice-title"><?php esc_html_e( 'Congratulations!', 'news-portal' ); ?></h2>
-                    <p class="notice-description">
-                        <?php
-                            printf( esc_html__( '%1$s is now installed and ready to use. Now that you are part of us. We have curated some important links for you to get rolling.', 'news-portal' ), $this->theme_name );
-                        ?>
-                    </p>
-                </div><!-- .news-portal-welcome-title-wrapper -->
+
                 <div class="welcome-notice-details-wrapper">
-
-                    <div class="notice-detail-wrap image">
-                        <figure> <img src="<?php echo esc_url( $this->theme_screenshot ); ?>"> </figure>
-                    </div><!-- .notice-detail-wrap.image -->
-
                     <div class="notice-detail-wrap general">
                         <div class="general-info-wrap">
-                            <h2 class="general-title wrap-title"><span class="dashicons dashicons-admin-generic"></span><?php esc_html_e( 'General Info', 'news-portal' ); ?></h2>
+                            <h2 class="general-title wrap-title"><?php printf( esc_html__( 'Congratulation! Welcome to %1$s', 'news-portal' ), $this->theme_name ); ?></h2>
                             <div class="general-content wrap-content">
                                 <?php
-                                    printf( wp_kses_post( 'All the amazing features provided by news-portal- are now at your disposal. Let them serve you with ease. get started button will process to installation of <b> Mystery Themes Demo Importer</b> Plugin and redirect to the theme settings page. In order to summon news-portal- dashboard, click on the Theme Settings buton in below.<br />And Thank so much for being a part of us.', 'news-portal' ) );
+                                    printf( wp_kses_post( 'All the fantastic features of <b>%1$s</b> are now at your disposal.
+                                    Our theme has been successfully installed and is ready to use, offering a range of various powerful features for your website.
+                                    To begin, click on the  <b>Get Started</b> button to install the <b>Mystery Themes Demo Importer </b> Plugin and quickly access the theme settings page. Alternatively, you can directly click on <b>Customize your site</b> to quickly begin the customization of your website. Thank you for choosing us and being part of our community.!', 'news-portal' ), $this->theme_name );
                                 ?>
                             </div><!-- .wrap-content -->
                         </div><!-- .general-info-wrap -->
+
                         <div class="general-info-links">
                             <div class="buttons-wrap">
-                                <button class="news-portal-get-started button button-primary button-hero" data-done="<?php esc_attr_e( 'Done!', 'news-portal' ); ?>" data-process="<?php esc_attr_e( 'Processing', 'news-portal' ); ?>" data-redirect="<?php echo esc_url( wp_nonce_url( add_query_arg( 'news-portal-hide-welcome-notice', 'welcome', admin_url( 'themes.php' ).'?page=news-portal-dashboard&tab=starter' ) , 'news_portal_hide_welcome_notices_nonce', '_news_portal_welcome_notice_nonce' ) ); ?>">
+                                 <button class="news-portal-get-started button button-primary button-hero" data-done="<?php esc_attr_e( 'Done!', 'news-portal' ); ?>" data-process="<?php esc_attr_e( 'Processing', 'news-portal' ); ?>" data-redirect="<?php echo esc_url( wp_nonce_url( add_query_arg( 'news-portal-hide-welcome-notice', 'welcome', admin_url( 'themes.php' ).'?page=news-portal-dashboard&tab=starter' ) , 'news_portal_hide_welcome_notices_nonce', '_news_portal_welcome_notice_nonce' ) ); ?>">
                                     <?php printf( esc_html__( 'Get started with %1$s', 'news-portal' ), esc_html( $this->theme_name ) ); ?>
-                                </button>
-                                <a class="button button-hero" href="<?php echo esc_url( wp_customize_url() ); ?>">
-                                    <?php esc_html_e( 'Customize your site', 'news-portal' ); ?>
-                                </a>
+                                 </button>
+                                    <a class="button button-hero" href="<?php echo esc_url( wp_customize_url() ); ?>">
+                                        <?php esc_html_e( 'Customize your site', 'news-portal' ); ?>
+                                    </a>
+
+                                    <a class="button button-hero" target="_blank" rel="external noopener noreferrer" href="https://mysterythemes.com/wp-themes/news-portal"><span class="screen-reader-text"><?php esc_html_e( 'opens in a new tab', 'news-portal' ); ?></span><svg xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" viewBox="0 0 512 512" width="12" height="12" style="margin-right: 5px;"><path fill="currentColor" d="M432 320H400a16 16 0 0 0-16 16V448H64V128H208a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48A48 48 0 0 0 0 112V464a48 48 0 0 0 48 48H400a48 48 0 0 0 48-48V336A16 16 0 0 0 432 320ZM488 0h-128c-21.4 0-32 25.9-17 41l35.7 35.7L135 320.4a24 24 0 0 0 0 34L157.7 377a24 24 0 0 0 34 0L435.3 133.3 471 169c15 15 41 4.5 41-17V24A24 24 0 0 0 488 0Z"></path></svg><?php esc_html_e( 'Stater Sites', 'news-portal' ); ?></a>
+
+                                    <a class="button button-hero" target="_blank" rel="external noopener noreferrer" href="https://docs.mysterythemes.com/news-portal"><span class="screen-reader-text"><?php esc_html_e( 'opens in a new tab', 'news-portal' ); ?></span><svg xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" viewBox="0 0 512 512" width="12" height="12" style="margin-right: 5px;"><path fill="currentColor" d="M432 320H400a16 16 0 0 0-16 16V448H64V128H208a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48A48 48 0 0 0 0 112V464a48 48 0 0 0 48 48H400a48 48 0 0 0 48-48V336A16 16 0 0 0 432 320ZM488 0h-128c-21.4 0-32 25.9-17 41l35.7 35.7L135 320.4a24 24 0 0 0 0 34L157.7 377a24 24 0 0 0 34 0L435.3 133.3 471 169c15 15 41 4.5 41-17V24A24 24 0 0 0 488 0Z"></path></svg><?php esc_html_e( 'Read full documentation', 'news-portal' ); ?></a>
                             </div><!-- .buttons-wrap -->
-                            <div class="links-wrap">
-                                
-                            </div><!-- .links-wrap -->
                         </div><!-- .general-info-links -->
                     </div><!-- .notice-detail-wrap.general -->
-
-                    <div class="notice-detail-wrap resource">
-                        <div class="resource-info-wrap">
-                            <div class="demo-wrap">
-                                <h2 class="demo-title wrap-title"><span class="dashicons dashicons-images-alt2"></span> <?php esc_html_e( 'Demo', 'news-portal' ); ?></h2>
-                                <div class="demo-content wrap-content">
-                                    <?php
-                                        printf( wp_kses_post( 'Wanna catch a glimpse of how <b>%1$s</b> looks like? You can browse from our demos and see the live previews before you get started.', 'news-portal' ), $this->theme_name );
-                                    ?>
-                                    <a target="_blank" rel="external noopener noreferrer" href="https://mysterythemes.com/wp-themes/news-portal"><span class="screen-reader-text"><?php esc_html_e( 'opens in a new tab', 'news-portal' ); ?></span><svg xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" viewBox="0 0 512 512" width="12" height="12" style="margin-right: 5px;"><path fill="currentColor" d="M432 320H400a16 16 0 0 0-16 16V448H64V128H208a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48A48 48 0 0 0 0 112V464a48 48 0 0 0 48 48H400a48 48 0 0 0 48-48V336A16 16 0 0 0 432 320ZM488 0h-128c-21.4 0-32 25.9-17 41l35.7 35.7L135 320.4a24 24 0 0 0 0 34L157.7 377a24 24 0 0 0 34 0L435.3 133.3 471 169c15 15 41 4.5 41-17V24A24 24 0 0 0 488 0Z"></path></svg><?php esc_html_e( 'Stater Sites', 'news-portal' ); ?></a>
-                                </div><!-- .demo-content -->
-                            </div><!-- .demo-wrap -->
-
-                            <div class="document-wrap">
-                                <h2 class="doc-title wrap-title"><span class="dashicons dashicons-format-aside"></span> <?php esc_html_e( 'Documentation', 'news-portal' ); ?></h2>
-                                <div class="doc-content wrap-content">
-                                    <?php
-                                        printf( wp_kses_post( 'Need in-depth details? Fret not, here`s the full documentation on how to use<b> %1$s </b>and its functionality. Let this detailed documentation navigate you through any confusion along the way. <b>Cheers!</b>', 'news-portal' ), $this->theme_name );
-                                    ?>
-                                    <a target="_blank" rel="external noopener noreferrer" href="https://docs.mysterythemes.com/news-portal"><span class="screen-reader-text"><?php esc_html_e( 'opens in a new tab', 'news-portal' ); ?></span><svg xmlns="http://www.w3.org/2000/svg" focusable="false" role="img" viewBox="0 0 512 512" width="12" height="12" style="margin-right: 5px;"><path fill="currentColor" d="M432 320H400a16 16 0 0 0-16 16V448H64V128H208a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16H48A48 48 0 0 0 0 112V464a48 48 0 0 0 48 48H400a48 48 0 0 0 48-48V336A16 16 0 0 0 432 320ZM488 0h-128c-21.4 0-32 25.9-17 41l35.7 35.7L135 320.4a24 24 0 0 0 0 34L157.7 377a24 24 0 0 0 34 0L435.3 133.3 471 169c15 15 41 4.5 41-17V24A24 24 0 0 0 488 0Z"></path></svg><?php esc_html_e( 'Read full documentation', 'news-portal' ); ?></a>
-                                </div><!-- .doc-content -->
-                            </div><!-- .document-wrap -->
-                        </div><!-- .resource-info-wrap -->
-                    </div><!-- .notice-detail-wrap.resource -->
-
+                    <div class="notice-detail-wrap image">
+                        <figure> <img src="<?php echo esc_url( $this->theme_screenshot ); ?>"> </figure>
+                    </div><!-- .notice-detail-wrap.image -->
                 </div><!-- .welcome-notice-details-wrapper -->
             </div><!-- .news-portal-welcome-notice-wrapper -->
-    <?php
-        }
+<?php
     }
+
+}
     new News_Portal_Notice();
 
 endif;
