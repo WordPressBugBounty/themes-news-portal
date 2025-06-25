@@ -396,6 +396,7 @@
   padding: 20px;
   display: grid;
   grid-template-columns: 30% 70%;
+  margin-bottom: 30px;
 }
 
 #news-portal-dashboard .plugin-thumb {

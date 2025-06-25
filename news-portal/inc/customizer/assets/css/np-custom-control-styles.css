@@ -417,20 +417,3 @@
 .upgrade-description {
   margin: 5px 0 10px;
 }
-
-.ogma-upgrade-btn {
-  background: #2271b1;
-  color: #fff;
-  padding: 7px 10px;
-  display: inline-block;
-  text-decoration: none;
-  border-radius: 3px;
-  line-height: 19px;
-  text-transform: capitalize;
-}
-
-.ogma-upgrade-btn:hover {
-  background: #135E96;
-  color: #fff;
-}
-

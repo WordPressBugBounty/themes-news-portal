@@ -1,3 +1,8 @@
+== 1.5.8 : 2025-06-25 ==
+-Fix: Dashboard plugin section design tweaks done.
+-Fix: List layout dark mode design glitch fix.
+-Imp: Page and post meta image hover cursor effect added.
+
 == 1.5.7 : 2025-04-21 ==
 -Fix: text domain issue.
 -New: Welcome notice design update.

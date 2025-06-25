@@ -150,6 +150,7 @@ span.field-label {
 .np-meta-options-wrap img:hover,
 .np-meta-options-wrap img:focus {
   border-color: #ddd;
+  cursor: pointer;
 }
 
 .np-meta-options-wrap .ui-state-active img {
