@@ -1,3 +1,6 @@
+== 1.5.9 : 2025-07-21 ==
+-Fix: PHP function call in theme dashboard.
+
 == 1.5.8 : 2025-06-25 ==
 -Fix: Dashboard plugin section design tweaks done.
 -Fix: List layout dark mode design glitch fix.

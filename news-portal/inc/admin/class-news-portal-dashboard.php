@@ -40,7 +40,11 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
             $this->theme_slug           = $theme->get( 'TextDomain' );
             $this->theme_author_uri     = $theme->get( 'AuthorURI' );
             $this->theme_author_name    = $theme->get( 'Author' );
+            if ( is_object( $admin_main_class ) && method_exists( $admin_main_class, 'news_portal_free_plugins_lists' ) ) {
             $this->free_plugins = $admin_main_class->news_portal_free_plugins_lists();
+            } else {
+                $this->free_plugins = array(); // fallback to empty
+            }
         }
 
         /**
