@@ -1,3 +1,6 @@
+== 1.5.10 : 2025-09-04 ==
+-Fix: Dark mode single post page design fixes done.
+
 == 1.5.9 : 2025-07-21 ==
 -Fix: PHP function call in theme dashboard.
 

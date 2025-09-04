@@ -1,12 +1,12 @@
 === News Portal ===
 
 Contributors:       mysterythemes
-Requires at least:  5.0
+Requires at least:  5.6
 Tested up to:       6.8
-Requires PHP:       7.2
+Requires PHP:       7.4
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
-Tags:               news, blog, entertainment, grid-layout, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-colors, custom-logo, featured-image-header, footer-widgets, full-width-template, rtl-language-support, theme-options, translation-ready
+Tags:               news, blog, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-colors, custom-logo, featured-image-header, footer-widgets, full-width-template, rtl-language-support, theme-options, translation-ready
 
 
 == Description ==

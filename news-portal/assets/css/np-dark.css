@@ -135,10 +135,20 @@ body.site-mode--dark,
 
 .site-mode--dark #comments h3,
 .site-mode--dark #comments h2.comments-title,
-.comment-author .fn .url {
+.site-mode--dark .comment-author .fn .url {
   color: #fff;
 }
 
-.site-mode--dark.single h1.entry-title:hover {
+.site-mode--dark.single h1.entry-title:hover,
+.site-mode--dark h1, 
+.site-mode--dark h2, 
+.site-mode--dark h3, 
+.site-mode--dark h4, 
+.site-mode--dark h5, 
+.site-mode--dark h6{
   color: #fff;
+}
+
+.site-mode--dark pre {
+  color: #333;
 }
