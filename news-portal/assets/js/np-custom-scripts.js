@@ -2,7 +2,6 @@ jQuery(document).ready(function($) {
 
 	"use strict";
 
-	
 	/**
 	 * Preloader
 	 */
@@ -109,41 +108,40 @@ jQuery(document).ready(function($) {
 	 */
 	$("#np-tabbed-widget").tabs();
 
-
-	//Search toggle
+	// Search toggle
 	$('.np-header-search-wrapper .search-main').click(function() {
 		$('.search-form-main').toggleClass('active-search');
 		$('.search-form-main .search-field').focus();
-		var element = document.querySelector( '.np-header-search-wrapper' );
-		if( element ) {
-			$(document).on( 'keydown', function(e) {
-				if( element.querySelectorAll( '.search-form-main.active-search' ).length === 1 ) {
-					var focusable = element.querySelectorAll( 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
-					var firstFocusable = focusable[0];
-					var lastFocusable = focusable[focusable.length - 1];
-					news_portal_focus_trap( firstFocusable, lastFocusable, e );
-				}
-			})
-		}
-	});
-
-	//responsive menu toggle
-	$('.np-header-menu-wrapper .menu-toggle').click(function(event) {
-		$('.np-header-menu-wrapper #site-navigation').toggleClass( 'isActive' ).slideToggle('slow');
-		var element = document.querySelector( '.mt-header-menu-wrap' );
-		if( element ) {
+		var element = document.querySelector('.np-header-search-wrapper');
+		if (element) {
 			$(document).on('keydown', function(e) {
-				if( element.querySelectorAll( '.np-header-menu-wrapper #site-navigation.isActive' ).length === 1 ) {
-					var focusable = element.querySelectorAll( 'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+				if (element.querySelectorAll('.search-form-main.active-search').length === 1) {
+					var focusable = element.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
 					var firstFocusable = focusable[0];
 					var lastFocusable = focusable[focusable.length - 1];
-					news_portal_focus_trap( firstFocusable, lastFocusable, e );
+					news_portal_focus_trap(firstFocusable, lastFocusable, e);
 				}
 			})
 		}
 	});
 
-	//responsive sub menu toggle
+	// responsive menu toggle
+	$('.np-header-menu-wrapper .menu-toggle').click(function(event) {
+		$('.np-header-menu-wrapper #site-navigation').toggleClass('isActive').slideToggle('slow');
+		var element = document.querySelector('.mt-header-menu-wrap');
+		if (element) {
+			$(document).on('keydown', function(e) {
+				if (element.querySelectorAll('.np-header-menu-wrapper #site-navigation.isActive').length === 1) {
+					var focusable = element.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+					var firstFocusable = focusable[0];
+					var lastFocusable = focusable[focusable.length - 1];
+					news_portal_focus_trap(firstFocusable, lastFocusable, e);
+				}
+			})
+		}
+	});
+
+	// responsive sub menu toggle
 	$('<a class="sub-toggle" href="javascript:void(0);"><i class="fa fa-angle-right"></i></a>').insertAfter('#site-navigation .menu-item-has-children>a, #site-navigation .page_item_has_children>a');
 
 	$('#site-navigation .sub-toggle').click(function() {
@@ -172,15 +170,15 @@ jQuery(document).ready(function($) {
 	 * Focus trap in popup.
 	 */
 	var KEYCODE_TAB = 9;
-	function news_portal_focus_trap( firstFocusable, lastFocusable, e ) {
+	function news_portal_focus_trap(firstFocusable, lastFocusable, e) {
 		if (e.key === 'Tab' || e.keyCode === KEYCODE_TAB) {
-			if ( e.shiftKey ) /* shift + tab */ {
+			if (e.shiftKey) {
 				if (document.activeElement === firstFocusable) {
 					lastFocusable.focus();
 					e.preventDefault();
 				}
-			} else /* tab */ {
-				if ( document.activeElement === lastFocusable ) {
+			} else {
+				if (document.activeElement === lastFocusable) {
 					firstFocusable.focus();
 					e.preventDefault();
 				}
@@ -191,8 +189,8 @@ jQuery(document).ready(function($) {
 	/**
 	 * Close popups on escape key.
 	 */
-	$( document ).on( 'keydown', function( event ) {
-		if ( event.keyCode === 27 ) {
+	$(document).on('keydown', function(event) {
+		if (event.keyCode === 27) {
 			event.preventDefault();
 			$('.search-form-main').removeClass('active-search');
 		}
@@ -201,64 +199,119 @@ jQuery(document).ready(function($) {
 	/**
 	 * Settings of the sticky menu
 	 */
-	var menuStickyVal  = mtObject.menu_sticky;
-	if ( menuStickyVal === 'true' ) {
-		var windowWidth = $(window).width();
-		//if( windowWidth > 600 ) {
-			var wpAdminBar = $('#wpadminbar');
-			if (wpAdminBar.length) {
-				$("#np-menu-wrap").sticky({topSpacing:wpAdminBar.height()});
-			} else {
-				$("#np-menu-wrap").sticky({topSpacing:0});
-			}
-		//}
+	var menuStickyVal = mtObject.menu_sticky;
+	if (menuStickyVal === 'true') {
+		var wpAdminBar = $('#wpadminbar');
+		if (wpAdminBar.length) {
+			$("#np-menu-wrap").sticky({ topSpacing: wpAdminBar.height() });
+		} else {
+			$("#np-menu-wrap").sticky({ topSpacing: 0 });
+		}
 	}
 
 	/**
 	 * theia sticky sidebar
 	 */
-	var innerStickyVal  = mtObject.inner_sticky;
-	if ( innerStickyVal === 'true' ) {
+	var innerStickyVal = mtObject.inner_sticky;
+	if (innerStickyVal === 'true') {
 		$('#primary, #secondary').theiaStickySidebar({
 			additionalMarginTop: 30
 		});
 	}
-	
-	var frontStickyVal  = mtObject.front_sticky;
-	if ( frontStickyVal === 'true' ) {
+
+	var frontStickyVal = mtObject.front_sticky;
+	if (frontStickyVal === 'true') {
 		$('.middle-primary, .middle-aside').theiaStickySidebar({
 			additionalMarginTop: 30
 		});
 	}
+
+	/**
+	 * Live Search
+	 */
+	var ajaxUrl = mtObject.ajaxUrl;
+	var _wpnonce = mtObject._wpnonce;
+	var liveSearch = mtObject.liveSearch;
+
+	if (liveSearch === 'true') {
+		var searchContainer = $(".np-header-search-wrapper");
+
+		if (searchContainer.length > 0) {
+			var searchFormContainer = searchContainer.find("form");
+
+			searchContainer.on('input', 'input[type="search"]', function() {
+				var searchKey = $(this).val();
+
+				if (searchKey) {
+					$.ajax({
+						method: 'post',
+						url: ajaxUrl,
+						data: {
+							action: 'news_portal_search_posts_content',
+							search_key: searchKey,
+							security: _wpnonce
+						},
+						beforeSend: function() {
+							searchFormContainer.addClass('retrieving-posts');
+							searchFormContainer.removeClass('results-loaded');
+						},
+						success: function(res) {
+							var parsedRes = JSON.parse(res);
+							searchContainer.find(".news-portal-search-results-wrap").remove();
+							searchFormContainer.after(parsedRes.posts);
+							searchFormContainer.removeClass('retrieving-posts').addClass('results-loaded');
+						},
+						error: function(xhr, status, error) {
+							console.error("AJAX Error:", error);
+						}
+					});
+				} else {
+					searchContainer.find(".news-portal-search-results-wrap").remove();
+					searchFormContainer.removeClass('results-loaded');
+				}
+			});
+		}
+	}
+
+	$(document).mouseup(function(e) {
+		var container = $(".np-header-search-wrapper");
+		if (!container.is(e.target) && container.has(e.target).length === 0) {
+			container.find(".news-portal-search-results-wrap").remove();
+			container.removeClass('results-loaded');
+		}
+	});
+
 });
 
 /**
- * site mode switcher cookie
+ * Site mode switcher cookie
  */
 document.addEventListener("DOMContentLoaded", function() {
 	var modeSwitcher = document.getElementById("mode-switcher");
-  	var templateBodyClass = document.body;
+	var templateBodyClass = document.body;
 
-  	function setSiteMode(mode) {
+	if (!modeSwitcher) {
+		// If #mode-switcher does not exist, stop execution safely
+		return;
+	}
+
+	function setSiteMode(mode) {
 		localStorage.setItem("site-mode", mode);
-  	}
+	}
 
 	function getSiteMode() {
 		return localStorage.getItem("site-mode");
 	}
 
-	// Check if a site mode is stored in local storage and set the mode accordingly
 	var modeStored = getSiteMode();
 	if (modeStored) {
 		if (modeStored === "dark-mode") {
-			// Set dark mode
 			modeSwitcher.classList.remove("light-mode");
 			modeSwitcher.classList.add("dark-mode");
 			modeSwitcher.setAttribute("data-site-mode", "dark-mode");
 			templateBodyClass.classList.remove('site-mode--light');
 			templateBodyClass.classList.add('site-mode--dark');
-			} else {
-			// Set light mode (or default)
+		} else {
 			modeSwitcher.classList.remove("dark-mode");
 			modeSwitcher.classList.add("light-mode");
 			modeSwitcher.setAttribute("data-site-mode", "light-mode");
@@ -267,27 +320,24 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	}
 
-	// Add click event listener to mode switcher
 	modeSwitcher.addEventListener("click", function(e) {
-	e.preventDefault();
-	var currentMode = modeSwitcher.getAttribute("data-site-mode");
+		e.preventDefault();
+		var currentMode = modeSwitcher.getAttribute("data-site-mode");
 
-	if (currentMode === "light-mode") {
-		// Switch to dark mode
-		setSiteMode("dark-mode");
-		modeSwitcher.classList.remove("light-mode");
-		modeSwitcher.classList.add("dark-mode");
-		modeSwitcher.setAttribute("data-site-mode", "dark-mode");
-		templateBodyClass.classList.remove('site-mode--light');
-		templateBodyClass.classList.add('site-mode--dark');
-	} else {
-		// Switch to light mode
-		setSiteMode("light-mode");
-		modeSwitcher.classList.remove("dark-mode");
-		modeSwitcher.classList.add("light-mode");
-		modeSwitcher.setAttribute("data-site-mode", "light-mode");
-		templateBodyClass.classList.remove('site-mode--dark');
-		templateBodyClass.classList.add('site-mode--light');
-	}
+		if (currentMode === "light-mode") {
+			setSiteMode("dark-mode");
+			modeSwitcher.classList.remove("light-mode");
+			modeSwitcher.classList.add("dark-mode");
+			modeSwitcher.setAttribute("data-site-mode", "dark-mode");
+			templateBodyClass.classList.remove('site-mode--light');
+			templateBodyClass.classList.add('site-mode--dark');
+		} else {
+			setSiteMode("light-mode");
+			modeSwitcher.classList.remove("dark-mode");
+			modeSwitcher.classList.add("light-mode");
+			modeSwitcher.setAttribute("data-site-mode", "light-mode");
+			templateBodyClass.classList.remove('site-mode--dark');
+			templateBodyClass.classList.add('site-mode--light');
+		}
 	});
 });

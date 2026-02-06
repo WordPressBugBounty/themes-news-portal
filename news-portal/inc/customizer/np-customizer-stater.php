@@ -81,6 +81,8 @@ if ( ! function_exists( 'news_portal_get_customizer_default' ) ) :
                 'news_portal_menu_sticky_option'           => true,
                 'news_portal_home_icon_option'             => true,
                 'news_portal_search_icon_option'           => true,
+                'news_portal_header_search_enable'         => true,
+                'news_portal_header_search_option'         => 'live-search',
 
                 //ticker
                 'news_portal_ticker_option'                => true,

@@ -239,8 +239,14 @@ function news_portal_scripts() {
     $front_sticky_option    = news_portal_get_customizer_option_value( 'news_portal_front_sidebar_sticky_option' );
     $front_sticky_option    = ( $front_sticky_option == true ) ? 'true' : 'false';
 
+    $search_option          = news_portal_get_customizer_option_value( 'news_portal_header_search_option' );
+    $live_search            = ($search_option == 'live-search') ? 'true' : 'false';
+
     wp_localize_script( 'news-portal-custom-script', 'mtObject', array(
         'menu_sticky'   => $menu_sticky_option,
+        'liveSearch'    => $live_search,
+        'ajaxUrl'       => admin_url('admin-ajax.php'),
+        '_wpnonce'      => wp_create_nonce('news-portal-nonce'),
         'inner_sticky'  => $inner_sticky_option,
         'front_sticky'  => $front_sticky_option
     ) );
@@ -436,8 +442,8 @@ if ( ! function_exists( 'news_portal_dynamic_styles' ) ) :
 
         $output_css .= ".np-header-menu-block-wrap::before, .np-header-menu-block-wrap::after { border-right-color: ". esc_attr( $news_portal_theme_hover_color ) ."}\n";
 
-        $output_css .= "a,a:hover,a:focus,a:active,.widget a:hover,.widget a:hover::before,.widget li:hover::before,.entry-footer a:hover,.comment-author .fn .url:hover,#cancel-comment-reply-link,#cancel-comment-reply-link:before,.logged-in-as a,.np-slide-content-wrap .post-title a:hover,#top-footer .widget a:hover,#top-footer .widget a:hover:before,#top-footer .widget li:hover:before,.news_portal_featured_posts .np-single-post .np-post-content .np-post-title a:hover,.news_portal_fullwidth_posts .np-single-post .np-post-title a:hover,.news_portal_block_posts .layout3 .np-primary-block-wrap .np-single-post .np-post-title a:hover,.news_portal_featured_posts .layout2 .np-single-post-wrap .np-post-content .np-post-title a:hover,.np-block-title,.widget-title,.page-header .page-title,.np-related-title,.np-post-meta span:hover,.np-post-meta span a:hover,.news_portal_featured_posts .layout2 .np-single-post-wrap .np-post-content .np-post-meta span:hover,.news_portal_featured_posts .layout2 .np-single-post-wrap .np-post-content .np-post-meta span a:hover,.np-post-title.small-size a:hover,#footer-navigation ul li a:hover,.entry-title a:hover,.entry-meta span a:hover,.entry-meta span:hover,.np-post-meta span:hover, .np-post-meta span a:hover, .news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-meta span:hover, .news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-meta span a:hover,.news_portal_featured_slider .featured-posts .np-single-post .np-post-content .np-post-title a:hover { color: ". esc_attr( $news_portal_theme_color ) ."}\n";
-
+        $output_css .= "a,a:hover,a:focus,a:active,.widget a:hover,.widget a:hover::before,.widget li:hover::before,.entry-footer a:hover,.comment-author .fn .url:hover,#cancel-comment-reply-link,#cancel-comment-reply-link:before,.logged-in-as a,.np-slide-content-wrap .post-title a:hover,#top-footer .widget a:hover,#top-footer .widget a:hover:before,#top-footer .widget li:hover:before,.news_portal_featured_posts .np-single-post .np-post-content .np-post-title a:hover,.news_portal_fullwidth_posts .np-single-post .np-post-title a:hover,.news_portal_block_posts .layout3 .np-primary-block-wrap .np-single-post .np-post-title a:hover,.news_portal_featured_posts .layout2 .np-single-post-wrap .np-post-content .np-post-title a:hover,.np-block-title,.widget-title,.page-header .page-title,.np-related-title,.np-post-meta span:hover,.np-post-meta span a:hover,.news_portal_featured_posts .layout2 .np-single-post-wrap .np-post-content .np-post-meta span:hover,.news_portal_featured_posts .layout2 .np-single-post-wrap .np-post-content .np-post-meta span a:hover,.np-post-title.small-size a:hover,#footer-navigation ul li a:hover,.entry-title a:hover,.entry-meta span a:hover,.entry-meta span:hover,.np-post-meta span:hover, .np-post-meta span a:hover, .news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-meta span:hover, .news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-meta span a:hover,.news_portal_featured_slider .featured-posts .np-single-post .np-post-content .np-post-title a:hover,.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .posted-on:hover a,.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .posted-on:hover:before,.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .news-portal-search-post-title a:hover,.np-block-title, .widget-title, .page-header .page-title, .np-related-title, .widget_block .wp-block-group__inner-container > h1, .widget_block .wp-block-group__inner-container > h2, .widget_block .wp-block-group__inner-container > h3, .widget_block .wp-block-group__inner-container > h4, .widget_block .wp-block-group__inner-container > h5, .widget_block .wp-block-group__inner-container > h6{ color: ". esc_attr( $news_portal_theme_color ) ."}\n";
+        
         $output_css .= ".site-mode--dark .news_portal_featured_posts .np-single-post-wrap .np-post-content .np-post-title a:hover,.site-mode--dark .np-post-title.large-size a:hover,.site-mode--dark .np-post-title.small-size a:hover,.site-mode--dark .news-ticker-title>a:hover,.site-mode--dark .np-archive-post-content-wrapper .entry-title a:hover,.site-mode--dark h1.entry-title:hover,.site-mode--dark .news_portal_block_posts .layout4 .np-post-title a:hover{ color: ". esc_attr( $news_portal_theme_color ) ."}\n";
 
         $output_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.widget_search .search-submit,.np-archive-more .np-button:hover,.widget.widget_tag_cloud a:hover { border-color: ". esc_attr( $news_portal_theme_color ) ."}\n";
@@ -690,3 +696,66 @@ if ( ! function_exists( 'news_portal_site_mode_switcher' ) ) :
     }
 
 endif;
+
+
+/*----------------------------------------- live search -----------------------------------------------------*/
+
+    if (!function_exists('news_portal_search_posts_content')) {
+        function news_portal_search_posts_content() {
+            check_ajax_referer('news-portal-nonce', 'security');
+
+            $search_key = isset($_POST['search_key']) ? sanitize_text_field($_POST['search_key']) : '';
+            $query_vars = array(
+                'post_type' => 'any', 
+                'post_status' => 'publish',
+                'posts_per_page' => 4,
+                's' => $search_key,
+            );  
+
+            $n_posts = new WP_Query($query_vars);
+            $res['loaded'] = false;
+
+            ob_start();
+            echo '<div class="news-portal-search-results-wrap">';
+            echo '<div class="news-portal-search-posts-wrap">';
+
+            if ($n_posts->have_posts()) {
+                $res['loaded'] = true;
+                while ($n_posts->have_posts()) :
+                    $n_posts->the_post();
+                    ?>
+                    <div class="news-portal-search-article-item <?php if( ! has_post_thumbnail() ){ echo esc_attr( 'no-img-post' ); } ?>">
+                        <figure class="news-portal-search-post-thumb-wrap">
+                            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
+                                <?php
+                                if (has_post_thumbnail()) {
+                                    the_post_thumbnail('thumbnail', array(
+                                        'title' => the_title_attribute(array(
+                                            'echo' => false
+                                        ))
+                                    ));
+                                }
+                                ?>
+                            </a>
+                        </figure>
+                        <div class="news-portal-search-post-element">
+                            <h4 class="news-portal-search-post-title"><a href="<?php the_permalink(); ?>"
+                            title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                            <?php news_portal_posted_on(); ?>
+                        </div>
+                    </div>
+                    <?php
+                endwhile;
+            } else {
+                echo 'No Results Found'; 
+            }
+            echo '</div>';
+            echo '</div>';
+            $res['posts'] = ob_get_clean();
+            
+            echo json_encode($res);
+            wp_die();
+        }
+        add_action('wp_ajax_news_portal_search_posts_content', 'news_portal_search_posts_content');
+        add_action('wp_ajax_nopriv_news_portal_search_posts_content', 'news_portal_search_posts_content');
+    }

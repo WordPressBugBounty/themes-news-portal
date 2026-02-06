@@ -1,3 +1,7 @@
+== 1.5.11 : 2025-11-20 ==
+-New: Live Search feature added on header search bar.
+-Fix: Widget title dynamic color issue fixed.
+
 == 1.5.10 : 2025-09-04 ==
 -Fix: Dark mode single post page design fixes done.
 

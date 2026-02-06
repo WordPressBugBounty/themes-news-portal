@@ -4,7 +4,7 @@ Theme URI:          https://mysterythemes.com/wp-themes/news-portal
 Author:             Mystery Themes
 Author URI:         https://mysterythemes.com
 Description:        News Portal is the free ultimate magazine theme with creative design and powerful features that allow you to quickly and easily create a newspaper & blog style website to suit your needs. It is completely built on Customizer which allows you to customize most of the theme settings easily with live previews. It is the fully widgetized theme so as to let users manage the website using the easy to use widgets. You can import the whole beautiful demo in just one click. News Portal Theme is the best choice to create a Beautiful & Powerful News/magazine/blog websites with ease.Check the demo at https://demo.mysterythemes.com/news-portal-demos/
-Version:            1.5.10
+Version:            1.5.11
 Requires at least:  5.6
 Tested up to:       6.8
 Requires PHP:       7.4
@@ -1992,19 +1992,12 @@ Header CSS
   top: -10px;
 }
 
-.np-header-search-wrapper .search-form-main .search-field {
-  border-radius: 0;
-  padding: 4px 10px;
-  width: 80%;
-  float: left;
-}
-
 .np-header-search-wrapper .search-form-main .search-submit {
   border: medium none;
   border-radius: 0;
   box-shadow: none;
   color: #fff;
-  float: left;
+  display: inline-block;
   padding: 10px 0 10px;
   width: 20%;
   height: 36px;
@@ -3151,4 +3144,126 @@ div.wpforms-container-full .wpforms-form .wpforms-page-button:hover {
   background: #029FB2;
   border: none;
   padding: 10px 20px;
+}
+
+/*--------------------------------------------------------------
+Live search css 
+--------------------------------------------------------------*/
+.news-portal-search-results-wrap {
+  padding: 15px 3px 0;
+}
+
+.np-header-search-wrapper .search-form-main .search-form label {
+  border-radius: 0;
+  padding: 0;
+  width: 80%;
+  display: inline-block;
+  position: relative;
+  margin-right: -4px;
+}
+
+.search-form-main .news-portal-search-posts-wrap {
+  max-height: 600px;
+  overflow-y: scroll;
+  padding-right: 8px;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-thumb-wrap {
+  flex: 0 1 20%;
+  margin-right: 15px;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-thumb-wrap img {
+  display: block;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element {
+  flex: 0 1 80%;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item.no-img-post .news-portal-search-post-thumb-wrap {
+  flex: 0;
+  margin: 0;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .news-portal-search-post-title {
+  margin: 0 0 6px;
+  line-height: 22px;
+  font-size: 14px;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .news-portal-search-post-title a {
+  color: #333;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .news-portal-search-post-title a:hover {
+  color: #029FB2;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .posted-on {
+  font-size: 12px;
+  display: block;
+  margin-top: -2px;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .byline {
+  display: none;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .posted-on a,
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .posted-on::before {
+  color: #909090;
+  font-style: normal;
+}
+
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .posted-on:hover a,
+.news-portal-search-results-wrap .news-portal-search-article-item .news-portal-search-post-element .posted-on:hover:before {
+  color: #029FB2;
+}
+
+.search-form.retrieving-posts label::before {
+  content: "\f110";
+  font-family: FontAwesome !important;
+  font-weight: 600;
+  display: inline-block;
+  color: #B6B6B6;
+  position: absolute;
+  right: 5px;
+  border-radius: 50%;
+  top: 0px;
+  font-size: 20px;
+  -webkit-animation: tie-spin 3s infinite linear;
+  animation: tie-spin 3s infinite linear;
+}
+
+@keyframes tie-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.search-results-wrap.no-posts-found h2 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.search-results-wrap.no-posts-found p {
+  margin: 8px 0 0;
 }

@@ -112,6 +112,35 @@ if ( ! function_exists( 'news_portal_register_header_options' ) ) :
             )
         );
 
+
+         /**
+         * Option for header search method.
+         *
+         * Header Settings > Main Area
+         *
+         * @since 1.0.0
+         */
+        $wp_customize->add_setting( 'news_portal_header_search_option',
+            array(
+                'default'           => news_portal_get_customizer_default( 'news_portal_header_search_option' ),
+                'sanitize_callback' => 'sanitize_text_field'
+            )
+        );
+        $wp_customize->add_control( 'news_portal_header_search_option',
+            array(
+                'priority'  => 20,
+                'section'   => 'news_portal_header_option_section',
+                'setting'   => 'news_portal_header_search_option',
+                'label'     => __( 'Search Method', 'news-portal' ),
+                'type' => 'select',
+                'choices' => array(
+                    'default'       => __('Default', 'news-portal'),
+                    'live-search'   => __('Live Search', 'news-portal'),
+                ),
+                // 'active_callback'   => 'news_portal_cb_has_header_search_enable'
+            )
+        );
+
         /**
          * Upgrade field for header options
          *
