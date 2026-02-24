@@ -226,9 +226,13 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
                     'slug'      => 'maintenance-notice',
                     'filename'  => 'maintenance-notice.php'
                 ),
+                'reactify' => array(
+                    'slug'      => 'reactify',
+                    'filename'  => 'reactify.php'
+                ),
             );
 
-            $plugin_info = array();
+            $plugins_info = array();
 
             foreach( $free_plugins as $plugin ) {
 

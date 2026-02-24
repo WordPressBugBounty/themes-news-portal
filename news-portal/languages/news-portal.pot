@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2024-09-18 09:51+0000\n"
+"POT-Creation-Date: 2026-02-23 16:24+0000\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,11 +19,11 @@ msgstr ""
 msgid " %s"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:434
+#: inc/admin/class-news-portal-dashboard.php:438
 msgid "$59.99"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:50
+#: inc/admin/class-news-portal-dashboard.php:54
 #, php-format
 msgid "%1$s Dashboard"
 msgstr ""
@@ -40,14 +40,7 @@ msgstr ""
 msgid "%1$s installed successfully."
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:132
-#, php-format
-msgid ""
-"%1$s is now installed and ready to use. Now that you are part of us. We have "
-"curated some important links for you to get rolling."
-msgstr ""
-
-#: inc/admin/class-news-portal-dashboard.php:75
+#: inc/admin/class-news-portal-dashboard.php:79
 #, php-format
 msgid "%1$s Options"
 msgstr ""
@@ -56,52 +49,52 @@ msgstr ""
 msgid "&nbsp;commented on"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:448
-#: inc/admin/class-news-portal-dashboard.php:453
-#: inc/admin/class-news-portal-dashboard.php:458
-#: inc/admin/class-news-portal-dashboard.php:513
+#: inc/admin/class-news-portal-dashboard.php:452
+#: inc/admin/class-news-portal-dashboard.php:457
+#: inc/admin/class-news-portal-dashboard.php:462
+#: inc/admin/class-news-portal-dashboard.php:517
 msgid "1"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:203
+#: inc/customizer/np-customizer-helper.php:207
 msgid "1 More Layouts"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:199
+#: inc/customizer/np-customizer-helper.php:203
 msgid "10+ Preloader Styles"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:201
+#: inc/customizer/np-customizer-helper.php:205
 msgid "10+ Widgets"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:499
+#: inc/admin/class-news-portal-dashboard.php:503
 msgid "12"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:514
+#: inc/admin/class-news-portal-dashboard.php:518
 msgid "2"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:202
-#: inc/customizer/np-customizer-helper.php:204
+#: inc/customizer/np-customizer-helper.php:206
+#: inc/customizer/np-customizer-helper.php:208
 msgid "2 More Layouts"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:207
+#: inc/customizer/np-customizer-helper.php:211
 msgid "2 Sub Footer Layouts"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:449
+#: inc/admin/class-news-portal-dashboard.php:453
 msgid "3"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:454
-#: inc/admin/class-news-portal-dashboard.php:459
+#: inc/admin/class-news-portal-dashboard.php:458
+#: inc/admin/class-news-portal-dashboard.php:463
 msgid "4"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:205
+#: inc/customizer/np-customizer-helper.php:209
 msgid "4 Layouts"
 msgstr ""
 
@@ -109,11 +102,11 @@ msgstr ""
 msgid "404"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:484
+#: inc/admin/class-news-portal-dashboard.php:488
 msgid "600+"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:498
+#: inc/admin/class-news-portal-dashboard.php:502
 msgid "7"
 msgstr ""
 
@@ -137,7 +130,7 @@ msgstr ""
 msgid "Action failed. Please refresh the page and retry."
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:668
+#: inc/admin/class-news-portal-dashboard.php:675
 #: inc/tgm/class-tgm-plugin-activation.php:2726
 msgid "Activate"
 msgstr ""
@@ -172,7 +165,7 @@ msgstr ""
 msgid "Add Icon"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:200
+#: inc/customizer/np-customizer-helper.php:204
 msgid "Add unlimited social icons field."
 msgstr ""
 
@@ -189,7 +182,7 @@ msgstr ""
 msgid "Added widgets are display at Footer Widget Area."
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:203
+#: inc/customizer/np-customizer-helper.php:207
 msgid "Adjustable Post Count Option"
 msgstr ""
 
@@ -214,7 +207,7 @@ msgstr ""
 msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:507
+#: inc/admin/class-news-portal-dashboard.php:511
 msgid "Animation on Section"
 msgstr ""
 
@@ -222,7 +215,7 @@ msgstr ""
 msgid "Archive Layouts"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:452
+#: inc/admin/class-news-portal-dashboard.php:456
 msgid "Archive Pages Layouts"
 msgstr ""
 
@@ -239,7 +232,7 @@ msgctxt "as in: \"version nr unknown\""
 msgid "unknown"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:205
+#: inc/customizer/np-customizer-helper.php:209
 msgid "Author Option"
 msgstr ""
 
@@ -255,7 +248,7 @@ msgstr ""
 msgid "Background"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:206
+#: inc/customizer/np-customizer-helper.php:210
 msgid "Background Options"
 msgstr ""
 
@@ -313,7 +306,7 @@ msgstr ""
 msgid "Block Widget Editor Option"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:512
+#: inc/admin/class-news-portal-dashboard.php:516
 msgid "Bottom Footer Layouts"
 msgstr ""
 
@@ -329,19 +322,19 @@ msgstr ""
 msgid "Boxed Layout"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:467
+#: inc/admin/class-news-portal-dashboard.php:471
 msgid "Breadcrumbs"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:202
+#: inc/customizer/np-customizer-helper.php:206
 msgid "Button on Menu"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:368
+#: inc/admin/class-news-portal-dashboard.php:372
 msgid "Buy Now"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:520
+#: inc/admin/class-news-portal-dashboard.php:524
 #: inc/customizer/customizer.php:116
 msgid "Buy Pro"
 msgstr ""
@@ -358,7 +351,7 @@ msgstr ""
 msgid "Category Link"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:103
+#: inc/admin/class-news-portal-dashboard.php:107
 msgid "Changelog"
 msgstr ""
 
@@ -389,8 +382,8 @@ msgstr ""
 msgid "Classic"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:316
-#: inc/admin/class-news-portal-dashboard.php:373
+#: inc/admin/class-news-portal-dashboard.php:320
+#: inc/admin/class-news-portal-dashboard.php:377
 msgid "Click to import demo"
 msgstr ""
 
@@ -403,19 +396,19 @@ msgstr ""
 msgid "Colors"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:174
+#: inc/customizer/np-customizer-helper.php:178
 msgid "Column One"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:162
+#: inc/customizer/np-customizer-helper.php:166
 msgid "Columns Four"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:166
+#: inc/customizer/np-customizer-helper.php:170
 msgid "Columns Three"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:170
+#: inc/customizer/np-customizer-helper.php:174
 msgid "Columns Two"
 msgstr ""
 
@@ -444,20 +437,21 @@ msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/admin/class-news-portal-notice.php:129
-msgid "Congratulations!"
+#: inc/admin/class-news-portal-notice.php:132
+#, php-format
+msgid "Congratulation! Welcome to %1$s"
 msgstr ""
 
 #: inc/tgm/np-recommended-plugins.php:63
 msgid "Contact Form by WPForms – Drag & Drop Form Builder for WordPress"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:203
-#: inc/admin/class-news-portal-dashboard.php:208
+#: inc/admin/class-news-portal-dashboard.php:207
+#: inc/admin/class-news-portal-dashboard.php:212
 msgid "Contact Support"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:203
+#: inc/customizer/np-customizer-helper.php:207
 msgid "Content Type Options"
 msgstr ""
 
@@ -475,16 +469,16 @@ msgstr ""
 msgid "Current Date"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:502
-#: inc/customizer/np-customizer-helper.php:204
+#: inc/admin/class-news-portal-dashboard.php:506
+#: inc/customizer/np-customizer-helper.php:208
 msgid "Custom 404 Page"
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:157
+#: inc/admin/class-news-portal-notice.php:148
 msgid "Customize your site"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:159
+#: inc/admin/class-news-portal-dashboard.php:163
 msgid "Customizer quick link"
 msgstr ""
 
@@ -497,11 +491,15 @@ msgstr ""
 msgid "Customizing &#9656; %s"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:663
+#: inc/admin/class-news-portal-dashboard.php:670
 msgid "Deactivate"
 msgstr ""
 
-#: inc/metaboxes/np-page-metabox.php:31 inc/metaboxes/np-post-metabox.php:31
+#: inc/customizer/sections/header/header-option.php:137
+msgid "Default"
+msgstr ""
+
+#: inc/metaboxes/np-page-metabox.php:39 inc/metaboxes/np-post-metabox.php:39
 msgid "Default Sidebar"
 msgstr ""
 
@@ -510,12 +508,8 @@ msgstr ""
 msgid "Delete"
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:169
-msgid "Demo"
-msgstr ""
-
-#: inc/admin/class-news-portal-dashboard.php:318
-#: inc/admin/class-news-portal-dashboard.php:375
+#: inc/admin/class-news-portal-dashboard.php:322
+#: inc/admin/class-news-portal-dashboard.php:379
 msgid "Demo importer plugin is not installed or activated"
 msgstr ""
 
@@ -550,11 +544,11 @@ msgid ""
 "section."
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:179 inc/customizer/customizer.php:150
+#: inc/customizer/customizer.php:150
 msgid "Documentation"
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:153
+#: inc/admin/class-news-portal-notice.php:144
 msgid "Done!"
 msgstr ""
 
@@ -639,11 +633,11 @@ msgstr ""
 msgid "External Source"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:566
+#: inc/admin/class-news-portal-dashboard.php:570
 msgid "F"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:477
+#: inc/admin/class-news-portal-dashboard.php:481
 msgid "Fallback Image"
 msgstr ""
 
@@ -651,11 +645,11 @@ msgstr ""
 msgid "Featured Post Categories"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:425
+#: inc/admin/class-news-portal-dashboard.php:429
 msgid "Features"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:567
+#: inc/admin/class-news-portal-dashboard.php:571
 msgid "Fixed"
 msgstr ""
 
@@ -679,11 +673,11 @@ msgstr ""
 msgid "Footer Widget Section"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:433
+#: inc/admin/class-news-portal-dashboard.php:437
 msgid "Free"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:98
+#: inc/admin/class-news-portal-dashboard.php:102
 msgid "Free Vs Pro"
 msgstr ""
 
@@ -699,36 +693,32 @@ msgstr ""
 msgid "Fullwidth Layout"
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:144
-msgid "General Info"
-msgstr ""
-
 #: inc/customizer/np-register-panels-sections.php:46
 msgid "General Settings"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:517
+#: inc/admin/class-news-portal-dashboard.php:521
 msgid "Get access to all Pro features and power-up your website"
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:154
+#: inc/admin/class-news-portal-notice.php:145
 #, php-format
 msgid "Get started with %1$s"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:232
+#: inc/admin/class-news-portal-dashboard.php:236
 msgid "Go to Dashboard"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:232
+#: inc/admin/class-news-portal-dashboard.php:236
 msgid "Go to Dashboard &rarr; Home"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:195
+#: inc/admin/class-news-portal-dashboard.php:199
 msgid "Go to doc"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:482
+#: inc/admin/class-news-portal-dashboard.php:486
 msgid "Google Fonts"
 msgstr ""
 
@@ -740,7 +730,7 @@ msgstr ""
 msgid "Header Ads"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:447
+#: inc/admin/class-news-portal-dashboard.php:451
 msgid "Header Layouts"
 msgstr ""
 
@@ -802,26 +792,26 @@ msgstr ""
 msgid "https://mysterythemes.com/wp-themes/news-portal"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:562
+#: inc/admin/class-news-portal-dashboard.php:566
 msgid "I"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:472
+#: inc/admin/class-news-portal-dashboard.php:476
 msgid "Image Hover Features"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:322
-#: inc/admin/class-news-portal-dashboard.php:379
+#: inc/admin/class-news-portal-dashboard.php:326
+#: inc/admin/class-news-portal-dashboard.php:383
 msgid "Import"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:321
-#: inc/admin/class-news-portal-dashboard.php:378
+#: inc/admin/class-news-portal-dashboard.php:325
+#: inc/admin/class-news-portal-dashboard.php:382
 #, php-format
 msgid "Import %1$s"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:437
+#: inc/admin/class-news-portal-dashboard.php:441
 msgid "Import Demo Data"
 msgstr ""
 
@@ -829,18 +819,18 @@ msgstr ""
 msgid "Important Theme Links"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:311
-#: inc/admin/class-news-portal-dashboard.php:359
+#: inc/admin/class-news-portal-dashboard.php:315
+#: inc/admin/class-news-portal-dashboard.php:363
 msgid "Imported"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:310
-#: inc/admin/class-news-portal-dashboard.php:358
+#: inc/admin/class-news-portal-dashboard.php:314
+#: inc/admin/class-news-portal-dashboard.php:362
 #, php-format
 msgid "Imported %1$s"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:563
+#: inc/admin/class-news-portal-dashboard.php:567
 msgid "Improvement"
 msgstr ""
 
@@ -873,7 +863,7 @@ msgid "Install %2$s"
 msgstr ""
 
 #: inc/admin/class-news-portal-admin.php:510
-#: inc/admin/class-news-portal-dashboard.php:658
+#: inc/admin/class-news-portal-dashboard.php:665
 msgid "Install and Activate"
 msgstr ""
 
@@ -953,7 +943,7 @@ msgstr ""
 msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:130
+#: inc/admin/class-news-portal-dashboard.php:134
 msgid "Leave us a reivew"
 msgstr ""
 
@@ -962,7 +952,7 @@ msgstr ""
 msgid "Left Sidebar"
 msgstr ""
 
-#: inc/metaboxes/np-page-metabox.php:37 inc/metaboxes/np-post-metabox.php:37
+#: inc/metaboxes/np-page-metabox.php:45 inc/metaboxes/np-post-metabox.php:45
 msgid "Left sidebar"
 msgstr ""
 
@@ -970,19 +960,27 @@ msgstr ""
 msgid "Like Us in Facebook"
 msgstr ""
 
+#: inc/customizer/np-customizer-helper.php:140
+msgid "List"
+msgstr ""
+
 #: inc/customizer/customizer.php:150
 msgid "Live Demos"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:167
+#: inc/customizer/sections/header/header-option.php:138
+msgid "Live Search"
+msgstr ""
+
+#: inc/admin/class-news-portal-dashboard.php:171
 msgid "Manage header section"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:178
+#: inc/admin/class-news-portal-dashboard.php:182
 msgid "Manage menus"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:170
+#: inc/admin/class-news-portal-dashboard.php:174
 msgid "Manage Social Icons"
 msgstr ""
 
@@ -990,7 +988,7 @@ msgstr ""
 msgid "Manage the settings for available templates."
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:181
+#: inc/admin/class-news-portal-dashboard.php:185
 msgid "Manage widgets"
 msgstr ""
 
@@ -1003,14 +1001,14 @@ msgstr ""
 #: inc/customizer/sections/general/preloader.php:113
 #: inc/customizer/sections/general/social-icons.php:107
 #: inc/customizer/sections/general/widgets.php:110
-#: inc/customizer/sections/header/header-option.php:131
+#: inc/customizer/sections/header/header-option.php:160
 #: inc/customizer/sections/header/ticker.php:110
 #: inc/customizer/sections/innerpage/archive.php:113
 #: inc/customizer/sections/innerpage/post.php:112
 msgid "More Features with News Portal Pro"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:108
+#: inc/admin/class-news-portal-dashboard.php:112
 msgid "More Features With Pro"
 msgstr ""
 
@@ -1026,11 +1024,11 @@ msgstr ""
 msgid "Mystery Themes Demo Importer Plugin is not installed!"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:558
+#: inc/admin/class-news-portal-dashboard.php:562
 msgid "N"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:559
+#: inc/admin/class-news-portal-dashboard.php:563
 msgid "New"
 msgstr ""
 
@@ -1067,7 +1065,7 @@ msgstr ""
 msgid "No action taken. Plugin %1$s was already active."
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:279
+#: inc/admin/class-news-portal-dashboard.php:283
 msgid "No demos are configured for this theme, please contact the theme author"
 msgstr ""
 
@@ -1111,11 +1109,11 @@ msgstr ""
 msgid "No Sidebar Center"
 msgstr ""
 
-#: inc/metaboxes/np-page-metabox.php:55 inc/metaboxes/np-post-metabox.php:55
+#: inc/metaboxes/np-page-metabox.php:63 inc/metaboxes/np-post-metabox.php:63
 msgid "No sidebar Content Centered"
 msgstr ""
 
-#: inc/metaboxes/np-page-metabox.php:49 inc/metaboxes/np-post-metabox.php:49
+#: inc/metaboxes/np-page-metabox.php:57 inc/metaboxes/np-post-metabox.php:57
 msgid "No sidebar Full width"
 msgstr ""
 
@@ -1123,7 +1121,7 @@ msgstr ""
 msgid "No. of Posts"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:497
+#: inc/admin/class-news-portal-dashboard.php:501
 msgid "No. of Widgets"
 msgstr ""
 
@@ -1185,8 +1183,8 @@ msgstr ""
 msgid "Open in new tab"
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:174
-#: inc/admin/class-news-portal-notice.php:184
+#: inc/admin/class-news-portal-notice.php:151
+#: inc/admin/class-news-portal-notice.php:153
 msgid "opens in a new tab"
 msgstr ""
 
@@ -1220,7 +1218,7 @@ msgstr ""
 msgid "Please do rate our theme if you liked it %s"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:93
+#: inc/admin/class-news-portal-dashboard.php:97
 #: inc/tgm/class-tgm-plugin-activation.php:2547
 msgid "Plugin"
 msgstr ""
@@ -1272,19 +1270,19 @@ msgid_plural "All <span class=\"count\">(%s)</span>"
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/customizer/np-customizer-helper.php:201
+#: inc/customizer/np-customizer-helper.php:205
 msgid "Post Author Option"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:201
+#: inc/customizer/np-customizer-helper.php:205
 msgid "Post Comment Option"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:201
+#: inc/customizer/np-customizer-helper.php:205
 msgid "Post Date Option"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:201
+#: inc/customizer/np-customizer-helper.php:205
 msgid "Post Format Option"
 msgstr ""
 
@@ -1292,12 +1290,12 @@ msgstr ""
 msgid "Post Meta Options"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:462
+#: inc/admin/class-news-portal-dashboard.php:466
 msgid "Post Review"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:201
 #: inc/customizer/np-customizer-helper.php:205
+#: inc/customizer/np-customizer-helper.php:209
 msgid "Post Review Option"
 msgstr ""
 
@@ -1309,11 +1307,11 @@ msgstr ""
 msgid "Post Sidebars"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:205
+#: inc/customizer/np-customizer-helper.php:209
 msgid "Post View Option"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:442
+#: inc/admin/class-news-portal-dashboard.php:446
 msgid "Pre Loaders"
 msgstr ""
 
@@ -1329,7 +1327,7 @@ msgstr ""
 msgid "Preloaders"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:432
+#: inc/admin/class-news-portal-dashboard.php:436
 msgid "Price"
 msgstr ""
 
@@ -1341,15 +1339,15 @@ msgstr ""
 msgid "Primary Theme Color"
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:153
+#: inc/admin/class-news-portal-notice.php:144
 msgid "Processing"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:367
+#: inc/admin/class-news-portal-dashboard.php:371
 msgid "Purchase Now"
 msgstr ""
 
-#: inc/admin/class-news-portal-notice.php:184
+#: inc/admin/class-news-portal-notice.php:153
 msgid "Read full documentation"
 msgstr ""
 
@@ -1368,7 +1366,7 @@ msgstr ""
 msgid "Recommended"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:648
+#: inc/admin/class-news-portal-dashboard.php:654
 msgid "Recommended Free Plugins"
 msgstr ""
 
@@ -1384,7 +1382,7 @@ msgstr ""
 msgid "Related Post Section Title"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:583
+#: inc/admin/class-news-portal-dashboard.php:587
 #, php-format
 msgid "Released on: %1$s"
 msgstr ""
@@ -1405,7 +1403,7 @@ msgstr ""
 msgid "Requires Update"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:229
+#: inc/admin/class-news-portal-dashboard.php:233
 msgid "Return to Dashboard &rarr; Updates"
 msgstr ""
 
@@ -1421,7 +1419,7 @@ msgstr ""
 msgid "Return to the Dashboard"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:229
+#: inc/admin/class-news-portal-dashboard.php:233
 msgid "Return to Updates"
 msgstr ""
 
@@ -1429,7 +1427,7 @@ msgstr ""
 msgid "Right Sidebar"
 msgstr ""
 
-#: inc/metaboxes/np-page-metabox.php:43 inc/metaboxes/np-post-metabox.php:43
+#: inc/metaboxes/np-page-metabox.php:51 inc/metaboxes/np-post-metabox.php:51
 msgid "Right sidebar"
 msgstr ""
 
@@ -1456,6 +1454,10 @@ msgstr ""
 msgid "Search Icon"
 msgstr ""
 
+#: inc/customizer/sections/header/header-option.php:134
+msgid "Search Method"
+msgstr ""
+
 #. %s: search query.
 #: search.php:25
 #, php-format
@@ -1466,7 +1468,7 @@ msgstr ""
 msgid "Select banner image"
 msgstr ""
 
-#: inc/template-functions.php:315
+#: inc/template-functions.php:321
 msgid "Select Category"
 msgstr ""
 
@@ -1480,11 +1482,11 @@ msgid ""
 "customizer settings."
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:164
+#: inc/admin/class-news-portal-dashboard.php:168
 msgid "Set up your homepage"
 msgstr ""
 
-#: inc/customizer/np-customizer-helper.php:202
+#: inc/customizer/np-customizer-helper.php:206
 msgid "Shadow Option on Menu"
 msgstr ""
 
@@ -1544,11 +1546,11 @@ msgstr ""
 msgid "Sidebars"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:457
+#: inc/admin/class-news-portal-dashboard.php:461
 msgid "Single Page Layouts"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:175
+#: inc/admin/class-news-portal-dashboard.php:179
 msgid "Single Post Layout"
 msgstr ""
 
@@ -1556,7 +1558,7 @@ msgstr ""
 msgid "Site Layout"
 msgstr ""
 
-#: inc/template-functions.php:686
+#: inc/template-functions.php:692
 msgid "site mode button"
 msgstr ""
 
@@ -1618,8 +1620,8 @@ msgstr ""
 msgid "Source"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:88
-#: inc/admin/class-news-portal-notice.php:174
+#: inc/admin/class-news-portal-dashboard.php:92
+#: inc/admin/class-news-portal-notice.php:151
 msgid "Stater Sites"
 msgstr ""
 
@@ -1643,11 +1645,11 @@ msgstr ""
 msgid "Style 3"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:133
+#: inc/admin/class-news-portal-dashboard.php:137
 msgid "Submit a review"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:570
+#: inc/admin/class-news-portal-dashboard.php:574
 msgid "T"
 msgstr ""
 
@@ -1731,7 +1733,7 @@ msgid ""
 "and renaming did not work."
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:190
+#: inc/admin/class-news-portal-dashboard.php:194
 msgid "Theme Documentation"
 msgstr ""
 
@@ -1756,7 +1758,7 @@ msgid_plural "There are updates available for the following plugins: %1$s."
 msgstr[0] ""
 msgstr[1] ""
 
-#: inc/admin/class-news-portal-dashboard.php:649
+#: inc/admin/class-news-portal-dashboard.php:655
 msgid "These Free Plugins might be handy for you."
 msgstr ""
 
@@ -1824,11 +1826,11 @@ msgstr ""
 msgid "Top Menu"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:216
+#: inc/admin/class-news-portal-dashboard.php:220
 msgid "Tutorial"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:571
+#: inc/admin/class-news-portal-dashboard.php:575
 msgid "Tweak"
 msgstr ""
 
@@ -1836,7 +1838,7 @@ msgstr ""
 msgid "Type"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:487
+#: inc/admin/class-news-portal-dashboard.php:491
 msgid "Typography Options"
 msgstr ""
 
@@ -1900,23 +1902,23 @@ msgstr ""
 msgid "Version"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:685
+#: inc/admin/class-news-portal-dashboard.php:692
 #, php-format
 msgid "Version %1$s"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:76
-#: inc/admin/class-news-portal-dashboard.php:582
+#: inc/admin/class-news-portal-dashboard.php:80
+#: inc/admin/class-news-portal-dashboard.php:586
 #, php-format
 msgid "Version: %1$s"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:328
-#: inc/admin/class-news-portal-dashboard.php:386
+#: inc/admin/class-news-portal-dashboard.php:332
+#: inc/admin/class-news-portal-dashboard.php:390
 msgid "View Demo"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:83
+#: inc/admin/class-news-portal-dashboard.php:87
 msgid "Welcome"
 msgstr ""
 
@@ -1932,7 +1934,7 @@ msgstr ""
 msgid "Widget title"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:492
+#: inc/admin/class-news-portal-dashboard.php:496
 msgid "Woocommerce Compatible"
 msgstr ""
 
@@ -1948,7 +1950,7 @@ msgstr ""
 msgid "WP Magazine Modules Lite"
 msgstr ""
 
-#: inc/admin/class-news-portal-dashboard.php:221
+#: inc/admin/class-news-portal-dashboard.php:225
 #: inc/customizer/customizer.php:150
 msgid "WP Tutorials"
 msgstr ""

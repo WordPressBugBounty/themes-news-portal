@@ -79,6 +79,13 @@ function news_portal_register_required_plugins() {
             'required'  => false,
             'force_activation'   => false,
             'force_deactivation' => false,
+        ),
+        array(
+            'name'      => __( 'Reactify', 'news-portal' ),
+            'slug'      => 'reactify',
+            'required'  => false,
+            'force_activation'   => false,
+            'force_deactivation' => false,
         )
 	);
 

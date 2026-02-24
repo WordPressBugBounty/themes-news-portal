@@ -41,7 +41,7 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
             $this->theme_author_uri     = $theme->get( 'AuthorURI' );
             $this->theme_author_name    = $theme->get( 'Author' );
             if ( is_object( $admin_main_class ) && method_exists( $admin_main_class, 'news_portal_free_plugins_lists' ) ) {
-            $this->free_plugins = $admin_main_class->news_portal_free_plugins_lists();
+                $this->free_plugins = $admin_main_class->news_portal_free_plugins_lists();
             } else {
                 $this->free_plugins = array(); // fallback to empty
             }
@@ -641,6 +641,8 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
             global $admin_main_class;
 
             $free_plugins = $this->free_plugins;
+
+
             ?>
             <div id="news-portal-dashboard">
                 <?php $this->news_portal_dashboard_header(); ?>
@@ -654,6 +656,7 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
                             </div><!-- .header-content -->
                             <div class="plugin-listing">
                                 <?php
+                                if ( ! empty( $free_plugins ) ) :
                                     foreach( $free_plugins as $key => $value ) {
 
                                         switch( $value['action'] ) {
@@ -699,6 +702,8 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
                                         </div><!-- .single-plugin-wrap -->
                                 <?php
                                     }
+                                    
+                                endif;
                                 ?>
                             </div><!-- .plugin-listing -->
                         </div><!-- .plugin-content-wrapper -->

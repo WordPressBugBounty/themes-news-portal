@@ -1,3 +1,7 @@
+== 1.5.12 : 2026-02-24 ==
+-Fix: Blank array variable name in theme admin class.
+-New: Reactify plugin recommended via TGM & dashboard plugin section for posts reaction feature.
+
 == 1.5.11 : 2025-11-20 ==
 -New: Live Search feature added on header search bar.
 -Fix: Widget title dynamic color issue fixed.
