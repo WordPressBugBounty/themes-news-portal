@@ -162,8 +162,8 @@
 
 #news-portal-dashboard .dashboard-nav li a:hover,
 #news-portal-dashboard .dashboard-nav li a.nav-tab.active {
-  color: #0073AA;
-  border-bottom: 5px solid #0073AA;
+  color: #3858e9;
+  border-bottom: 5px solid #3858e9;
 }
 
 #news-portal-dashboard .dashboard-nav li a .dashicons {
@@ -196,6 +196,21 @@
 
 #news-portal-dashboard .block-header {
   display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+#news-portal-dashboard .block-header .dashicons {
+  font-size: 24px;
+  display: inline-block;
+  margin-right: 15px;
+  color: #3858e9;
+  border: 2px solid #3858e9;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 55px;
 }
 
 #news-portal-dashboard .block-header img {
@@ -220,10 +235,14 @@
   text-align: left;
   font-size: 14px;
   text-decoration: none;
-  color: #0073AA;
+  color: #3858e9;
   padding: 8px 0 8px;
   border-bottom: 1px solid #e1e1e1;
   font-weight: 600;
+}
+
+#news-portal-dashboard .block-content.content-column .col li a:hover{
+  color: #2145E6;
 }
 
 #news-portal-dashboard .block-content.content-column .col li a span {
@@ -235,6 +254,10 @@
   background: #fff;
   padding: 10px 20px 30px;
   text-align: center;
+}
+
+#news-portal-dashboard .sidebar-wrapper .sidebar .block-title {
+  font-size: 16px;
 }
 
 #news-portal-dashboard .block-content.content-column .col li:last-child a {
@@ -543,6 +566,12 @@
   margin-left: 6px;
   position: relative;
   top: 4px;
+}
+
+.sidebar-block .button span.dashicons::before {
+  color: #fff;
+  position: relative;
+  top: -7px;
 }
 
 @media (max-width: 1500px) {

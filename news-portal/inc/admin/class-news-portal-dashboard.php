@@ -159,7 +159,7 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
                             
                             <div class="welcome-block quick-links">
                                 <div class="block-header">
-                                    <img class="block-icon" src="<?php echo esc_url( get_template_directory_uri() . '/inc/admin/assets/img/quick-link.svg' ); ?>" alt="icon">
+                                    <i class="dashicons dashicons-admin-links"></i>
                                     <h3 class="block-title"><?php esc_html_e( 'Customizer quick link', 'news-portal' ); ?></h3>
                                 </div><!-- .block-header -->
                                 <div class="block-content content-column">
@@ -190,7 +190,7 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
 
                             <div class="welcome-block documentation">
                                 <div class="block-header">
-                                    <img class="block-icon" src="<?php echo esc_url( get_template_directory_uri() . '/inc/admin/assets/img/docs.svg' ); ?>" alt="icon">
+                                    <i class="dashicons dashicons-media-document"></i>
                                     <h3 class="block-title"><?php esc_html_e( 'Theme Documentation', 'news-portal' ); ?></h3>
                                 </div><!-- .block-header -->
                                 <div class="block-content">
@@ -203,7 +203,7 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
 
                             <div class="welcome-block support">
                                 <div class="block-header">
-                                    <img class="block-icon" src="<?php echo esc_url( get_template_directory_uri() . '/inc/admin/assets/img/support.svg' ); ?>" alt="icon">
+                                    <i class="dashicons dashicons-format-chat"></i>
                                     <h3 class="block-title"><?php esc_html_e( 'Contact Support', 'news-portal' ); ?></h3>
                                 </div><!-- .block-header -->
                                 <div class="block-content">
@@ -216,7 +216,7 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
 
                             <div class="welcome-block tutorial">
                                 <div class="block-header">
-                                    <img class="block-icon" src="<?php echo esc_url( get_template_directory_uri() . '/inc/admin/assets/img/tutorial.svg' ); ?>" alt="icon">
+                                    <i class="dashicons dashicons-welcome-learn-more"></i>
                                     <h3 class="block-title"><?php esc_html_e( 'Tutorial', 'news-portal' ); ?></h3>
                                 </div><!-- .block-header -->
                                 <div class="block-content">
