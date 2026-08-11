@@ -4,7 +4,7 @@ Theme URI:          https://mysterythemes.com/wp-themes/news-portal
 Author:             Mystery Themes
 Author URI:         https://mysterythemes.com
 Description:        News Portal is the free ultimate magazine theme with creative design and powerful features that allow you to quickly and easily create a newspaper & blog style website to suit your needs. It is completely built on Customizer which allows you to customize most of the theme settings easily with live previews. It is the fully widgetized theme so as to let users manage the website using the easy to use widgets. You can import the whole beautiful demo in just one click. News Portal Theme is the best choice to create a Beautiful & Powerful News/magazine/blog websites with ease.Check the demo at https://demo.mysterythemes.com/news-portal-demos/
-Version:            1.5.13
+Version:            1.5.14
 Requires at least:  5.6
 Tested up to:       7.0
 Requires PHP:       7.4
@@ -3268,4 +3268,63 @@ Live search css
 
 .search-results-wrap.no-posts-found p {
   margin: 8px 0 0;
+}
+
+/*--------------------------------------------------------------
+Single Post Reading Progress Bar
+--------------------------------------------------------------*/
+.np-reading-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: transparent;
+  z-index: 99999;
+  pointer-events: none;
+  max-width: 100vw;
+  box-sizing: border-box;
+}
+
+.np-reading-progress-fill {
+  height: 100%;
+  width: 0%;
+  background-color: #029FB2;
+  transition: width 0.05s ease-out;
+  pointer-events: none;
+}
+
+.np-reading-progress-tooltip {
+  position: absolute;
+  top: 8px;
+  left: 0%;
+  transform: translateX(0%);
+  background-color: #029FB2;
+  border-radius: 4px;
+  padding: 3px 7px;
+  pointer-events: none;
+  z-index: 99999;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  white-space: nowrap;
+  transition: left 0.05s ease-out, transform 0.05s ease-out;
+}
+
+.np-reading-progress-tooltip .np-tooltip-text {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #ffffff;
+  display: block;
+}
+
+.np-reading-progress-tooltip .np-tooltip-arrow {
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #029FB2;
 }

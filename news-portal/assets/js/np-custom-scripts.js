@@ -281,6 +281,74 @@ jQuery(document).ready(function($) {
 		}
 	});
 
+	/**
+	 * Single post reading progress bar
+	 */
+	if ($('body').hasClass('single-post')) {
+		var $progressBar = $('#np-reading-progress');
+		var $progressFill = $progressBar.find('.np-reading-progress-fill');
+		var $tooltip = $progressBar.find('.np-reading-progress-tooltip');
+		var $tooltipText = $tooltip.find('.np-tooltip-text');
+		var $entryContent = $('.entry-content').first();
+
+		if ($progressBar.length && $entryContent.length) {
+			var ticking = false;
+
+			var updateProgress = function() {
+				var scrollTop = $(window).scrollTop();
+				var windowHeight = $(window).height();
+				var contentTop = $entryContent.offset().top;
+				var contentHeight = $entryContent.outerHeight();
+
+				var startScroll = contentTop;
+				var endScroll = contentTop + contentHeight - windowHeight;
+				var progress = 0;
+
+				if (endScroll <= startScroll) {
+					if (scrollTop >= startScroll) {
+						progress = 100;
+					} else {
+						progress = 0;
+					}
+				} else {
+					if (scrollTop <= startScroll) {
+						progress = 0;
+					} else if (scrollTop >= endScroll) {
+						progress = 100;
+					} else {
+						progress = ((scrollTop - startScroll) / (endScroll - startScroll)) * 100;
+					}
+				}
+
+				progress = Math.min(100, Math.max(0, progress));
+				var roundedProgress = Math.round(progress);
+
+				$progressFill.css('width', progress + '%');
+				$progressBar.attr('aria-valuenow', roundedProgress);
+
+				if ($tooltip.length) {
+					$tooltip.css({
+						'left': progress + '%',
+						'transform': 'translateX(-' + progress + '%)'
+					});
+					$tooltipText.text(roundedProgress + '%');
+				}
+
+				ticking = false;
+			};
+
+			var requestTick = function() {
+				if (!ticking) {
+					requestAnimationFrame(updateProgress);
+					ticking = true;
+				}
+			};
+
+			$(window).on('scroll resize', requestTick);
+			updateProgress();
+		}
+	}
+
 });
 
 /**

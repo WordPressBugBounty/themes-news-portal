@@ -438,6 +438,22 @@ if ( ! function_exists( 'news_portal_dynamic_styles' ) ) :
 
         $output_css .= ".navigation .nav-links a,.bttn,button,input[type='button'],input[type='reset'],input[type='submit'],.navigation .nav-links a:hover,.bttn:hover,button,input[type='button']:hover,input[type='reset']:hover,input[type='submit']:hover,.widget_search .search-submit,.edit-link .post-edit-link,.reply .comment-reply-link,.np-top-header-wrap,.np-header-menu-wrapper,#site-navigation ul.sub-menu, #site-navigation ul.children,.np-header-menu-wrapper::before, .np-header-menu-wrapper::after,.np-header-search-wrapper .search-form-main .search-submit,.news_portal_slider .lSAction > a:hover,.news_portal_default_tabbed ul.widget-tabs li,.np-full-width-title-nav-wrap .carousel-nav-action .carousel-controls:hover,.news_portal_social_media .social-link a,.np-archive-more .np-button:hover,.error404 .page-title,#np-scrollup,.news_portal_featured_slider .slider-posts .lSAction > a:hover,div.wpforms-container-full .wpforms-form input[type='submit'], div.wpforms-container-full .wpforms-form button[type='submit'],div.wpforms-container-full .wpforms-form .wpforms-page-button,div.wpforms-container-full .wpforms-form input[type='submit']:hover, div.wpforms-container-full .wpforms-form button[type='submit']:hover,div.wpforms-container-full .wpforms-form .wpforms-page-button:hover,.widget.widget_tag_cloud a:hover { background: ". esc_attr( $news_portal_theme_color ) ."}\n";
 
+        $progress_color = news_portal_get_customizer_option_value( 'news_portal_reading_progress_color' );
+        if ( ! empty( $progress_color ) ) {
+            $output_css .= ".np-reading-progress-fill { background-color: ". esc_attr( $progress_color ) ."}\n";
+        }
+
+        $tooltip_text_color = news_portal_get_customizer_option_value( 'news_portal_reading_progress_tooltip_text_color' );
+        if ( ! empty( $tooltip_text_color ) ) {
+            $output_css .= ".np-reading-progress-tooltip .np-tooltip-text { color: ". esc_attr( $tooltip_text_color ) ."}\n";
+        }
+
+        $tooltip_bg_color = news_portal_get_customizer_option_value( 'news_portal_reading_progress_tooltip_bg_color' );
+        if ( ! empty( $tooltip_bg_color ) ) {
+            $output_css .= ".np-reading-progress-tooltip { background-color: ". esc_attr( $tooltip_bg_color ) ."}\n";
+            $output_css .= ".np-reading-progress-tooltip .np-tooltip-arrow { border-bottom-color: ". esc_attr( $tooltip_bg_color ) ."}\n";
+        }
+
         $output_css .= ".home .np-home-icon a, .np-home-icon a:hover,#site-navigation ul li:hover > a, #site-navigation ul li.current-menu-item > a,#site-navigation ul li.current_page_item > a,#site-navigation ul li.current-menu-ancestor > a,#site-navigation ul li.focus > a, .news_portal_default_tabbed ul.widget-tabs li.ui-tabs-active, .news_portal_default_tabbed ul.widget-tabs li:hover,.menu-toggle:hover,.menu-toggle:focus{ background: ". esc_attr( $news_portal_theme_hover_color ) ."}\n";
 
         $output_css .= ".np-header-menu-block-wrap::before, .np-header-menu-block-wrap::after { border-right-color: ". esc_attr( $news_portal_theme_hover_color ) ."}\n";

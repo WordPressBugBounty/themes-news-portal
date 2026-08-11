@@ -64,6 +64,13 @@ if ( ! function_exists( 'news_portal_get_customizer_default' ) ) :
                 //scroll top 
                 'news_portal_scroll_top_option'           => true,
 
+                //reading progress bar
+                'news_portal_reading_progress_option'            => true,
+                'news_portal_reading_progress_percentage_option' => true,
+                'news_portal_reading_progress_color'             => '#F4511E',
+                'news_portal_reading_progress_tooltip_text_color'=> '#ffffff',
+                'news_portal_reading_progress_tooltip_bg_color'  => '#F4511E',
+
                 //widget settings
                 'news_portal_widget_cat_link_option'      => true,
                 'news_portal_widget_cat_color_option'     => true,

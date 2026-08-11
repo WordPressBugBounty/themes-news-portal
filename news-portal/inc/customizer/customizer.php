@@ -227,7 +227,7 @@ require get_template_directory() . '/inc/customizer/np-customizer-sanitize.php';
 require get_template_directory() . '/inc/customizer/np-customizer-stater.php';                      // Customizer stater
 
 $news_portal_sections_array = array(
-    'general'         => array( 'site-style', 'preloader', 'colors', 'social-icons', 'sidebar','template-settings', 'widgets' , 'scroll-top' ),
+    'general'         => array( 'site-style', 'preloader', 'colors', 'social-icons', 'sidebar','template-settings', 'widgets' , 'scroll-top', 'reading-progress' ),
     'header'          => array( 'top-area', 'header-option', 'ticker' ),
     'innerpage'       => array ( 'archive', 'post' ),
     'footer'          => array( 'main-area', 'bottom-area' )  

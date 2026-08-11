@@ -367,3 +367,36 @@ endif;
 add_action( 'news_portal_ticker_section', 'news_portal_ticker_section_start', 5 );
 add_action( 'news_portal_ticker_section', 'news_portal_ticker_content', 10 );
 add_action( 'news_portal_ticker_section', 'news_portal_ticker_section_end', 15 );
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+if ( ! function_exists( 'news_portal_reading_progress_bar' ) ) :
+
+	/**
+	 * Single Post Reading Progress Bar
+	 *
+	 * @since 1.5.14
+	 */
+	function news_portal_reading_progress_bar() {
+		if ( is_singular( 'post' ) ) {
+			$progress_option = news_portal_get_customizer_option_value( 'news_portal_reading_progress_option' );
+			if ( false === $progress_option ) {
+				return;
+			}
+			$show_percentage = news_portal_get_customizer_option_value( 'news_portal_reading_progress_percentage_option' );
+			?>
+			<div id="np-reading-progress" class="np-reading-progress" role="progressbar" aria-label="<?php esc_attr_e( 'Reading progress', 'news-portal' ); ?>" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+				<div class="np-reading-progress-fill"></div>
+				<?php if ( true === $show_percentage ) : ?>
+					<div class="np-reading-progress-tooltip">
+						<span class="np-tooltip-text">0%</span>
+						<span class="np-tooltip-arrow"></span>
+					</div>
+				<?php endif; ?>
+			</div>
+			<?php
+		}
+	}
+
+endif;
+add_action( 'wp_body_open', 'news_portal_reading_progress_bar' );
