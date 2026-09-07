@@ -238,3 +238,8 @@ require get_template_directory() . '/inc/admin/class-news-portal-dashboard.php';
  */
 require get_template_directory() . '/inc/tgm/np-recommended-plugins.php';
 
+/**
+ * Load MysteryThemes Toolkit compatibility
+ */
+require get_template_directory() . '/inc/toolkit-compatibility.php';
+

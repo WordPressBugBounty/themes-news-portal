@@ -2,7 +2,7 @@
 
 Contributors:       mysterythemes
 Requires at least:  5.6
-Tested up to:       7.0
+Tested up to:       7.1
 Requires PHP:       7.4
 License:            GPLv3 or later
 License URI:        http://www.gnu.org/licenses/gpl-3.0.html
@@ -11,7 +11,7 @@ Tags:               news, blog, entertainment, grid-layout, one-column, two-colu
 
 == Description ==
 
-News Portal is the free ultimate magazine theme with creative design and powerful features that allow you to quickly and easily create a newspaper & blog style website to suit your needs. It is completely built on Customizer which allows you to customize most of the theme settings easily with live previews. It is the fully widgetized theme so as to let users manage the website using the easy to use widgets. You can import the whole beautiful demo in just one click. News Portal Theme is the best choice to create a Beautiful & Powerful News/magazine/blog websites with ease.Check the demo at https://demo.mysterythemes.com/news-portal-demos/
+News Portal is the free ultimate magazine theme with creative design and powerful features that allow you to quickly and easily create a newspaper & blog style website to suit your needs. It is completely built on Customizer which allows you to customize most of the theme settings easily with live previews. It is the fully widgetized theme so as to let users manage the website using the easy to use widgets. You can import the whole beautiful demo in just one click. News Portal Theme is the best choice to create a Beautiful & Powerful News/magazine/blog websites with ease. Gutenberg blocks are now available via MysteryThemes Toolkit. Enjoy a faster and easier way to build your magazine website using powerful blocks. Check the demo at https://demo.mysterythemes.com/news-portal-demos/
 
 == Installation ==
 

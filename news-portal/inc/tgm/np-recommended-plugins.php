@@ -58,7 +58,13 @@ function news_portal_register_required_plugins() {
 	 * If the source is NOT from the .org repo, then source is also required.
 	 */
 	$plugins = array(
-
+		array(
+			'name'               => __( 'MysteryThemes Toolkit', 'news-portal' ),
+			'slug'               => 'mysterythemes-toolkit',
+			'required'           => false,
+			'force_activation'   => false,
+			'force_deactivation' => false,
+		),
 		array(
             'name'      => __( 'Contact Form by WPForms – Drag & Drop Form Builder for WordPress', 'news-portal' ),
             'slug'      => 'wpforms-lite',

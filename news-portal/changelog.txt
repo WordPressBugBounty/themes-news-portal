@@ -1,6 +1,10 @@
 
+== 1.6.0 : 2026-09-07 ==
+-New: Gutenberg magazine layout blocks introduced via mysterythemes toolkit plugin.
+-Imp: Some design fixes & enhancement done.
+
 == 1.5.14 : 2026-08-11 ==
--New: Reading progress bar on post and page addded.
+-New: Reading progress bar on post and page added.
 
 == 1.5.13 : 2026-06-03 ==
 -Imp: Welcome dashboard improvement done according to WordPress 7.0

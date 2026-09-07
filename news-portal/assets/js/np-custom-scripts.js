@@ -36,8 +36,8 @@ jQuery(document).ready(function($) {
 	/**
 	 * Slider script
 	 */
-	$('.slider-posts').each(function() {
-		$(".np-main-slider").lightSlider({
+	$('.widget .slider-posts').each(function() {
+		$(".widget .np-main-slider").lightSlider({
 			item: 1,
 			auto: true,
 			pager: false,
@@ -58,7 +58,7 @@ jQuery(document).ready(function($) {
 	/**
 	 * Block carousel layout
 	 */
-	$('.carousel-posts').each(function() {
+	$('.widget .carousel-posts').each(function() {
 		var Id = $(this).parent().attr('id');
 		var NewId = Id;
 		var crsItem = $(this).data('items');

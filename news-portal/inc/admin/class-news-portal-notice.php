@@ -38,6 +38,11 @@ if ( ! class_exists( 'News_Portal_Notice' ) ) :
             add_action( 'wp_ajax_news_portal_install_free_plugin', array( $admin_main_class, 'news_portal_install_free_plugin' ) );
             add_action( 'wp_ajax_news_portal_activate_free_plugin', array( $admin_main_class, 'news_portal_activate_free_plugin' ) );
 
+            // MysteryThemes Toolkit blocks notice hooks.
+            add_action( 'admin_notices', array( $this, 'news_portal_toolkit_blocks_notice' ) );
+            add_action( 'wp_ajax_news_portal_dismiss_toolkit_notice', array( $this, 'news_portal_dismiss_toolkit_notice_ajax' ) );
+            add_action( 'admin_init', array( $this, 'news_portal_dismiss_toolkit_notice_fallback' ) );
+
             //theme details
             $theme = wp_get_theme();
 
@@ -59,6 +64,9 @@ if ( ! class_exists( 'News_Portal_Notice' ) ) :
             wp_enqueue_script( 'news-portal-plugin-install-helper', get_template_directory_uri() . '/inc/admin/assets/js/plugin-handle.js', array( 'jquery' ), NEWS_PORTAL_VERSION );
 
             $demo_importer_plugin = WP_PLUGIN_DIR . '/mysterythemes-demo-importer/mysterythemes-demo-importer.php';
+            if ( ! function_exists( 'is_plugin_active' ) ) {
+                require_once ABSPATH . 'wp-admin/includes/plugin.php';
+            }
             if ( ! file_exists( $demo_importer_plugin ) ) {
                 $action = 'install';
             } elseif ( file_exists( $demo_importer_plugin ) && !is_plugin_active( 'mysterythemes-demo-importer/mysterythemes-demo-importer.php' ) ) {
@@ -161,6 +169,158 @@ if ( ! class_exists( 'News_Portal_Notice' ) ) :
             </div><!-- .news-portal-welcome-notice-wrapper -->
 <?php
     }
+
+        /**
+         * Display promotional notice for MysteryThemes Toolkit Gutenberg blocks.
+         *
+         * @since 1.5.1
+         */
+        public function news_portal_toolkit_blocks_notice() {
+            // User capability check: User must be able to edit theme options.
+            if ( ! current_user_can( 'edit_theme_options' ) ) {
+                return;
+            }
+
+            // Check if dismissed by current user.
+            $user_id = get_current_user_id();
+            if ( get_user_meta( $user_id, 'news_portal_dismiss_toolkit_notice', true ) ) {
+                return;
+            }
+
+            // Target screens: Dashboard, Themes, News Portal Dashboard, Plugins.
+            if ( ! function_exists( 'get_current_screen' ) ) {
+                return;
+            }
+
+            $screen = get_current_screen();
+            if ( ! $screen ) {
+                return;
+            }
+
+            // Never show in block editor / post editing / site editor / customizer.
+            if ( method_exists( $screen, 'is_block_editor' ) && $screen->is_block_editor() ) {
+                return;
+            }
+
+            $excluded_bases = array( 'post', 'edit', 'site-editor', 'customize' );
+            if ( in_array( $screen->base, $excluded_bases, true ) ) {
+                return;
+            }
+
+            $allowed_screens = array(
+                'dashboard',
+                'themes',
+                'appearance_page_news-portal-dashboard',
+                'plugins',
+            );
+
+            if ( ! in_array( $screen->id, $allowed_screens, true ) ) {
+                return;
+            }
+
+            // Check if MysteryThemes Toolkit is active.
+            if ( ! function_exists( 'is_plugin_active' ) ) {
+                require_once ABSPATH . 'wp-admin/includes/plugin.php';
+            }
+
+            $toolkit_plugin_file = 'mysterythemes-toolkit/mysterythemes-toolkit.php';
+            if ( is_plugin_active( $toolkit_plugin_file ) || class_exists( 'MysteryThemes_Toolkit' ) ) {
+                return;
+            }
+
+            // Check if plugin is installed.
+            $is_installed = file_exists( WP_PLUGIN_DIR . '/' . $toolkit_plugin_file );
+
+            if ( $is_installed ) {
+                if ( ! current_user_can( 'activate_plugins' ) ) {
+                    return;
+                }
+                $btn_status = 'active';
+                $btn_text   = __( 'Activate MysteryThemes Toolkit', 'news-portal' );
+            } else {
+                if ( ! current_user_can( 'install_plugins' ) ) {
+                    return;
+                }
+                $btn_status = 'install';
+                $btn_text   = __( 'Install & Activate MysteryThemes Toolkit', 'news-portal' );
+            }
+
+            $current_url = ! empty( $_SERVER['REQUEST_URI'] ) ? esc_url_raw( wp_unslash( $_SERVER['REQUEST_URI'] ) ) : admin_url( 'index.php' );
+            $current_url = remove_query_arg( array( 'news-portal-dismiss-toolkit-notice', '_news_portal_toolkit_notice_nonce' ), $current_url );
+
+            $dismiss_url = wp_nonce_url(
+                add_query_arg( 'news-portal-dismiss-toolkit-notice', '1', $current_url ),
+                'news_portal_dismiss_toolkit_notice_nonce',
+                '_news_portal_toolkit_notice_nonce'
+            );
+            ?>
+            <div id="news-portal-toolkit-notice" class="notice notice-info updated news-portal-toolkit-notice-wrapper">
+                <a class="news-portal-message-close notice-dismiss np-toolkit-dismiss-btn" href="<?php echo esc_url( $dismiss_url ); ?>">
+                    <span class="screen-reader-text"><?php esc_html_e( 'Dismiss this notice.', 'news-portal' ); ?></span>
+                </a>
+                <div class="np-toolkit-notice-content">
+                    <h3 class="np-toolkit-notice-title"><?php esc_html_e( 'Build Your Magazine Website with Gutenberg Blocks', 'news-portal' ); ?></h3>
+                    <p class="np-toolkit-notice-message">
+                        <?php esc_html_e( 'Gutenberg blocks are now available via MysteryThemes Toolkit. Enjoy a faster and easier way to build your magazine website using powerful blocks designed for News Portal.', 'news-portal' ); ?>
+                    </p>
+                    <div class="np-toolkit-notice-actions">
+                        <button class="button button-primary mt-action-btn np-toolkit-action-btn"
+                            data-status="<?php echo esc_attr( $btn_status ); ?>"
+                            data-slug="mysterythemes-toolkit"
+                            data-process="<?php esc_attr_e( 'Processing...', 'news-portal' ); ?>"
+                            data-done="<?php esc_attr_e( 'Done!', 'news-portal' ); ?>"
+                            data-redirect="<?php echo esc_url( $current_url ); ?>">
+                            <?php echo esc_html( $btn_text ); ?>
+                        </button>
+                        <a href="<?php echo esc_url( $dismiss_url ); ?>" class="button button-secondary np-toolkit-dismiss-btn">
+                            <?php esc_html_e( 'Dismiss', 'news-portal' ); ?>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <?php
+        }
+
+        /**
+         * Dismiss the MysteryThemes Toolkit blocks notice via AJAX.
+         *
+         * @since 1.5.1
+         */
+        public function news_portal_dismiss_toolkit_notice_ajax() {
+            check_ajax_referer( 'news_portal_plugin_install_nonce', '_wpnonce' );
+
+            if ( ! current_user_can( 'edit_theme_options' ) ) {
+                wp_send_json_error( array( 'message' => esc_html__( 'Permission denied.', 'news-portal' ) ) );
+            }
+
+            $user_id = get_current_user_id();
+            update_user_meta( $user_id, 'news_portal_dismiss_toolkit_notice', 1 );
+
+            wp_send_json_success( array( 'message' => esc_html__( 'Notice dismissed successfully.', 'news-portal' ) ) );
+        }
+
+        /**
+         * Fallback dismiss handler via GET request.
+         *
+         * @since 1.5.1
+         */
+        public function news_portal_dismiss_toolkit_notice_fallback() {
+            if ( isset( $_GET['news-portal-dismiss-toolkit-notice'] ) && isset( $_GET['_news_portal_toolkit_notice_nonce'] ) ) {
+                if ( ! wp_verify_nonce( sanitize_key( $_GET['_news_portal_toolkit_notice_nonce'] ), 'news_portal_dismiss_toolkit_notice_nonce' ) ) {
+                    wp_die( esc_html__( 'Security check failed. Please refresh the page and retry.', 'news-portal' ) );
+                }
+
+                if ( ! current_user_can( 'edit_theme_options' ) ) {
+                    wp_die( esc_html__( 'Permission denied.', 'news-portal' ) );
+                }
+
+                update_user_meta( get_current_user_id(), 'news_portal_dismiss_toolkit_notice', 1 );
+
+                $redirect_url = remove_query_arg( array( 'news-portal-dismiss-toolkit-notice', '_news_portal_toolkit_notice_nonce' ) );
+                wp_safe_redirect( $redirect_url );
+                exit;
+            }
+        }
 
 }
     new News_Portal_Notice();

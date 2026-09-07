@@ -230,6 +230,14 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
                     'slug'      => 'reactify',
                     'filename'  => 'reactify.php'
                 ),
+                'refinex' => array(
+                    'slug'      => 'refinex',
+                    'filename'  => 'refinex.php'
+                ),
+                'mysterythemes-toolkit' => array(
+                    'slug'      => 'mysterythemes-toolkit',
+                    'filename'  => 'mysterythemes-toolkit.php'
+                ),
             );
 
             $plugins_info = array();

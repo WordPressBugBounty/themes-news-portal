@@ -67,10 +67,35 @@ jQuery(document).ready(function($) {
         });
     }
 
-    $('.mt-action-btn').click(function(){
-        var _this = $(this), actionBtnStatus = _this.data('status'), pluginSlug = _this.data('slug');
-        console.log(actionBtnStatus);
-        switch(actionBtnStatus){
+    // Dismiss MysteryThemes Toolkit blocks notice.
+    $( document ).on( 'click', '#news-portal-toolkit-notice .np-toolkit-dismiss-btn, #news-portal-toolkit-notice .notice-dismiss', function( e ) {
+        e.preventDefault();
+        var $notice = $( '#news-portal-toolkit-notice' );
+        $notice.slideUp( 200, function() {
+            $notice.remove();
+        });
+
+        $.ajax({
+            method : 'POST',
+            url    : WpAjaxurl,
+            data   : {
+                'action'   : 'news_portal_dismiss_toolkit_notice',
+                '_wpnonce' : _wpnonce
+            }
+        });
+    });
+
+    $( document ).on( 'click', '.mt-action-btn', function( e ) {
+        e.preventDefault();
+        var _this = $( this ),
+            actionBtnStatus = _this.data( 'status' ),
+            pluginSlug = _this.data( 'slug' );
+
+        if ( _this.hasClass( 'updating-message' ) || _this.is( ':disabled' ) ) {
+            return;
+        }
+
+        switch ( actionBtnStatus ) {
             case 'install':
                 news_portal_do_free_plugin( 'news_portal_install_free_plugin', pluginSlug, _this );
                 break;
@@ -79,7 +104,6 @@ jQuery(document).ready(function($) {
                 news_portal_do_free_plugin( 'news_portal_activate_free_plugin', pluginSlug, _this );
                 break;
         }
-
     });
 
     news_portal_do_free_plugin = function ( ajax_action, pluginSlug, _this ) {
@@ -93,16 +117,24 @@ jQuery(document).ready(function($) {
             }),
             beforeSend: function() {
                 var loadingTxt = _this.data( 'process' );
-                _this.addClass( 'updating-message' ).text( loadingTxt );
+                _this.addClass( 'updating-message' ).prop( 'disabled', true ).text( loadingTxt );
             },
             success: function( response ) {
                 if( response.success ) {
                     var loadedTxt = _this.data( 'done' );
                     _this.removeClass( 'updating-message' ).text( loadedTxt );
+                    var redirectUrl = _this.data( 'redirect' ) || window.location.href;
+                    location.href = redirectUrl;
+                } else {
+                    _this.removeClass( 'updating-message' ).prop( 'disabled', false );
+                    var errorMsg = ( response.data && response.data.message ) ? response.data.message : 'Error processing request.';
+                    alert( errorMsg );
                 }
-                location.href = _this.data( 'redirect' );
+            },
+            error: function() {
+                _this.removeClass( 'updating-message' ).prop( 'disabled', false );
             }
         });
-    }
+    };
 
 });
