@@ -1,3 +1,6 @@
+== 1.6.1 : 2026-11-24 ==
+-Fix: Archive page post loading after toolkit activation issue fixed.
+-Fix: Resolved the API call issue in the free plugin function in the theme dashboard.
 
 == 1.6.0 : 2026-09-07 ==
 -New: Gutenberg magazine layout blocks introduced via mysterythemes toolkit plugin.

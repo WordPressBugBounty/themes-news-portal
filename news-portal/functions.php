@@ -229,9 +229,11 @@ require get_template_directory() . '/inc/metaboxes/np-page-metabox.php';
 /**
 * Load theme dashboard
 */
-require get_template_directory() . '/inc/admin/class-news-portal-admin.php';
-require get_template_directory() . '/inc/admin/class-news-portal-notice.php';
-require get_template_directory() . '/inc/admin/class-news-portal-dashboard.php';
+if ( is_admin() ) {
+	require get_template_directory() . '/inc/admin/class-news-portal-admin.php';
+	require get_template_directory() . '/inc/admin/class-news-portal-notice.php';
+	require get_template_directory() . '/inc/admin/class-news-portal-dashboard.php';
+}
 
 /**
  * Load TGM

@@ -213,6 +213,11 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
          * Complete info about lists of free plugins
          */
         public function news_portal_free_plugins_lists() {
+
+            if ( ! is_admin() ) {
+                return array();
+            }
+
             $free_plugins = array(
                 'wp-blog-post-layouts' => array(
                     'slug'      => 'wp-blog-post-layouts',
@@ -289,17 +294,27 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
          * Get requested plugin API
          */
         public function news_portal_plugin_api_status( $plugin ) {
-            include_once ABSPATH . 'wp-admin/includes/plugin-install.php';
 
-            $plugin_info_api = plugins_api( 'plugin_information', array(
-                'slug'   => $plugin,
-                'fields' => array(
-                    'sections'          => false,
-                    'icons'             => true,
-                    'short_description' => true,
-                    'banners'           => true,
-                )
-            ) );
+            $transient_key   = 'news_portal_plugin_info_' . sanitize_key( $plugin );
+            $plugin_info_api = get_transient( $transient_key );
+
+            if ( false === $plugin_info_api ) {
+                include_once ABSPATH . 'wp-admin/includes/plugin-install.php';
+
+                $plugin_info_api = plugins_api( 'plugin_information', array(
+                    'slug'   => $plugin,
+                    'fields' => array(
+                        'sections'          => false,
+                        'icons'             => true,
+                        'short_description' => true,
+                        'banners'           => true,
+                    ),
+                ) );
+
+                if ( ! is_wp_error( $plugin_info_api ) ) {
+                    set_transient( $transient_key, $plugin_info_api, 12 * HOUR_IN_SECONDS );
+                }
+            }
 
             return $plugin_info_api;
         }

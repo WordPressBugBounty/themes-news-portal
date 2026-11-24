@@ -32,6 +32,9 @@ get_header(); ?>
 
 			/* Start the Loop */
 			$news_portal_archive_layout = news_portal_get_customizer_option_value( 'news_portal_archive_layout' );
+			if ( empty( $news_portal_archive_layout ) ) {
+				$news_portal_archive_layout = 'classic';
+			}
 
 			while ( have_posts() ) : the_post();
 			

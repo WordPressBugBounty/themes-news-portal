@@ -23,7 +23,6 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
         public $theme_author_uri;
         public $theme_author_name;
         public $free_plugins;
-
        
         /**
          * News_Portal_Admin_Dashboard constructor.
@@ -40,11 +39,7 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
             $this->theme_slug           = $theme->get( 'TextDomain' );
             $this->theme_author_uri     = $theme->get( 'AuthorURI' );
             $this->theme_author_name    = $theme->get( 'Author' );
-            if ( is_object( $admin_main_class ) && method_exists( $admin_main_class, 'news_portal_free_plugins_lists' ) ) {
-                $this->free_plugins = $admin_main_class->news_portal_free_plugins_lists();
-            } else {
-                $this->free_plugins = array(); // fallback to empty
-            }
+            $this->free_plugins         = array();
         }
 
         /**
@@ -640,8 +635,11 @@ if ( ! class_exists( 'News_Portal_Admin_Dashboard' ) ) :
 
             global $admin_main_class;
 
-            $free_plugins = $this->free_plugins;
+            if ( empty( $this->free_plugins ) && is_object( $admin_main_class ) && method_exists( $admin_main_class, 'news_portal_free_plugins_lists' ) ) {
+                $this->free_plugins = $admin_main_class->news_portal_free_plugins_lists();
+            }
 
+            $free_plugins = $this->free_plugins;
 
             ?>
             <div id="news-portal-dashboard">
